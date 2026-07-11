@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Common_Entity_Revenue_Stat__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Common Entity Revenue Stat</label>
+    <referenceTo>Entity_Revenue_Stat__c</referenceTo>
+    <relationshipLabel>Person Effectiveness Stats (Common Entity Revenue Stat)</relationshipLabel>
+    <relationshipName>Person_Effectiveness_Stats1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
