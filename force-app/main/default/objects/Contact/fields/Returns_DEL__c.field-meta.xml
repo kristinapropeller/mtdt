@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Returns_DEL__c</fullName>
+    <label>(deprecated) Returns</label>
+    <summarizedField>Expense_Line_Item__c.Total__c</summarizedField>
+    <summaryFilterItems>
+        <field>Expense_Line_Item__c.Is_Return__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Expense_Line_Item__c.Person__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>
