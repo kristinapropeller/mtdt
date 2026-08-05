@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mail Content</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mail Contents</value>
+    </caseValues>
+    <layouts>
+        <layout>Mail Content Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- HTML --></label>
+            <section>HTML</section>
+        </sections>
+        <sections>
+            <label><!-- Plain --></label>
+            <section>Plain</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

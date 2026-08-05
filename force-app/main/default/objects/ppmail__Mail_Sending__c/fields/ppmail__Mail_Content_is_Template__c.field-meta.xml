@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Mail_Content_is_Template__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A formula field that indicates whether the related Mail Content record is a template. This is useful for differentiating between emails sent from a template and ad-hoc emails.</description>
+    <formula>ppmail__Mail_Content__r.ppmail__Template__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Mail Content is Template</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

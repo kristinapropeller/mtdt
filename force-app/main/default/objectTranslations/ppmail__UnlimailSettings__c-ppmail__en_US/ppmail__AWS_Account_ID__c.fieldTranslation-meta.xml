@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Your 12-digit AWS Account ID (e.g., 123456789012). Stored during setup and displayed in the connected state. --></help>
+    <label><!-- AWS Account ID --></label>
+    <name>ppmail__AWS_Account_ID__c</name>
+</CustomFieldTranslation>

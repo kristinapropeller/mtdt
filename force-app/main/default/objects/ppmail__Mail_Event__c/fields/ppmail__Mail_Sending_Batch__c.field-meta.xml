@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Mail_Sending_Batch__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>Mail Sending Batch</label>
+    <referenceTo>ppmail__Mail_Sending_Batch__c</referenceTo>
+    <relationshipLabel>Mail Events</relationshipLabel>
+    <relationshipName>Mail_Events</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

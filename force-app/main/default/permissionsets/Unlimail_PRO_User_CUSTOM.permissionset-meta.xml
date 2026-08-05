@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Editable permission set for Unlimail PRO users to override default package permissions.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Unlimail PRO User (CUSTOM)</label>
+</PermissionSet>

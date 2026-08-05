@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom metadata type is used to define the available mail service providers, such as SendGrid or Mailgun. It allows for a centralized and extensible way to manage the mail services that can be used by the application.</description>
+    <label>Mail Service</label>
+    <pluralLabel>Mail Services</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

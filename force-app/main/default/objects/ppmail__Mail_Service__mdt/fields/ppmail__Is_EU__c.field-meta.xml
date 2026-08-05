@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Is_EU__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the mail service is located in the European Union. This can be important for data privacy and compliance reasons.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Is EU</label>
+    <type>Checkbox</type>
+</CustomField>

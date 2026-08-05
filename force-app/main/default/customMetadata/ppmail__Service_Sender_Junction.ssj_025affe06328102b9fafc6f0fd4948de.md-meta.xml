@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>SendGrid: kristina@omi.co</label>
+    <protected>false</protected>
+    <values>
+        <field>ppmail__Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>ppmail__Mail_Sender__c</field>
+        <value xsi:type="xsd:string">s_3dd8c2ed87f4913b122863642a37845e</value>
+    </values>
+    <values>
+        <field>ppmail__Mail_Service__c</field>
+        <value xsi:type="xsd:string">ppmail__SendGrid</value>
+    </values>
+</CustomMetadata>

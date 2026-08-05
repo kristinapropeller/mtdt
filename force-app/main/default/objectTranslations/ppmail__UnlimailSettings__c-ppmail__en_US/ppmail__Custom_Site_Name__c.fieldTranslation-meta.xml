@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Leave blank to use the auto-created site (Unlimail_Webhooks_Endpoint). Set to the API name of any existing public site to use that site for receiving webhook events. --></help>
+    <label><!-- Custom Site Name --></label>
+    <name>ppmail__Custom_Site_Name__c</name>
+</CustomFieldTranslation>

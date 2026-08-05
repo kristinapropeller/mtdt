@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__SNS_Topic_ARN__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Amazon SNS Topic ARN used for Amazon SES event notifications (webhooks). Required to receive delivery, bounce, and engagement events from Amazon SES. Format: arn:aws:sns:&lt;region&gt;:&lt;account-id&gt;:&lt;topic-name&gt;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Amazon SNS Topic ARN used for Amazon SES event notifications (webhooks). Required to receive delivery, bounce, and engagement events from Amazon SES.</inlineHelpText>
+    <label>SNS Topic ARN</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

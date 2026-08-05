@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Fields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A comma-separated list of fields that are relevant for this sObject. This can be used to specify which fields to use for email addresses, names, or other purposes.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Fields</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

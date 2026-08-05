@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A lookup to the User record of the recipient. This is used to associate the tracking information with a specific user in Salesforce.</description>
+    <label>User</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Mail_Trackings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

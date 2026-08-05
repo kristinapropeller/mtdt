@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Allowed_Attempts__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum number of times the job is allowed to be attempted. If this field is blank, the job will never be retried.</description>
+    <externalId>false</externalId>
+    <label>Allowed Attempts</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Target_List_View__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name of the list view that was used to select the target recipients for this email.</description>
+    <externalId>false</externalId>
+    <label>Target List View</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

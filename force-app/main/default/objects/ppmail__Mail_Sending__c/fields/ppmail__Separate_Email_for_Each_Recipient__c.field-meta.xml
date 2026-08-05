@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Separate_Email_for_Each_Recipient__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, a separate email will be sent to each recipient. This is useful for personalization and tracking, as each recipient will receive their own unique email. If unchecked, a single email will be sent to all recipients.</description>
+    <label>Separate Email for Each Recipient</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

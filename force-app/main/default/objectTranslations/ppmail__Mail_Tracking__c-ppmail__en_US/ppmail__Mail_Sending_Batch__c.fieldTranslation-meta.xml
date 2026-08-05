@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Mail Sending Batch --></label>
+    <name>ppmail__Mail_Sending_Batch__c</name>
+    <relationshipLabel><!-- Mail Trackings --></relationshipLabel>
+</CustomFieldTranslation>

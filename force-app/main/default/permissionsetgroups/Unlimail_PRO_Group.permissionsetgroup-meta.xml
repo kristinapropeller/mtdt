@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Group for Unlimail PRO users. Contains the default permission set from the package and a custom permission set for overrides.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Unlimail PRO Group</label>
+    <permissionSets>Unlimail_PRO_User_CUSTOM</permissionSets>
+    <permissionSets>ppmail__Unlimail_PRO_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

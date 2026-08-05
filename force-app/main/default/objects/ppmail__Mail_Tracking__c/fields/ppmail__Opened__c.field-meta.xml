@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Opened__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A formula field that indicates whether the email has been opened at least once. This is determined by checking if the First Opened Timestamp field has a value.</description>
+    <formula>ppmail__First_Opened_Timestamp__c &lt;&gt; 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Opened</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

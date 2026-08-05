@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Last_Opened_Date_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A formula field that converts the Unix timestamp from the Last_Opened_Timestamp__c field into a standard Date/Time format. This provides a human-readable timestamp for when the last open occurred.</description>
+    <formula>IF(ppmail__Last_Opened_Timestamp__c &lt;&gt; 0, FROMUNIXTIME(ppmail__Last_Opened_Timestamp__c), null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Last Opened Date/Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

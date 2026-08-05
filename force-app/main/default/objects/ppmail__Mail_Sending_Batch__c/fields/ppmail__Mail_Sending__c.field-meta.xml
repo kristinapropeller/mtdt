@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Mail_Sending__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Mail Sending task that this batch belongs to. This is a master-detail relationship, meaning that this batch is a child of the Mail Sending task.</description>
+    <label>Mail Sending</label>
+    <referenceTo>ppmail__Mail_Sending__c</referenceTo>
+    <relationshipLabel>Mail Sending Batches</relationshipLabel>
+    <relationshipName>Mail_Sending_Batches</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

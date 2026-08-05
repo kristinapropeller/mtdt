@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Status_Message__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A message that provides more details about the current status of the mail sending batch, such as an error message if the batch has failed.</description>
+    <label>Status Message</label>
+    <length>4048</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

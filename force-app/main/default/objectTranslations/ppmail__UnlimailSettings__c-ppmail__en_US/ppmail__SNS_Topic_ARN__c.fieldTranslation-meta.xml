@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Amazon SNS Topic ARN used for Amazon SES event notifications (webhooks). Required to receive delivery, bounce, and engagement events from Amazon SES. --></help>
+    <label><!-- SNS Topic ARN --></label>
+    <name>ppmail__SNS_Topic_ARN__c</name>
+</CustomFieldTranslation>

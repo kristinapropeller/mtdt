@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, the application will be in sandbox mode. In sandbox mode, email sending requests are validated, but emails are not actually delivered. This is useful for testing and development purposes. No events will be generated and no credits will be consumed while in sandbox mode. --></help>
+    <label><!-- Sandbox Mode --></label>
+    <name>ppmail__Sandbox_Mode__c</name>
+</CustomFieldTranslation>

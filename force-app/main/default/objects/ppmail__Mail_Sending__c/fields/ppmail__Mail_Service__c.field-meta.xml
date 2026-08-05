@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Mail_Service__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The mail service provider that will be used to send the email, such as SendGrid or Mailgun.</description>
+    <label>Mail Service</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>ppmail__Mail_Service</valueSetName>
+    </valueSet>
+</CustomField>

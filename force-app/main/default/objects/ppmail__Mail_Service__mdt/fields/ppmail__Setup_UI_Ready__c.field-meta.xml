@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Setup_UI_Ready__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates the provider has implemented Setup Assistant LWCs and should appear in the nav.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Setup UI Ready</label>
+    <type>Checkbox</type>
+</CustomField>

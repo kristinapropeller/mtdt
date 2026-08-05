@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Source__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A lookup to another Mail Content record that was used as the source for this content. This can be used to track the relationship between a template and an email that was created from that template.</description>
+    <label>Source</label>
+    <referenceTo>ppmail__Mail_Content__c</referenceTo>
+    <relationshipLabel>Mail Contents (Source For)</relationshipLabel>
+    <relationshipName>Mail_Contents</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

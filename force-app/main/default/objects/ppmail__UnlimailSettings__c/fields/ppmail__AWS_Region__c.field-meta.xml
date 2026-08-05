@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__AWS_Region__c</fullName>
+    <defaultValue>&apos;us-east-1&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The AWS region used for Amazon SES API calls. Determines the SES endpoint URL (e.g., us-east-1 → https://email.us-east-1.amazonaws.com). Updated automatically when AWS credentials are saved via the setup wizard.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The AWS region where your SES resources are configured (e.g., us-east-1, eu-west-1, ap-southeast-1). This is updated automatically during setup.</inlineHelpText>
+    <label>AWS Region</label>
+    <length>64</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

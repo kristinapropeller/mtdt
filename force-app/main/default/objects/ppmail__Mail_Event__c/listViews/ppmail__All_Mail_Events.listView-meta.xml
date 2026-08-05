@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__All_Mail_Events</fullName>
+    <columns>ppmail__Event_Date_Time__c</columns>
+    <columns>NAME</columns>
+    <columns>ppmail__Type__c</columns>
+    <columns>ppmail__Email__c</columns>
+    <columns>ppmail__Mail_Sending_Batch__c</columns>
+    <columns>ppmail__Mail_Tracking__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Mail Events</label>
+</ListView>

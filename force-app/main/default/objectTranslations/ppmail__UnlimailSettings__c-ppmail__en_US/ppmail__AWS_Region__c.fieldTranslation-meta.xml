@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The AWS region where your SES resources are configured (e.g., us-east-1, eu-west-1, ap-southeast-1). This is updated automatically during setup. --></help>
+    <label><!-- AWS Region --></label>
+    <name>ppmail__AWS_Region__c</name>
+</CustomFieldTranslation>

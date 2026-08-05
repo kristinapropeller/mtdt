@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Categories__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A comma-separated list of categories associated with the email that generated this event. Categories can be used for tracking and reporting purposes.</description>
+    <label>Categories</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ppmail__Count_Batches_Sending__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A roll-up summary field that counts the number of related Mail Sending Batch records with a status of &apos;Sending&apos;. This provides a real-time count of how many batches are currently in the process of being sent for this mail sending task.</description>
+    <label>Count Batches Sending</label>
+    <summaryFilterItems>
+        <field>ppmail__Mail_Sending_Batch__c.ppmail__Status__c</field>
+        <operation>equals</operation>
+        <value>Sending</value>
+    </summaryFilterItems>
+    <summaryForeignKey>ppmail__Mail_Sending_Batch__c.ppmail__Mail_Sending__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
