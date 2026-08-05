@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__RelatedId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Record Id of the Related Record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Record Id of the Related Record</inlineHelpText>
+    <label>Related Id</label>
+    <length>20</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

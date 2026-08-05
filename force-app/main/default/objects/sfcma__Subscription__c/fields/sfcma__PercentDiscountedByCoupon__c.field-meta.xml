@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__PercentDiscountedByCoupon__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Percent to be discounted from subtotal of the subscription if a discount coupon of type percent comes with the subscription.</description>
+    <label>Percent Discounted by Coupon</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

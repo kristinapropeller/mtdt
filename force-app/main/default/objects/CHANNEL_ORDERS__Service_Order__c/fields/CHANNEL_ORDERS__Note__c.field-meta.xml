@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Note__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>&quot;Auto Renew and Contract Term are established on Initial orders.  All Add on orders will follow the terms as defined in your agreement with salesforce.com.&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Note:</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

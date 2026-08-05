@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- DOCUSIGN SIGNER TYPE --></help>
+    <label>TYPE DOCUSIGN-ONDERTEKENAAR</label>
+    <name>dsfs__DocuSign_Signer_Type__c</name>
+    <picklistValues>
+        <masterLabel>Address recipients</masterLabel>
+        <translation><!-- Address recipients --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carbon Copy</masterLabel>
+        <translation><!-- Carbon Copy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Certified Delivery</masterLabel>
+        <translation><!-- Certified Delivery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manage envelope</masterLabel>
+        <translation><!-- Manage envelope --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sign in person</masterLabel>
+        <translation><!-- Sign in person --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signer</masterLabel>
+        <translation><!-- Signer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

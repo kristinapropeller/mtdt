@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The filter query with all sorts and conditions applied. --></help>
+    <label><!-- Filter Query --></label>
+    <name>rh2__Filter_Query__c</name>
+</CustomFieldTranslation>

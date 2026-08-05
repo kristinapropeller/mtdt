@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Stores Object API name, File Id or File Version Id and File name.</description>
+    <label>XappexFilesSetting</label>
+    <pluralLabel>XappexFilesSettings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

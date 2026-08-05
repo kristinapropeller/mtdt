@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter 18 character Profile ID to set preferences for a specific profile. Enter Global to set preferences for everyone. Profile level preferences will overwrite Global preferences. --></help>
+    <label><!-- Profile ID or Global --></label>
+    <name>zisf__Profile_ID__c</name>
+</CustomFieldTranslation>

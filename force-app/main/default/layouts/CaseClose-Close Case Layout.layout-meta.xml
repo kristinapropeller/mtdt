@@ -11,20 +11,50 @@
                 <field>Status</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Reason</field>
+                <behavior>Edit</behavior>
+                <field>Comments</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Comments</field>
+                <field>Project__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Time_Spent__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Filtering_Period__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Estimated_Time__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Time_Left__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>CurrencyIsoCode</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Internal_System_ID__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
     <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
     <showEmailCheckbox>false</showEmailCheckbox>
-    <showHighlightsPanel>true</showHighlightsPanel>
-    <showInteractionLogPanel>true</showInteractionLogPanel>
+    <showHighlightsPanel>false</showHighlightsPanel>
+    <showInteractionLogPanel>false</showInteractionLogPanel>
     <showSolutionSection>true</showSolutionSection>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00h7F000007IgJi</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>

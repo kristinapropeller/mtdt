@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Logic between values. For example if you choose &apos;OR&apos; for 3 values it will mean &apos;1 OR 2 OR 3&apos;. --></help>
+    <label><!-- Logic --></label>
+    <name>Flosum__Logic__c</name>
+    <picklistValues>
+        <masterLabel>AND</masterLabel>
+        <translation><!-- AND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OR</masterLabel>
+        <translation><!-- OR --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

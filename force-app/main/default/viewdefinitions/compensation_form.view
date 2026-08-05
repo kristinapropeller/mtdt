@@ -1,0 +1,95 @@
+# compensation_form.view
+description: "Edits a compensation record by triggering an Apex action on submission."
+schema:
+  properties:
+    channel:
+      type: string
+    title:
+      type: string
+      required: true
+    recordId:
+      type: string
+    dateOf:
+      type: string
+    category:
+      type: string
+    currencyCode:
+      type: string
+    amount:
+      type: number
+    description:
+      type: string
+dataproviders:
+  categoryOptions:
+    definition: 'apex__slackbot_CompensationDataProvider.getCategories'
+components:
+  - definition: modal
+    properties:
+      title: "{!view.properties.title}"
+      submitLabel: "Save"
+    events:
+      onsubmit:
+        definition: "apex__action__slackbot_AddCompensationActionDispatcher"
+        properties:
+          id: "{!view.properties.recordId}"
+          channel: "{!view.properties.channel}"
+    components:
+      - definition: input
+        properties:
+          label: "Date"
+          required: true
+        components:
+          - definition: datepicker
+            properties:
+              name: "dateOf"
+              placeholder: "YYYY-MM-DD"
+              value: "{!view.properties.dateOf}"
+      - definition: input
+        properties:
+          label: "Category"
+        components:
+          - definition: select
+            properties:
+              name: "category"
+              placeholder: "Select a category"
+              value: "{!view.properties.category}"
+              options: "{!categoryOptions}"
+      - definition: input
+        properties:
+          label: "Currency"
+          required: true
+        components:
+          - definition: select
+            properties:
+              name: "currencyCode"
+              placeholder: "Select currency"
+              value: "{!view.properties.currencyCode}"
+              options:
+                - identifier: "BYN"
+                  label: "BYN"
+                - identifier: "EUR"
+                  label: "EUR"
+                - identifier: "PLN"
+                  label: "PLN"
+                - identifier: "USD"
+                  label: "USD"
+      - definition: input
+        properties:
+          label: "Amount"
+          type: "number"
+          required: true
+        components:
+          - definition: textInput
+            properties:
+              name: "amount"
+              placeholder: "Amount you want to compensate"
+              value: "{!view.properties.amount}"
+      - definition: input
+        properties:
+          label: "Description"
+          required: true
+        components:
+          - definition: textInput
+            properties:
+              name: "description"
+              value: "{!view.properties.description}"

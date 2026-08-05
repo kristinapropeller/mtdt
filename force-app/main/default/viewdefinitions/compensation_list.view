@@ -1,0 +1,114 @@
+# vacation_list.view
+description: "Displays recent unclosed compensations."
+schema:
+  properties:
+    compensations:
+      type: List
+      required: true
+    unclosedTotal:
+      type: number
+      required: true
+    foodUsed:
+      type: number
+      required: true
+    foodTotal:
+      type: number
+      required: true
+    sportUsed:
+      type: number
+      required: true
+    sportTotal:
+      type: number
+      required: true
+    healthUsed:
+      type: number
+      required: true
+    healthTotal:
+      type: number
+      required: true
+components:
+  - definition: message
+    properties:
+      text: "Your recent unclosed compensations"
+    components:
+      - definition: header
+        properties:
+          text: "Your recent unclosed compensations"
+#      - definition: context
+#        name: "context_block1"
+#        components:
+#          - definition: text
+#            properties:
+#              text:
+#                text: ":hamburger: _Food_: You used *${!view.properties.foodUsed}/${!view.properties.foodTotal}* this month."
+#                type: "mrkdwn"
+#          - definition: text
+#            properties:
+#              text:
+#                text: ":man-running: _Sport_: You used *${!view.properties.sportUsed}/${!view.properties.sportTotal}* this month."
+#                type: "mrkdwn"
+#          - definition: text
+#            properties:
+#              text:
+#                text: ":mending_heart: _Health_: You used *${!view.properties.healthUsed}/${!view.properties.healthTotal}* this year."
+#                type: "mrkdwn"
+      - definition: context
+        name: "context_block2"
+        components:
+          - definition: text
+            properties:
+              text:
+                text: "You have a total of *${!view.properties.unclosedTotal}* in unclosed compensations. _(This list displays up to 10 recent records.)_"
+                type: "mrkdwn"
+      - definition: iteration
+        properties:
+          foreach: "{!view.properties.compensations}"
+          foritem: "compensation"
+        components:
+          - definition: divider
+          - definition: section
+            properties:
+              text:
+                type: "mrkdwn"
+                text: "[_{!compensation.category}_] {!compensation.description} on *{!compensation.dateOf}* · {!compensation.currencyCode}{!compensation.amount}"
+          - definition: actions
+            components:
+              - definition: button
+                properties:
+                  name: "edit_compensation"
+                  label: "Edit"
+                events:
+                  onclick:
+                    definition: "apex__action__slackbot_CompensationActionDispatcher"
+                    properties:
+                      recordId: "{!compensation.id}"
+              - definition: button
+                properties:
+                  name: "delete_compensation"
+                  style: "danger"
+                  label: "Delete"
+                  confirm:
+                    title: "Delete compensation"
+                    text: "Are you sure you want to delete this compensation?"
+                    confirm: "Delete"
+                    deny: "Cancel"
+                    style: "danger"
+                events:
+                  onclick:
+                    definition: "apex__action__slackbot_CompensationActionDispatcher"
+                    properties:
+                      recordId: "{!compensation.id}"
+                      isDelete: true
+      - definition: divider
+      - definition: actions
+        components:
+          - definition: button
+            properties:
+              name: "add_compensation"
+              style: "primary"
+              label: "Add new compensation(s)"
+            events:
+              onclick:
+                definition: "apex__action__slackbot_CompensationActionDispatcher"
+                properties:
+                  channel: "{!view.properties.channel}"

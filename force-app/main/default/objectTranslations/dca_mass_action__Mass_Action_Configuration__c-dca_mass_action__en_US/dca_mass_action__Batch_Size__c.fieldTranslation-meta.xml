@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The number of source records to run through the target action at a time. Correlates to the apex batch job size. Can be between 1 and 200. Same concept as Data Loader&apos;s batch size. --></help>
+    <label><!-- Batch Size --></label>
+    <name>dca_mass_action__Batch_Size__c</name>
+</CustomFieldTranslation>

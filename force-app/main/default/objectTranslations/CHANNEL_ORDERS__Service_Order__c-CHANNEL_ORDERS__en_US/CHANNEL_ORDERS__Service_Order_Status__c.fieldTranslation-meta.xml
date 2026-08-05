@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Order Status --></label>
+    <name>CHANNEL_ORDERS__Service_Order_Status__c</name>
+    <picklistValues>
+        <masterLabel>Activated</masterLabel>
+        <translation><!-- Activated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Error</masterLabel>
+        <translation><!-- Error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Process</masterLabel>
+        <translation><!-- In Process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provisioned</masterLabel>
+        <translation><!-- Provisioned --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Received</masterLabel>
+        <translation><!-- Received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Submitted</masterLabel>
+        <translation><!-- Submitted --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

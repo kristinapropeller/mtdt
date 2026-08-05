@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Task is required - i.e. the user cannot choose not to create it --></help>
+    <label><!-- Required --></label>
+    <name>acheck__IsRequired__c</name>
+</CustomFieldTranslation>

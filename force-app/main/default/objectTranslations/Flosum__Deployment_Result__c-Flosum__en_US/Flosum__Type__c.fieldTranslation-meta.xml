@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Flosum__Type__c</name>
+    <picklistValues>
+        <masterLabel>Component</masterLabel>
+        <translation><!-- Component --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deployment Result</masterLabel>
+        <translation><!-- Deployment Result --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Destructive Changes</masterLabel>
+        <translation><!-- Destructive Changes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FlexiChk__Validate_Formula_Field</fullName>
+    <active>true</active>
+    <description>When the Criteria Type is Formula Criteria, Formula field is required.</description>
+    <errorConditionFormula>AND(ISPICKVAL( FlexiChk__Evaluation_Type__c , &apos;Formula Criteria&apos;), 
+ ISBLANK( FlexiChk__Formula__c )   )</errorConditionFormula>
+    <errorMessage>When the Criteria Type is Formula Criteria, Formula field is required.</errorMessage>
+</ValidationRule>

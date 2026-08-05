@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- AutoLaunched Flow name to be started when the task is completed. The flow can e.g. use a custom field on the task record to update other records. --></help>
+    <label><!-- Flow Name Completed --></label>
+    <name>acheck__FlowName_Completed__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Person__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Billing Person</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Compensations (Billing Person)</relationshipLabel>
+    <relationshipName>Paid_Compensations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

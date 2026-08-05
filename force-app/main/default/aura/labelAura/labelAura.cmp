@@ -1,0 +1,7 @@
+<aura:component>
+    <aura:attribute name="labelValue" type="String" default="{!$Label.c.HOHO_LABEL}" />
+    
+    <lightning:card title="Custom Label в Aura">
+        <p class="slds-p-around_small">{!v.labelValue}</p>
+    </lightning:card>
+</aura:component>

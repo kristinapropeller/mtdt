@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Max detail records to show (limits View Size) --></help>
+    <label><!-- Open Tasks Display Detail Max --></label>
+    <name>acheck__OpenTasks_DisplayDetailMax__c</name>
+</CustomFieldTranslation>

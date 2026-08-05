@@ -1,0 +1,31 @@
+# apphome.view
+description: "Home page"
+schema:
+  properties:
+    bodyText:
+      type: string
+      required: true
+    headerText:
+      type: string
+      defaultValue: "Welcome to Propeller Plan"
+components:
+  - definition: home
+    properties:
+      title: "Home"
+    components:
+      - definition: header
+        properties:
+          text: "{!view.properties.headerText}"
+      - definition: section
+        properties:
+          text: "{!view.properties.bodyText}"
+#      - definition: actions
+#        components:
+#          - definition: button
+#            properties:
+#              name: "my_button"
+#              label: "Take a Tour"
+#              value: "take_tour"
+#            events:
+#              onclick:
+#                definition: "apex__action__TakeTour"

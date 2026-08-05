@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FlexiChk__Object_Assignment_Validation</fullName>
+    <active>true</active>
+    <description>The validation rule checks that the &quot;Active&quot; checkbox is TRUE, and the rule also checks that the &quot;Object Assignment&quot; field is NOT blank.</description>
+    <errorConditionFormula>AND( FlexiChk__Active__c  = TRUE, ISBLANK( FlexiChk__Assigned_Object__c ) )</errorConditionFormula>
+    <errorMessage>You cannot activate this record without providing an Object Assignment. Please assign an object before activating this record</errorMessage>
+</ValidationRule>

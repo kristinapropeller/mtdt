@@ -1,0 +1,21 @@
+# message.view
+description: "Displays a simple message."
+schema:
+  properties:
+    header:
+      type: string
+    message:
+      type: string
+components:
+  - definition: message
+    properties:
+      text: "{!view.properties.message}"
+    components:
+      - definition: header
+        properties:
+          text: "{!view.properties.header}"
+      - definition: section
+        properties:
+          text:
+            type: "mrkdwn"
+            text: "{!view.properties.message}"

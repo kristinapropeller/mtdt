@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lead Source --></label>
+    <name>lleads__LeadSource__c</name>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Referral</masterLabel>
+        <translation><!-- Partner Referral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phone Inquiry</masterLabel>
+        <translation><!-- Phone Inquiry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchased List</masterLabel>
+        <translation><!-- Purchased List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Web</masterLabel>
+        <translation><!-- Web --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

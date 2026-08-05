@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__Partner_Payment_Declined__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Receive an email when a customer&apos;s credit card is declined.</description>
+    <label>Partner Payment Declined</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

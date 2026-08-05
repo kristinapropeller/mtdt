@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Suppress_Email_Event_Logging_Statuses__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Suppress Email Event Logging Statuses</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>delivered</fullName>
+                <default>false</default>
+                <label>Delivered</label>
+            </value>
+            <value>
+                <fullName>dropped</fullName>
+                <default>false</default>
+                <label>Dropped</label>
+            </value>
+            <value>
+                <fullName>spamreport</fullName>
+                <default>false</default>
+                <label>Spam Report</label>
+            </value>
+            <value>
+                <fullName>bounce</fullName>
+                <default>false</default>
+                <label>Bounce</label>
+            </value>
+            <value>
+                <fullName>unsubscribe</fullName>
+                <default>false</default>
+                <label>Unsubscribe</label>
+            </value>
+            <value>
+                <fullName>open</fullName>
+                <default>false</default>
+                <label>Open,</label>
+            </value>
+            <value>
+                <fullName>click</fullName>
+                <default>false</default>
+                <label>Click</label>
+            </value>
+            <value>
+                <fullName>processed</fullName>
+                <default>false</default>
+                <label>Processed</label>
+            </value>
+            <value>
+                <fullName>deferred</fullName>
+                <default>false</default>
+                <label>Deferred</label>
+            </value>
+            <value>
+                <fullName>group_unsubscribe</fullName>
+                <default>false</default>
+                <label>Group Unsubscribe</label>
+            </value>
+            <value>
+                <fullName>group_resubscribe</fullName>
+                <default>false</default>
+                <label>Group Resubscribe</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

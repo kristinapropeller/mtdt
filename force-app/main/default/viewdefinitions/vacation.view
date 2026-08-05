@@ -1,0 +1,51 @@
+# vacation.view
+description: "Displays a vacation."
+schema:
+  properties:
+    vacation:
+      type: map
+      required: true
+    header:
+      type: string
+      required: true
+components:
+  - definition: message
+    properties:
+      text: "{!view.properties.header}"
+    components:
+      - definition: header
+        properties:
+          text: "{!view.properties.header}"
+      - definition: section
+        properties:
+          text:
+            type: "mrkdwn"
+            text: "Type: {!view.properties.vacation.typeEmoji} *{!view.properties.vacation.type}*\nDates: *{!view.properties.vacation.datesRange}*\nStatus: {!view.properties.vacation.statusEmoji} *{!view.properties.vacation.status}*"
+      - definition: actions
+        components:
+          - definition: button
+            properties:
+              name: "Edit_vacation"
+              label: "Edit"
+            events:
+              onclick:
+                definition: "apex__action__slackbot_VacationActionDispatcher"
+                properties:
+                  recordId: "{!view.properties.vacation.id}"
+          - definition: button
+            properties:
+              name: "delete_vacation"
+              style: "danger"
+              label: "Delete"
+              confirm:
+                title: "Delete vacation"
+                text: "Are you sure you want to delete this vacation?"
+                confirm: "Delete"
+                deny: "Cancel"
+                style: "danger"
+            events:
+              onclick:
+                definition: "apex__action__slackbot_VacationActionDispatcher"
+                properties:
+                  recordId: "{!view.properties.vacation.id}"
+                  isDelete: true

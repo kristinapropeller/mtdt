@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- When started, the number of days from creation to start;
+when not started - number of days from creatin to now -->
+    </help>
+    <label><!-- Start Delay (days) --></label>
+    <name>acheck__StartDelay__c</name>
+</CustomFieldTranslation>

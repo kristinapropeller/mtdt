@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vacation_Type__c</fullName>
+    <label>Vacation Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Day Off</fullName>
+                <default>true</default>
+                <label>Day Off</label>
+            </value>
+            <value>
+                <fullName>Holiday Season</fullName>
+                <default>false</default>
+                <label>Holiday Season</label>
+            </value>
+            <value>
+                <fullName>Part Time</fullName>
+                <default>false</default>
+                <label>Part Time</label>
+            </value>
+            <value>
+                <fullName>Personal Vacation</fullName>
+                <default>false</default>
+                <label>Personal Vacation</label>
+            </value>
+            <value>
+                <fullName>Sick Leave</fullName>
+                <default>false</default>
+                <label>Sick Leave</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

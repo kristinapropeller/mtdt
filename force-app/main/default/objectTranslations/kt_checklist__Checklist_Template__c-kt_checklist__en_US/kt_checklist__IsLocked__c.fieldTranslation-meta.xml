@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If the Template is locked, a checklist of this template can not be added with more items. --></help>
+    <label><!-- Is Locked? --></label>
+    <name>kt_checklist__IsLocked__c</name>
+</CustomFieldTranslation>

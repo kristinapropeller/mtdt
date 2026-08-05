@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The date the service order was received by salesforce.com --></help>
+    <label><!-- Date Service Order Received by SFDC --></label>
+    <name>CHANNEL_ORDERS__Date_Service_Order_Received_by_SFDC__c</name>
+</CustomFieldTranslation>

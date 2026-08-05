@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__CancellationTerms_is_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( CHANNEL_ORDERS__pc_Partner_Contract_Term__r.CHANNEL_ORDERS__Allow_Cancellation_Terms_Override__c,    ISBLANK(CHANNEL_ORDERS__pc_Cancellation_Terms__c)  )</errorConditionFormula>
+    <errorDisplayField>CHANNEL_ORDERS__pc_Cancellation_Terms__c</errorDisplayField>
+    <errorMessage>Cancellation Terms is a required field.</errorMessage>
+</ValidationRule>

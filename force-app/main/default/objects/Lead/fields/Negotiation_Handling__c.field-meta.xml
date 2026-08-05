@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Negotiation_Handling__c</fullName>
+    <label>Negotiation Handling</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No reply</fullName>
+                <default>false</default>
+                <label>No reply</label>
+            </value>
+            <value>
+                <fullName>No objection</fullName>
+                <default>false</default>
+                <label>No objection</label>
+            </value>
+            <value>
+                <fullName>Have partners</fullName>
+                <default>false</default>
+                <label>Have partners</label>
+            </value>
+            <value>
+                <fullName>Have internal resources</fullName>
+                <default>false</default>
+                <label>Have internal resources</label>
+            </value>
+            <value>
+                <fullName>Just have had onboarding with a new partner</fullName>
+                <default>false</default>
+                <label>Just have had onboarding with a new partner</label>
+            </value>
+            <value>
+                <fullName>Don&apos;t have a budget</fullName>
+                <default>false</default>
+                <label>Don&apos;t have a budget</label>
+            </value>
+            <value>
+                <fullName>Don&apos;t use SF extensively</fullName>
+                <default>false</default>
+                <label>Don&apos;t use SF extensively</label>
+            </value>
+            <value>
+                <fullName>No need</fullName>
+                <default>false</default>
+                <label>No need</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

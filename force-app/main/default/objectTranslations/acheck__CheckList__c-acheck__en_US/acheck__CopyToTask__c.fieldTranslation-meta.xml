@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Fields to copy to task for ALL items/tasks, semicolon-separated list TaskField=MyObject.MyField;
+e.g., WhoId=Case.ContactId
+The object reference must match the Only For Object. -->
+    </help>
+    <label><!-- Copy to Task --></label>
+    <name>acheck__CopyToTask__c</name>
+</CustomFieldTranslation>

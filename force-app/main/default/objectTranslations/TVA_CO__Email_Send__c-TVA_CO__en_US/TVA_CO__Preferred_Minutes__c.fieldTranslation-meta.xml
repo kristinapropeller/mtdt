@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Preferred Minutes --></label>
+    <name>TVA_CO__Preferred_Minutes__c</name>
+    <picklistValues>
+        <masterLabel>00 Min</masterLabel>
+        <translation><!-- 00 Min --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15 Min</masterLabel>
+        <translation><!-- 15 Min --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30 Min</masterLabel>
+        <translation><!-- 30 Min --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>45 Min</masterLabel>
+        <translation><!-- 45 Min --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

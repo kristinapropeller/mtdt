@@ -56,4 +56,8 @@
         <name>MobileHome</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>pdffiller_sfree__Slates_Dashboard</name>
+        <type>CustomTab</type>
+    </appMenuItems>
 </AppMenu>

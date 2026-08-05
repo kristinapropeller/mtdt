@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Monica_Service_Order</fullName>
+    <booleanFilter>1</booleanFilter>
+    <columns>NAME</columns>
+    <columns>CHANNEL_ORDERS__Service_Order_Status1__c</columns>
+    <columns>CHANNEL_ORDERS__Partner_Contract_Rules__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>contains</operation>
+        <value>lam</value>
+    </filters>
+    <label>Monica Service Order</label>
+</ListView>

@@ -1,0 +1,4 @@
+<apex:page >
+    <h1>Custom Label:</h1>
+    <p>#{!$Label.HOHO_LABEL}</p>
+</apex:page>

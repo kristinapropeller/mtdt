@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Add_to_Suppression_List</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Add to MassMailer Suppressions</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR($Site.Prefix+&apos;/apex/Cloudrop__VFMassMailerAddEmailToSuppression&apos;,null,[listViewId= Cloudrop__MassMailer_List_View__c.Id])}</url>
+</WebLink>

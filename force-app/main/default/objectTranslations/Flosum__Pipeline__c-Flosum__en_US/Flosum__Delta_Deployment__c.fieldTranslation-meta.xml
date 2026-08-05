@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This feature applies only to manually run pipelines. When enabled, it deploys only the components not yet deployed to the specified Target Org. --></help>
+    <label><!-- Enable Delta Deployment --></label>
+    <name>Flosum__Delta_Deployment__c</name>
+</CustomFieldTranslation>

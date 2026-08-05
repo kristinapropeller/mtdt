@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- PersonalInfo_EPIM --></label>
+        <name>PersonalInfo_EPIM</name>
+    </fieldSets>
+    <webLinks>
+        <label><!-- Quick_Send_Via_MassMailer --></label>
+        <name>Quick_Send_Via_MassMailer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quick_Send_Via_MassMailer_Detail --></label>
+        <name>Quick_Send_Via_MassMailer_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Via_MassMailer --></label>
+        <name>Send_Via_MassMailer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Via_MassMailer_Detail --></label>
+        <name>Send_Via_MassMailer_Detail</name>
+    </webLinks>
+</CustomObjectTranslation>

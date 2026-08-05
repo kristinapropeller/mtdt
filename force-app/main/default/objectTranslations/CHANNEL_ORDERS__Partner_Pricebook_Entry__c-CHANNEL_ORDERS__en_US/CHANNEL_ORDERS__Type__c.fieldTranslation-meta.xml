@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>CHANNEL_ORDERS__Type__c</name>
+    <picklistValues>
+        <masterLabel>Bundle</masterLabel>
+        <translation><!-- Bundle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enterprise</masterLabel>
+        <translation><!-- Enterprise --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Historic</masterLabel>
+        <translation><!-- Historic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance</masterLabel>
+        <translation><!-- Performance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unlimited</masterLabel>
+        <translation><!-- Unlimited --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Document</fullName>
+    <active>true</active>
+    <label>Document</label>
+    <picklistValues>
+        <picklist>Cloudrop__Access__c</picklist>
+        <values>
+            <fullName>Private</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cloudrop__Doc_Sub_Type__c</picklist>
+        <values>
+            <fullName>Sub Document Type</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cloudrop__Doc_Type__c</picklist>
+        <values>
+            <fullName>Document Type</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

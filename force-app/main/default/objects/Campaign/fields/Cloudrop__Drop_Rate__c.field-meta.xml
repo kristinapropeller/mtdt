@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Drop_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <formula>IF(Cloudrop__Processed__c != 0, (Cloudrop__Bounce_Drops__c +  Cloudrop__Spam_Drop__c)/ Cloudrop__Processed__c , 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Drop Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

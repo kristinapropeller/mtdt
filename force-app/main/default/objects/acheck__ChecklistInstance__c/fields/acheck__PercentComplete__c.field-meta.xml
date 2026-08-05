@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__PercentComplete__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Closed Tasks in Percent based on TaskCount, ClosedCount</description>
+    <formula>IF( acheck__TaskCount__c == 0, 0, 
+ acheck__ClosedCount__c / acheck__TaskCount__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Closed Tasks in Percent</inlineHelpText>
+    <label>Percent Complete</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

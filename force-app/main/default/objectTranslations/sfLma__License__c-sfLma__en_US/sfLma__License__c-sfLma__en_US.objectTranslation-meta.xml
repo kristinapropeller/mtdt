@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>License</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Licenses</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Active --></label>
+        <name>sfLma__Active</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Expired --></label>
+        <name>sfLma__Expired</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Suspended --></label>
+        <name>sfLma__Suspended</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Trial --></label>
+        <name>sfLma__Trial</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Uninstalled --></label>
+        <name>sfLma__Uninstalled</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Login_to_Partner_BT --></label>
+        <name>sfLma__Login_to_Partner_BT</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Modify_License --></label>
+        <name>sfLma__Modify_License</name>
+    </webLinks>
+</CustomObjectTranslation>

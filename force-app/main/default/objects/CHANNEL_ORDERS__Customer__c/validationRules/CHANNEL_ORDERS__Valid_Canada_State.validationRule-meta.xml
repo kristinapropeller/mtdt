@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Valid_Canada_State</fullName>
+    <active>true</active>
+    <description>Deprecated</description>
+    <errorConditionFormula>false</errorConditionFormula>
+    <errorDisplayField>CHANNEL_ORDERS__Customer_State__c</errorDisplayField>
+    <errorMessage>(deprecated)</errorMessage>
+</ValidationRule>

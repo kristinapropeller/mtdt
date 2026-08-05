@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TDC_EC__All</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>TDC_EC__Delivery__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>TDC_EC__Status__c</columns>
+    <columns>TDC_EC__Message__c</columns>
+    <columns>TDC_EC__To_Email_Address__c</columns>
+    <columns>TDC_EC__Message_Id__c</columns>
+    <columns>TDC_EC__Template_Id__c</columns>
+    <columns>TDC_EC__Subject__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Prerequisite item/task to be completed - The Prerequisite needs to be completed before the Status of this item/task is set from Waiting to Not Started --></help>
+    <label><!-- Prerequisite --></label>
+    <lookupFilter>
+        <errorMessage><!-- Prerequisite must be part of this Checklist --></errorMessage>
+        <informationalMessage><!-- Select another Checklist Item which should be completed before starting this Item --></informationalMessage>
+    </lookupFilter>
+    <name>acheck__Prerequisite__c</name>
+    <relationshipLabel><!-- Checklist Items (Prerequisite for) --></relationshipLabel>
+</CustomFieldTranslation>

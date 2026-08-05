@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__TotalLicenses__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Total Licenses</label>
+    <summarizedField>sfcma__Subscription__c.sfcma__NumberOfUnits__c</summarizedField>
+    <summaryFilterItems>
+        <field>sfcma__Subscription__c.sfcma__Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </summaryFilterItems>
+    <summaryForeignKey>sfcma__Subscription__c.sfcma__Customer__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

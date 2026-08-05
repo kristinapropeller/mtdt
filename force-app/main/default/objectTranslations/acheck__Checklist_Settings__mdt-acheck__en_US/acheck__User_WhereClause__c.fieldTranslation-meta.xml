@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- additional where clause to query users to assign to checklist tasks (in addition to IsActive=true AND Profile.Name!=NULL) --></help>
+    <label><!-- User Where Clause --></label>
+    <name>acheck__User_WhereClause__c</name>
+</CustomFieldTranslation>

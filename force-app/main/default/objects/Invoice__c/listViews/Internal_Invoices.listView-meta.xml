@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Invoices</fullName>
+    <columns>NAME</columns>
+    <columns>Billed_By__c</columns>
+    <columns>Billed_To__c</columns>
+    <columns>Status__c</columns>
+    <columns>Working_Period_Start__c</columns>
+    <columns>Working_Period_End__c</columns>
+    <columns>Actual_Income__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Billed_By__c</field>
+        <operation>equals</operation>
+        <value>Igor Petrovich,Slava Brezovsky,Kristina Zenko,Vladislav Khrapski,Yaroslav Meshcheryakov LLC,Evgeny Kurtnizirov,Alexander Ryabtsev</value>
+    </filters>
+    <label>Internal Invoices</label>
+</ListView>

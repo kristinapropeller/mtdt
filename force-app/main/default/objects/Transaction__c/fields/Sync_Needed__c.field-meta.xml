@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_Needed__c</fullName>
+    <formula>OR(
+   ISNULL(Last_Synced__c),
+    LastModifiedDate &gt; Last_Synced__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sync Needed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

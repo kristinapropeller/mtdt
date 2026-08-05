@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Quantity_is_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISPICKVAL( CHANNEL_ORDERS__Partner_Order__r.CHANNEL_ORDERS__Partner_Contract_Rules__r.CHANNEL_ORDERS__Type__c  , &apos;ISVForce&apos;) ), NOT(ISPICKVAL( CHANNEL_ORDERS__Partner_Order__r.CHANNEL_ORDERS__Partner_Contract_Rules__r.CHANNEL_ORDERS__Type__c  , &apos;ISV&apos;) ), OR( ISBLANK( CHANNEL_ORDERS__Quantity__c ), ISNULL( CHANNEL_ORDERS__Quantity__c )))</errorConditionFormula>
+    <errorDisplayField>CHANNEL_ORDERS__Quantity__c</errorDisplayField>
+    <errorMessage>Field can not be empty. You must set a value.</errorMessage>
+</ValidationRule>

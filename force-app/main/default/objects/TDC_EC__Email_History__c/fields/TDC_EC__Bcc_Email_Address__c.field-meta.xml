@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TDC_EC__Bcc_Email_Address__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is used to store the bcc email address</description>
+    <externalId>false</externalId>
+    <label>Bcc Email Address</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

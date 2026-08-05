@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Alert_Email__c</fullName>
+    <defaultValue>&quot;coa-notification@salesforce.com&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Email where errors will be sent if some errors happen in the batch jobs.</description>
+    <externalId>false</externalId>
+    <label>Alert Email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

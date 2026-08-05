@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Display Retrieve Active Omnistudio Components when creating a snapshot --></help>
+    <label><!-- Retrieve Active Omnistudio in Snapshot --></label>
+    <name>Flosum__Retrieve_Active_Omnistudio_in_Snapshot__c</name>
+</CustomFieldTranslation>

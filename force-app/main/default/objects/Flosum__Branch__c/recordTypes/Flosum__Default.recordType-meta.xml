@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flosum__Default</fullName>
+    <active>true</active>
+    <label>Default</label>
+    <picklistValues>
+        <picklist>Flosum__Branch_Type__c</picklist>
+        <values>
+            <fullName>Vlocity</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flosum__Deployment_Mode__c</picklist>
+        <values>
+            <fullName>DEPLOY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALIDATE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flosum__Deployment_Style__c</picklist>
+        <values>
+            <fullName>CONTINUE ON FAILURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STOP ON FAILURE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flosum__Release_Type__c</picklist>
+        <values>
+            <fullName>Feature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flosum__Review_State__c</picklist>
+        <values>
+            <fullName>IN PROGRESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEVER REVIEWED</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>QUEUED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REVIEWED</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flosum__Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flosum__Type__c</picklist>
+        <values>
+            <fullName>Feature</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Release</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

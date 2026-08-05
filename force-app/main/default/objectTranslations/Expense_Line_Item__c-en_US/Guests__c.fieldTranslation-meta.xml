@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Guests --></label>
+    <name>Guests__c</name>
+    <picklistValues>
+        <masterLabel>Evgeny Kurtnizirov</masterLabel>
+        <translation><!-- Evgeny Kurtnizirov --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Igor Petrovich</masterLabel>
+        <translation><!-- Igor Petrovich --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Olya Platonova</masterLabel>
+        <translation><!-- Olya Platonova --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slava Brezovsky</masterLabel>
+        <translation><!-- Slava Brezovsky --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vladislav Khrapski</masterLabel>
+        <translation><!-- Vladislav Khrapski --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

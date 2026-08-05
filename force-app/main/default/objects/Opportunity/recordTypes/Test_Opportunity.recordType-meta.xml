@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Opportunity</fullName>
+    <active>true</active>
+    <businessProcess>Test Process</businessProcess>
+    <label>Test Opportunity</label>
+    <picklistValues>
+        <picklist>DeliveryInstallationStatus__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yet to begin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fuel__c</picklist>
+        <values>
+            <fullName>Benzin</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Diesel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electro</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gear__c</picklist>
+        <values>
+            <fullName>Automatik</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upwork</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

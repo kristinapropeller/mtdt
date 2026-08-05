@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is our latest field for Description and has a limit of 131,072 characters. --></help>
+    <label><!-- Description --></label>
+    <name>Flosum__Description__c</name>
+</CustomFieldTranslation>

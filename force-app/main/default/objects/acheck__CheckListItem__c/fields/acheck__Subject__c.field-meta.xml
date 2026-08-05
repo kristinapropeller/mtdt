@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__Subject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Subject Template for the new Task or Event - you can reference target record values e.g. {!Name}</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Subject Template for the new Task or Event - you can reference target record values e.g. {!Name}</inlineHelpText>
+    <label>Subject</label>
+    <length>255</length>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

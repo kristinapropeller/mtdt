@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Use this checklist only if the Name of the record matches (case insensitive) --></help>
+    <label><!-- Only if Name Like --></label>
+    <name>acheck__OnlyIfNameLike__c</name>
+</CustomFieldTranslation>

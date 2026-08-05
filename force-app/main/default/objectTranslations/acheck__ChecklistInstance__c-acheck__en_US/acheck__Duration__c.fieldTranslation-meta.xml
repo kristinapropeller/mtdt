@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Duration - when closed, the number of days from the actual start to the end; 
+when not closed, the number of days from the actual start to now;
+when not started - null -->
+    </help>
+    <label><!-- Duration (days) --></label>
+    <name>acheck__Duration__c</name>
+</CustomFieldTranslation>

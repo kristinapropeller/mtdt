@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__User_IsReferences__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Use user references on the target object (untypical!) - e.g., OwnerId, UpdatedById, etc. of Account</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Use user references on the target object (untypical!)  - e.g., OwnerId, UpdatedById, etc. of Account</inlineHelpText>
+    <label>User References</label>
+    <type>Checkbox</type>
+</CustomField>

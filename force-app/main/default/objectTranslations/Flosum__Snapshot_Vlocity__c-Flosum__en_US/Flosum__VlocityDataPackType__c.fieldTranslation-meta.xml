@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- VlocityDataPackType --></label>
+    <name>Flosum__VlocityDataPackType__c</name>
+    <picklistValues>
+        <masterLabel>Attachment</masterLabel>
+        <translation><!-- Attachment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AttributeAssignmentRule</masterLabel>
+        <translation><!-- AttributeAssignmentRule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AttributeCategory</masterLabel>
+        <translation><!-- AttributeCategory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CalculationMatrix</masterLabel>
+        <translation><!-- CalculationMatrix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CalculationProcedure</masterLabel>
+        <translation><!-- CalculationProcedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Catalog</masterLabel>
+        <translation><!-- Catalog --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ContextAction</masterLabel>
+        <translation><!-- ContextAction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ContextDimension</masterLabel>
+        <translation><!-- ContextDimension --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ContextScope</masterLabel>
+        <translation><!-- ContextScope --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ContractType</masterLabel>
+        <translation><!-- ContractType --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CpqConfigurationSetup</masterLabel>
+        <translation><!-- CpqConfigurationSetup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DataRaptor</masterLabel>
+        <translation><!-- DataRaptor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Document</masterLabel>
+        <translation><!-- Document --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DocumentClause</masterLabel>
+        <translation><!-- DocumentClause --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DocumentTemplate</masterLabel>
+        <translation><!-- DocumentTemplate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EntityFilter</masterLabel>
+        <translation><!-- EntityFilter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IntegrationProcedure</masterLabel>
+        <translation><!-- IntegrationProcedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>InterfaceImplementation</masterLabel>
+        <translation><!-- InterfaceImplementation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ItemImplementation</masterLabel>
+        <translation><!-- ItemImplementation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ManualQueue</masterLabel>
+        <translation><!-- ManualQueue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ObjectClass</masterLabel>
+        <translation><!-- ObjectClass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ObjectContextRule</masterLabel>
+        <translation><!-- ObjectContextRule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ObjectLayout</masterLabel>
+        <translation><!-- ObjectLayout --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OfferMigrationPlan</masterLabel>
+        <translation><!-- OfferMigrationPlan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OmniScript</masterLabel>
+        <translation><!-- OmniScript --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OrchestrationDependencyDefinition</masterLabel>
+        <translation><!-- OrchestrationDependencyDefinition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OrchestrationItemDefinition</masterLabel>
+        <translation><!-- OrchestrationItemDefinition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OrchestrationPlanDefinition</masterLabel>
+        <translation><!-- OrchestrationPlanDefinition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PriceList</masterLabel>
+        <translation><!-- PriceList --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricebook2</masterLabel>
+        <translation><!-- Pricebook2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PricingPlan</masterLabel>
+        <translation><!-- PricingPlan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PricingVariable</masterLabel>
+        <translation><!-- PricingVariable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product2</masterLabel>
+        <translation><!-- Product2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promotion</masterLabel>
+        <translation><!-- Promotion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QueryBuilder</masterLabel>
+        <translation><!-- QueryBuilder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rule</masterLabel>
+        <translation><!-- Rule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>StoryObjectConfiguration</masterLabel>
+        <translation><!-- StoryObjectConfiguration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>String</masterLabel>
+        <translation><!-- String --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>System</masterLabel>
+        <translation><!-- System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TimePlan</masterLabel>
+        <translation><!-- TimePlan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TimePolicy</masterLabel>
+        <translation><!-- TimePolicy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UIFacet</masterLabel>
+        <translation><!-- UIFacet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UISection</masterLabel>
+        <translation><!-- UISection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VlocityAction</masterLabel>
+        <translation><!-- VlocityAction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VlocityAttachment</masterLabel>
+        <translation><!-- VlocityAttachment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VlocityCard</masterLabel>
+        <translation><!-- VlocityCard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VlocityFunction</masterLabel>
+        <translation><!-- VlocityFunction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VlocityPicklist</masterLabel>
+        <translation><!-- VlocityPicklist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VlocitySearchWidgetSetup</masterLabel>
+        <translation><!-- VlocitySearchWidgetSetup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VlocityStateModel</masterLabel>
+        <translation><!-- VlocityStateModel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VlocityUILayout</masterLabel>
+        <translation><!-- VlocityUILayout --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VlocityUITemplate</masterLabel>
+        <translation><!-- VlocityUITemplate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VqMachine</masterLabel>
+        <translation><!-- VqMachine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VqResource</masterLabel>
+        <translation><!-- VqResource --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

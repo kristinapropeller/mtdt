@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Drip Campaign --></label>
+    <name>Cloudrop__Drip_Campaign__c</name>
+    <picklistValues>
+        <masterLabel>Lead Response Drip</masterLabel>
+        <translation><!-- Lead Response Drip --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Partner Contract Terms</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Partner Contract Terms</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- XLFile_Classic --></label>
+        <name>XLFile_Classic</name>
+    </webLinks>
+</CustomObjectTranslation>

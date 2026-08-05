@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Workload --></label>
+    <name>Workload__c</name>
+    <picklistValues>
+        <masterLabel>Full-time</masterLabel>
+        <translation><!-- Full-time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Part-time</masterLabel>
+        <translation><!-- Part-time --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

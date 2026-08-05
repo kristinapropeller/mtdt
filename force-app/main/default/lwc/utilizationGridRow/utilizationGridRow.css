@@ -1,0 +1,25 @@
+/**
+ * Created on 13/03/2023.
+ */
+:host {
+    display: contents;
+}
+
+.timeline-cell {
+    font-size: var(--lwc-fontSizeTextXxSmall, 0.625rem);
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.timeline-cell.timeline-cell_weekend {
+    background-color: #eeeeee !important;
+}
+.timeline-cell.timeline-cell_underallocated {
+    background-color: #c4fdbd !important;
+}
+.timeline-cell.timeline-cell_overallocated {
+    background-color: #e86161 !important;
+}
+.timeline-cell.timeline-cell_optimallyallocated {
+    background-color: #70e562 !important;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Checklist Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Checklist Templates</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Choose Approver if Enable Approver is Selected --></errorMessage>
+        <name>FlexiChk__Enable_Approver_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot activate this record without providing an Object Assignment. Please assign an object before activating this record --></errorMessage>
+        <name>FlexiChk__Object_Assignment_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please note that Org IDs are case sensitive. --></help>
+    <label><!-- Org ID --></label>
+    <name>CHANNEL_ORDERS__Customer_Org_ID__c</name>
+</CustomFieldTranslation>

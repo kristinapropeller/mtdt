@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Optional - when a new recurring checklist is added, cancel the previous instance tasks with status --></help>
+    <label><!-- Recurring Cancel Status --></label>
+    <name>acheck__Recurring_Cancel_Status__c</name>
+</CustomFieldTranslation>

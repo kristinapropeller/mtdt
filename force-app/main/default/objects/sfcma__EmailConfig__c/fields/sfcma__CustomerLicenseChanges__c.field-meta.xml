@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__CustomerLicenseChanges__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When seats are added or removed from a customer&apos;s license, send an email confirming the changes.</description>
+    <label>Customer License Changes</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

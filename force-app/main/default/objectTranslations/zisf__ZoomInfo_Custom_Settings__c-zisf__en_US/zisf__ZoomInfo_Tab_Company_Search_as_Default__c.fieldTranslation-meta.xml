@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Make Company Search the Default on ZoomInfo Tab --></help>
+    <label><!-- ZoomInfo Tab Company Search as Default --></label>
+    <name>zisf__ZoomInfo_Tab_Company_Search_as_Default__c</name>
+</CustomFieldTranslation>

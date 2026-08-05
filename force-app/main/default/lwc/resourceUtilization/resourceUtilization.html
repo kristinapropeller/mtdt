@@ -1,0 +1,95 @@
+<!--
+ - Created on 13/03/2023.
+ -->
+
+<!-- Resource Utilization -->
+<template>
+    <template if:true={isBusy}>
+        <lightning-spinner></lightning-spinner>
+    </template>
+
+    <div class="slds-grid slds-grid_vertical" style="height: 100%;">
+        <div class="slds-page-header">
+            <div class="slds-page-header__row">
+                <div class="slds-page-header__col-title">
+                    <div class="slds-media" style="align-items: center;">
+                        <div class="slds-media__figure">
+                            <lightning-icon icon-name="standard:resource_capacity"></lightning-icon>
+                        </div>
+                        <div class="slds-media__body">
+                            <div class="slds-page-header__name">
+                                <div class="slds-page-header__name-title">
+                                    <h1>
+                                        <span class="slds-page-header__title slds-truncate" title="Resource Utilization">Resource Utilization</span>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-page-header__col-actions">
+                    <div class="slds-page-header__controls">
+                        <div class="slds-page-header__control">
+                            <lightning-button-group>
+                                <lightning-button-menu alternative-text="View Preset" title="View Preset"
+                                                       menu-alignment="right" variant="border-filled" icon-name="utility:search"
+                                                       onselect={handleChangeView}>
+                                    <lightning-menu-item label="Days" value="days" checked={isDaysPreset}></lightning-menu-item>
+<!--                                    <lightning-menu-item label="Weeks" value="weeks" checked={isWeeksPreset}></lightning-menu-item>-->
+                                    <lightning-menu-item label="Months" value="months" checked={isMonthsPreset}></lightning-menu-item>
+                                </lightning-button-menu>
+                                <lightning-button-icon icon-name="utility:chevronleft" variant="border-filled"
+                                                       alternative-text="Shift left" title="Shift left"
+                                                       onclick={handleShiftLeft}></lightning-button-icon>
+                                <lightning-button label="This week"
+                                                  onclick={handleThisClick}></lightning-button>
+                                <lightning-button-icon icon-name="utility:chevronright" variant="border-filled"
+                                                       alternative-text="Shift right" title="Shift right"
+                                                       onclick={handleShiftRight}></lightning-button-icon>
+                            </lightning-button-group>
+                            <lightning-button-group>
+                                <lightning-button-icon icon-name="utility:refresh" variant="border-filled"
+                                                       alternative-text="Refresh" title="Refresh"
+                                                       onclick={handleRefreshClick}></lightning-button-icon>
+                            </lightning-button-group>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <article class="slds-card slds-p-bottom_xx-large">
+            <table class="slds-table slds-table_bordered slds-table_col-bordered slds-table_striped slds-tree slds-table_tree" role="treegrid">
+                <thead>
+                <tr class="slds-line-height_reset">
+                    <th rowspan="2" style="width:3.75rem">
+                        <div class="slds-truncate slds-assistive-text" title="Actions">Actions</div>
+                    </th>
+                    <th rowspan="2">Resource / Task</th>
+                    <template for:each={timelineHeaderLevelOne} for:item="headerOne">
+                        <th key={headerOne.startDate} colspan={headerOne.colspan} class="slds-text-align_center">{headerOne.label}</th>
+                    </template>
+                </tr>
+                <tr class="slds-line-height_reset">
+                    <template for:each={timelineHeaderLevelTwo} for:item="headerTwo">
+                        <th key={headerTwo.startDate} colspan={headerTwo.colspan} class={headerTwo.class}>{headerTwo.label}</th>
+                    </template>
+                </tr>
+                </thead>
+                <tbody>
+                <template if:true={resources.length}>
+                    <template for:each={resources} for:item="resource">
+                        <c-utilization-grid-row key={resource.Id}
+                                                view-preset={viewPreset}
+                                                resource={resource}
+                                                cases={cases}
+                                                bookings={bookings}
+                                                vacations={vacations}
+                                                time-line-headers={timelineHeaderLevelTwo}
+                                                onbookingsupdated={handleBookingsUpdate}></c-utilization-grid-row>
+                    </template>
+                </template>
+                </tbody>
+            </table>
+        </article>
+    </div>
+</template>

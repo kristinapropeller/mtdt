@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Recompute_Visible_Changes__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>.forceignore needs to be applied to visible changes.</description>
+    <inlineHelpText>.forceignore needs to be applied to visible changes.</inlineHelpText>
+    <label>Recompute Visible Changes</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

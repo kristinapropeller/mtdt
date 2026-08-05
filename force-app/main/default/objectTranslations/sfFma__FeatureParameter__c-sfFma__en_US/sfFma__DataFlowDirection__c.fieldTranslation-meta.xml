@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Data Flow Direction --></label>
+    <name>sfFma__DataFlowDirection__c</name>
+    <picklistValues>
+        <masterLabel>LMO to Subscriber</masterLabel>
+        <translation><!-- LMO to Subscriber --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscriber to LMO</masterLabel>
+        <translation><!-- Subscriber to LMO --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

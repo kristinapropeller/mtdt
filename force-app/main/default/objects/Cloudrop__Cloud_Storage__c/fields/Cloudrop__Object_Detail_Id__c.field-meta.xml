@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Object_Detail_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(  ISBLANK( Cloudrop__Relate_To__c ) ,
+LEFT( Cloudrop__ObjectId__c  , 3)
+,
+
+LEFT( Cloudrop__Relate_To__c   , 3))</formula>
+    <label>Object Detail Id</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

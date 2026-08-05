@@ -20,15 +20,7 @@
             System.assert(controller.getIsEdit() == false);
             
             System.assert(Page.ChangePassword.getUrl().equals(controller.changePassword().getUrl()));
-
-            if (isStateCountryPicklistEnabled()) {
-                User u = controller.getUser();
-                u.put('Country', null);
-                u.put('State', null);
-                u.put('CountryCode', null);
-                u.put('StateCode',  null);
-            }
-
+            
             String randFax = Math.rint(Math.random() * 1000) + '5551234';
             controller.getUser().Fax = randFax;
             controller.save();
@@ -50,13 +42,6 @@
                 controller.cancel();
                 System.assert(controller.getIsEdit() == false);
 
-                if (isStateCountryPicklistEnabled()) {
-                    User u = controller.getUser();
-                    u.put('Country', null);
-                    u.put('State', null);
-                    u.put('CountryCode', null);
-                    u.put('StateCode',  null);
-                }
                 controller.getUser().Fax = randFax;
                 controller.save();
                 System.assert(controller.getIsEdit() == false);
@@ -66,13 +51,5 @@
             existingPortalUser = [Select id, fax from User where id =: existingPortalUser.Id];
             System.assert(existingPortalUser.fax == randFax);
         }
-    }
-
-    /**
-     * We infer the state from the User.CountryCode field's describe: when SCP is enabled, this field is exposed as a
-     * picklist with the org's ISO country values; when SCP is disabled, the field has no picklist values.
-     */
-    private static Boolean isStateCountryPicklistEnabled() {
-        return User.SObjectType.getDescribe().fields.getMap().containsKey('CountryCode');
     }
 }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Max number of users to query to be assigned to Tasks (default 200); if there are more users, a user lookup is used --></help>
+    <label><!-- User Limit --></label>
+    <name>acheck__User_Limit__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfFma__XSS_Prevention_Version</fullName>
+    <active>true</active>
+    <description>Prevent malicious code from being stored in the Introduced in Package Version field.</description>
+    <errorConditionFormula>NOT(REGEX(sfFma__IntroducedInPackageVersion__c, &quot;^(\\w{15,18}|\\d+\\.\\d+)$&quot;))</errorConditionFormula>
+    <errorDisplayField>sfFma__IntroducedInPackageVersion__c</errorDisplayField>
+    <errorMessage>Version number strings must be in the format of &lt;major version&gt;.&lt;minor version&gt;</errorMessage>
+</ValidationRule>

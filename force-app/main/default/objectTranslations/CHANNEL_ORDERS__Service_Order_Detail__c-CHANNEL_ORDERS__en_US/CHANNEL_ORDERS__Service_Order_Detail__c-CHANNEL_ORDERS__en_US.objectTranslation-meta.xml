@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Order Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Service Order Detail</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cancellation Terms is a required field. --></errorMessage>
+        <name>CHANNEL_ORDERS__CancellationTerms_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract Length is a required field. --></errorMessage>
+        <name>CHANNEL_ORDERS__ContractLength_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Customer_Price_Per_Month_Must_Be_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Customer_Price_is_required_if_PNR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__ISVForce_Cust_Price_User_Month_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__ISVForce_Customer_Price_per_month_reqd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__ISVForce_Quantity_Must_Be_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__ISVForce_num_users_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Num_Users_ISVForce_Must_Be_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Service Order you selected is not part of the Contract Term you chose --></errorMessage>
+        <name>CHANNEL_ORDERS__Order_must_belong_to_contract_terms</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Product you selected is not part of the Contract Term you chose on the Service Order --></errorMessage>
+        <name>CHANNEL_ORDERS__Product_must_belong_to_contract_terms</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field can not be empty. You must set a value. --></errorMessage>
+        <name>CHANNEL_ORDERS__Quantity_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Renewal Terms is a required field. --></errorMessage>
+        <name>CHANNEL_ORDERS__RenewalTerms_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field can not be updated. Service Order status should be: &apos;Error&apos; or &apos;Draft&apos; --></errorMessage>
+        <name>CHANNEL_ORDERS__Special_Fields</name>
+    </validationRules>
+</CustomObjectTranslation>

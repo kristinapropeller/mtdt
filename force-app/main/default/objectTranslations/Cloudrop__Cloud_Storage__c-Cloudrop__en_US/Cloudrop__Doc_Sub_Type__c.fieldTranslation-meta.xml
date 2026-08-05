@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Doc Sub Type --></label>
+    <name>Cloudrop__Doc_Sub_Type__c</name>
+    <picklistValues>
+        <masterLabel>Sub Document Type</masterLabel>
+        <translation><!-- Sub Document Type --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

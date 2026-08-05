@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- State --></label>
+    <name>Flosum__State__c</name>
+    <picklistValues>
+        <masterLabel>CANCELED</masterLabel>
+        <translation><!-- CANCELED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMPLETED</masterLabel>
+        <translation><!-- COMPLETED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IN PROGRESS</masterLabel>
+        <translation><!-- IN PROGRESS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QUEUED</masterLabel>
+        <translation><!-- QUEUED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WAIT REVIEW</masterLabel>
+        <translation><!-- WAIT REVIEW --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

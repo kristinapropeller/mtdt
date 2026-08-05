@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__OrderTypeRequired</fullName>
+    <active>true</active>
+    <description>Need to select a type of Order</description>
+    <errorConditionFormula>ISBLANK( TEXT(CHANNEL_ORDERS__Order_Type__c))</errorConditionFormula>
+    <errorDisplayField>CHANNEL_ORDERS__Order_Type__c</errorDisplayField>
+    <errorMessage>You must select an Order Type.</errorMessage>
+</ValidationRule>

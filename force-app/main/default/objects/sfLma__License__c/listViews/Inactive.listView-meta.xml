@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inactive</fullName>
+    <booleanFilter>(1 AND 2) OR 3</booleanFilter>
+    <columns>NAME</columns>
+    <columns>sfLma__Lead__c</columns>
+    <columns>sfLma__Package_Version__c</columns>
+    <columns>sfLma__Licensed_Seats__c</columns>
+    <columns>sfLma__License_Status__c</columns>
+    <columns>sfLma__Install_Date__c</columns>
+    <columns>sfLma__Expiration_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>sfLma__Expiration_Date__c</field>
+        <operation>lessOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>sfLma__Expiration_Date__c</field>
+        <operation>notEqual</operation>
+        <value>Does not expire</value>
+    </filters>
+    <filters>
+        <field>sfLma__License_Status__c</field>
+        <operation>equals</operation>
+        <value>Uninstalled</value>
+    </filters>
+    <label>Inactive</label>
+</ListView>

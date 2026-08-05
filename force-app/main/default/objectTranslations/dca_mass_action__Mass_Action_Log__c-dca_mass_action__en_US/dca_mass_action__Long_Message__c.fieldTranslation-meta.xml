@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The full error message, particularly if more than 255 characters. --></help>
+    <label><!-- Long Message --></label>
+    <name>dca_mass_action__Long_Message__c</name>
+</CustomFieldTranslation>

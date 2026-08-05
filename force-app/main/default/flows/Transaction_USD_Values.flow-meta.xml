@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <formulas>
+        <name>formulaIncomeUSD</name>
+        <dataType>Number</dataType>
+        <expression>{!$Record.Income__c}/CURRENCYRATE(TEXT({!$Record.Income_Bank_Account__r.CurrencyIsoCode}))</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>formulaOutcomeUSD</name>
+        <dataType>Number</dataType>
+        <expression>{!$Record.Outcome__c}/CURRENCYRATE(TEXT({!$Record.Outcome_Bank_Account__r.CurrencyIsoCode}))</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Transaction: USD Values {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Transaction: USD Values</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_USD_Values</name>
+        <label>Update USD Values</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <inputAssignments>
+            <field>Income_USD__c</field>
+            <value>
+                <elementReference>formulaIncomeUSD</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Outcome_USD__c</field>
+            <value>
+                <elementReference>formulaOutcomeUSD</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_USD_Values</targetReference>
+        </connector>
+        <filterFormula>OR(
+ISNEW(),
+ISCHANGED({!$Record.Income_Bank_Account__c}),
+ISCHANGED({!$Record.Outcome_Bank_Account__c}),
+ISCHANGED({!$Record.Income__c}),
+ISCHANGED({!$Record.Outcome__c})
+)</filterFormula>
+        <object>Transaction__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

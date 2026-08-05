@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__All_Current_Exceptions</fullName>
+    <columns>NAME</columns>
+    <columns>CHANNEL_ORDERS__Exception_Reason__c</columns>
+    <columns>CHANNEL_ORDERS__Customer_Name__c</columns>
+    <columns>CHANNEL_ORDERS__Quantity__c</columns>
+    <columns>CHANNEL_ORDERS__Total_Price__c</columns>
+    <columns>CHANNEL_ORDERS__Contract_End_Date__c</columns>
+    <columns>CHANNEL_ORDERS__Order_Product_Id__c</columns>
+    <columns>CHANNEL_ORDERS__Start_Date__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CHANNEL_ORDERS__End_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CHANNEL_ORDERS__Exception_Reason__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>COA All Current Exceptions</label>
+</ListView>

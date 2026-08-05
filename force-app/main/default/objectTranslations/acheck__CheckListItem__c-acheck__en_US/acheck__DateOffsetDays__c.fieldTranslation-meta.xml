@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Due Date offset in days (empty=no Due Date) from creating the checklist (Duration)
+- If there is a Prerequisite task, it is days after we completed the prerequisite task.
+- enter a negative value to calculate relative to a future target date -->
+    </help>
+    <label><!-- Date Offset Days --></label>
+    <name>acheck__DateOffsetDays__c</name>
+</CustomFieldTranslation>

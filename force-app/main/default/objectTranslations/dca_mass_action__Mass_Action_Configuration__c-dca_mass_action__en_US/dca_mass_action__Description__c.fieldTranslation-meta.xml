@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Help yourself and others know why and what this configuration is for by adding a description. You&apos;ll thank yourself later =) --></help>
+    <label><!-- Description --></label>
+    <name>dca_mass_action__Description__c</name>
+</CustomFieldTranslation>

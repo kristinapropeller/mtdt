@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Make Find More Contacts the Default Tab on Account Panel --></help>
+    <label><!-- Account Find More Contacts as Default --></label>
+    <name>zisf__Find_More_Contacts_as_Default__c</name>
+</CustomFieldTranslation>

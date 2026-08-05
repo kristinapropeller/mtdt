@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TDC_EC__Send_Mass_Email</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Send Bulk Email</masterLabel>
+    <openType>replace</openType>
+    <page>TDC_EC__Send_Email_From_Lead</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

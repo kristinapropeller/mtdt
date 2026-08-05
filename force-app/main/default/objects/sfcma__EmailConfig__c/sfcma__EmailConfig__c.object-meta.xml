@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Custom Setting for tracking of what email notifications are enabled, and if they’re enabled for the partner and/or the customer</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Email Configuration</label>
+    <visibility>Public</visibility>
+</CustomObject>

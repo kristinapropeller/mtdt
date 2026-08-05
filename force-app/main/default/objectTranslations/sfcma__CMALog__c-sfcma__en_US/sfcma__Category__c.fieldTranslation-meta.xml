@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>sfcma__Category__c</name>
+    <picklistValues>
+        <masterLabel>API Callout Request limits exceeded</masterLabel>
+        <translation><!-- API Callout Request limits exceeded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>App connection with Stripe failure</masterLabel>
+        <translation><!-- App connection with Stripe failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Batch Failure</masterLabel>
+        <translation><!-- Batch Failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Transaction failure</masterLabel>
+        <translation><!-- Create Transaction failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Get Invoice item failure</masterLabel>
+        <translation><!-- Get Invoice item failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Get Subscription failure</masterLabel>
+        <translation><!-- Get Subscription failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Existing Data failure</masterLabel>
+        <translation><!-- Import Existing Data failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal System Error</masterLabel>
+        <translation><!-- Internal System Error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of sent emails exceeded</masterLabel>
+        <translation><!-- Number of sent emails exceeded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rest Callout Queue Failure</masterLabel>
+        <translation><!-- Rest Callout Queue Failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stripe Event Processor failure</masterLabel>
+        <translation><!-- Stripe Event Processor failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stripe Invalid event received</masterLabel>
+        <translation><!-- Stripe Invalid event received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stripe duplicated event</masterLabel>
+        <translation><!-- Stripe duplicated event --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

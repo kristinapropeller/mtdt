@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Email Send</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Email Send</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Contacto Additional Fields --></label>
+        <name>TVA_CO__Contacto_Additional_Fields</name>
+    </fieldSets>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Start Date must be greater than today --></errorMessage>
+        <name>TVA_CO__Start_Date_greater_than_today</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Delete_Amazon_Template --></label>
+        <name>TVA_CO__Delete_Amazon_Template</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Delivery_Flag_Update --></label>
+        <name>TVA_CO__Delivery_Flag_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Send_CSV --></label>
+        <name>TVA_CO__Email_Send_CSV</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Pardot_Email_Tracking --></label>
+        <name>TVA_CO__Pardot_Email_Tracking</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Email_Via_Contacto --></label>
+        <name>TVA_CO__Send_Email_Via_Contacto</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Template_Preview --></label>
+        <name>TVA_CO__Template_Preview</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ppmail_SendListEmail_Flow --></label>
+        <name>ppmail_SendListEmail_Flow</name>
+    </webLinks>
+</CustomObjectTranslation>

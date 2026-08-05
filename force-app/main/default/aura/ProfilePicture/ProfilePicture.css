@@ -1,0 +1,23 @@
+.THIS {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: .75rem 1rem;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+    border: 1px solid rgb(221, 219, 218);
+    border-radius: .25rem;
+}
+
+.THIS > p {
+    font-size: 14px;
+    color: #CCCCCC;
+    margin: 4px 0;
+}
+
+.THIS img {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 300px;
+	width: auto;
+    height: auto;
+    border-radius: 4px;
+}

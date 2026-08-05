@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__File_Path__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Exact path of the file in RackSpace</description>
+    <label>File Path</label>
+    <length>32000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CI Deployment Style --></label>
+    <name>Flosum__Deployment_Style__c</name>
+    <picklistValues>
+        <masterLabel>CONTINUE ON FAILURE</masterLabel>
+        <translation><!-- CONTINUE ON FAILURE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>STOP ON FAILURE</masterLabel>
+        <translation><!-- STOP ON FAILURE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XLFile_Classic</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Get XL-File</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!requireScript(&quot;/soap/ajax/46.0/connection.js&quot;)}var url = &quot;/apex/XappexFiles_CHANNEL_ORDERS__Partner_Contract_Terms?scontrolCaching=1&amp;id=&quot; + &quot;{!CHANNEL_ORDERS__Partner_Contract_Terms__c.Id}&quot;;window.location.href = url;</url>
+</WebLink>

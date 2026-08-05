@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- What inline edits are displayed:
+        - empty (default): setting from Checklist (all, task, record, none)
+        - all: any fields defined in FieldSet (ChecklistInlineEdit) on Task or Record
+        - task: show only Task fieldsets
+        - record: show only record fieldsets
+        - none: no inline edit for Tasks of this Item
+        - comma-separated list of fields to show, e.g. Task.Priority, Upload() -->
+    </help>
+    <label><!-- Inline Edit --></label>
+    <name>acheck__InlineEdit__c</name>
+</CustomFieldTranslation>

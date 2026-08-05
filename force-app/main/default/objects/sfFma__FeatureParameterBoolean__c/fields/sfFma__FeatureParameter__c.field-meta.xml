@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfFma__FeatureParameter__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Associates this object to a Feature Parameter parent object.</description>
+    <label>Feature Parameter</label>
+    <referenceTo>sfFma__FeatureParameter__c</referenceTo>
+    <relationshipLabel>Feature Parameter Booleans</relationshipLabel>
+    <relationshipName>Feature_Parameter_Booleans</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

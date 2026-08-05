@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Authorization Method --></label>
+    <name>Flosum__AuthMethod__c</name>
+    <picklistValues>
+        <masterLabel>Access Token</masterLabel>
+        <translation><!-- Access Token --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic</masterLabel>
+        <translation><!-- Basic --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

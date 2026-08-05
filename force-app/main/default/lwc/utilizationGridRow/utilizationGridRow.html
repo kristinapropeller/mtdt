@@ -1,0 +1,54 @@
+<!--
+ - Created on 13/03/2023.
+ -->
+
+<!-- Utilization Grid Row -->
+<template>
+    <tr aria-expanded={expanded} aria-level="1" aria-selected="false" class="slds-hint-parent">
+        <td role="gridcell" style="width:3.75rem">
+            <lightning-button-icon onclick={handleAddBooking} icon-name="action:new" variant="bare"></lightning-button-icon>
+        </td>
+        <th class="slds-tree__item" data-label="Resource" scope="row">
+            <lightning-button-icon icon-name="utility:chevronright" variant="bare" size="small" onclick={handleExpand} class={expandButtonClass}></lightning-button-icon>
+            <div class="slds-truncate" title={resource.Name}>
+                <a href={resource.url} target="_blank" tabindex="-1">{resource.Name}</a>
+            </div>
+        </th>
+        <template for:each={resourceTimeline} for:item="timelineCell">
+            <td key={timelineCell.id} role="gridcell" colspan={timelineCell.colspan} class={timelineCell.class}>
+                <div title={timelineCell.label}>{timelineCell.value}</div>
+            </td>
+        </template>
+    </tr>
+    <template if:true={expanded}>
+        <template for:each={assignments} for:item="assignment">
+            <tr key={assignment.id} aria-level="2" aria-selected="false" class="slds-hint-parent">
+                <td role="gridcell" style="width:3.75rem">
+                    <template if:false={assignment.isCase}>
+                        <lightning-button-icon data-record={assignment.id} onclick={handleEditBooking} icon-name="action:edit" variant="bare" class="slds-p-right_small"></lightning-button-icon>
+                        <lightning-button-icon data-record={assignment.id} onclick={handleRemoveBooking} icon-name="action:remove" variant="bare"></lightning-button-icon>
+                    </template>
+                </td>
+                <th class="slds-tree__item" data-label="Task Name" scope="row">
+                    <template if:true={assignment.isCase}>
+                        <lightning-icon icon-name="utility:case" size="small" class="slds-m-right_x-small"></lightning-icon>
+                    </template>
+                    <template if:true={assignment.isBooking}>
+                        <lightning-icon icon-name="utility:package_org_beta" size="small" class="slds-m-right_x-small"></lightning-icon>
+                    </template>
+                    <template if:true={assignment.isVacation}>
+                        <lightning-icon icon-name="utility:wellness" size="small" class="slds-m-right_x-small"></lightning-icon>
+                    </template>
+                    <div class="slds-truncate" title={assignment.name}>
+                        <a href={assignment.url} target="_blank" tabindex="-1">{assignment.name}</a>
+                    </div>
+                </th>
+                <template for:each={assignment.timeline} for:item="timelineCell">
+                    <td key={timelineCell.id} role="gridcell" colspan={timelineCell.colspan} class={timelineCell.class}>
+                        <div title={timelineCell.label}>{timelineCell.value}</div>
+                    </td>
+                </template>
+            </tr>
+        </template>
+    </template>
+</template>

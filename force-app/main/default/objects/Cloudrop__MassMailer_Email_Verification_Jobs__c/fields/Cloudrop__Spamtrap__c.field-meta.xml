@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Spamtrap__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Spamtrap #</label>
+    <summaryFilterItems>
+        <field>Cloudrop__MassMailer_Email_Verify_Status__c.Cloudrop__Status__c</field>
+        <operation>equals</operation>
+        <value>spamtrap</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Cloudrop__MassMailer_Email_Verify_Status__c.Cloudrop__MassMailer_Verification_Job__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

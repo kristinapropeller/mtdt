@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MassMailer Doc</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MassMailer Docs</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Document --></label>
+        <name>Cloudrop__Document</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Folder --></label>
+        <name>Cloudrop__Folder</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Custom_View --></label>
+        <name>Cloudrop__Custom_View</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Temp_URL --></label>
+        <name>Cloudrop__Temp_URL</name>
+    </webLinks>
+</CustomObjectTranslation>

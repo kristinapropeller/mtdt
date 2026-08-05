@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The last time the organization information on this page was updated. --></help>
+    <label><!-- Information Current As Of --></label>
+    <name>sfLma__Last_Modified__c</name>
+</CustomFieldTranslation>

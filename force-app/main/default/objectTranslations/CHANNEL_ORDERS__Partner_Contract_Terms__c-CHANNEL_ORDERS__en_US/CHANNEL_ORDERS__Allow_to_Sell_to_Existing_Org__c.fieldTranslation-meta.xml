@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Allow to Sell to Existing Org --></label>
+    <name>CHANNEL_ORDERS__Allow_to_Sell_to_Existing_Org__c</name>
+</CustomFieldTranslation>

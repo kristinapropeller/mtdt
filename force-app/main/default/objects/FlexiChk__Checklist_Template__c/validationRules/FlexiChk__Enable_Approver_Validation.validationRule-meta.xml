@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FlexiChk__Enable_Approver_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( FlexiChk__Enable_Approval__c , ISBLANK( FlexiChk__Approver__c ))</errorConditionFormula>
+    <errorDisplayField>FlexiChk__Approver__c</errorDisplayField>
+    <errorMessage>Choose Approver if Enable Approver is Selected</errorMessage>
+</ValidationRule>

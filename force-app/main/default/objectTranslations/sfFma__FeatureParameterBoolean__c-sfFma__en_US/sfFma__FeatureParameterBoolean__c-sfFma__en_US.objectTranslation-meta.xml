@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Feature Parameter Boolean</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Feature Parameter Booleans</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- This value is set by the installed package and cannot be changed. Click undo or cancel to continue. --></errorMessage>
+        <name>sfFma__FullNameUpdatePrevention</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Subscriber To LMO feature parameter values can only be created or updated by the Feature Management app. Click undo or cancel to continue. --></errorMessage>
+        <name>sfFma__MetricValueUpdatePrevention</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Full Name must be in the format of &lt;namespace&gt;__&lt;developer name&gt; --></errorMessage>
+        <name>sfFma__XSS_Prevention_FullName</name>
+    </validationRules>
+</CustomObjectTranslation>

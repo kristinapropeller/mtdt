@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__SendOrderOnInsert</fullName>
+    <active>false</active>
+    <description>Send order checkbox must be always false on insert</description>
+    <errorConditionFormula>AND (
+       ISNEW(),
+       CHANNEL_ORDERS__Send_Order__c = true
+)</errorConditionFormula>
+    <errorDisplayField>CHANNEL_ORDERS__Send_Order__c</errorDisplayField>
+    <errorMessage>Send order must be false when first creating a Service order</errorMessage>
+</ValidationRule>

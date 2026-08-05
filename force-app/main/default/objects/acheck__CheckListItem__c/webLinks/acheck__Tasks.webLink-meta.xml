@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__Tasks</fullName>
+    <availability>online</availability>
+    <description>Checklist Item Tasks</description>
+    <displayType>button</displayType>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>page</linkType>
+    <masterLabel>Tasks</masterLabel>
+    <openType>newWindow</openType>
+    <page>acheck__ChecklistItemTask</page>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+</WebLink>

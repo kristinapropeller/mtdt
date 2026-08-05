@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Included In Email Stats --></label>
+    <name>Cloudrop__Included_In_Email_Stats__c</name>
+</CustomFieldTranslation>

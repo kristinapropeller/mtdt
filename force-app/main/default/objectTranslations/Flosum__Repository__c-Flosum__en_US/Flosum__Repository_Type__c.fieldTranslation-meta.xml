@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Repository Type --></label>
+    <name>Flosum__Repository_Type__c</name>
+    <picklistValues>
+        <masterLabel>Commerce Cloud</masterLabel>
+        <translation><!-- Commerce Cloud --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Cloud</masterLabel>
+        <translation><!-- Marketing Cloud --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veeva Vault</masterLabel>
+        <translation><!-- Veeva Vault --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vlocity</masterLabel>
+        <translation><!-- Vlocity --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

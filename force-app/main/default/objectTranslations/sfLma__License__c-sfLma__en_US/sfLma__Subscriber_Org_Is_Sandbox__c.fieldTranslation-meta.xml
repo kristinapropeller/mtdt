@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Subscriber Org Is Sandbox --></label>
+    <name>sfLma__Subscriber_Org_Is_Sandbox__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Expense_Line_Item__c$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Expense_Line_Item__c$Total__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Expense_Line_Item__c$Expense__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Expense_Line_Item__c$Expense__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Salaries</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Expense_Line_Item__c$Person__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Salaries paid by Person</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Expenses__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Expense_Line_Item__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURY</interval>
+    </timeFrameFilter>
+</Report>

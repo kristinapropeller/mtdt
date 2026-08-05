@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Auth Alternative App ID USERS --></label>
+    <name>pdffiller_sfree__Auth_Alternative_App_ID_USERS__c</name>
+</CustomFieldTranslation>

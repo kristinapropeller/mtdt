@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Restrict CheckList to specific objects, e.g Account, MyObject__c --></help>
+    <label><!-- Only for Object(s) --></label>
+    <name>acheck__OnlyforObject__c</name>
+</CustomFieldTranslation>

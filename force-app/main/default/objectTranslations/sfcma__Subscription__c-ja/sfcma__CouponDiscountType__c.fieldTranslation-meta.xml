@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Coupon Discount Type --></label>
+    <name>sfcma__CouponDiscountType__c</name>
+    <picklistValues>
+        <masterLabel>dollars</masterLabel>
+        <translation>ドル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>percent</masterLabel>
+        <translation>パーセント</translation>
+    </picklistValues>
+</CustomFieldTranslation>

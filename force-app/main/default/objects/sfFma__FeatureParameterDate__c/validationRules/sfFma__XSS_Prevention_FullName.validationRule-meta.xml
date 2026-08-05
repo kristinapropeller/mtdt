@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfFma__XSS_Prevention_FullName</fullName>
+    <active>true</active>
+    <description>Prevent malicious code from being introduced into our text fields.</description>
+    <errorConditionFormula>AND(NOT(REGEX(sfFma__FullName__c , &quot;\\w+__\\w+&quot;)),
+NOT(ISBLANK( sfFma__FullName__c )))</errorConditionFormula>
+    <errorDisplayField>sfFma__FullName__c</errorDisplayField>
+    <errorMessage>Full Name must be in the format of &lt;namespace&gt;__&lt;developer name&gt;</errorMessage>
+</ValidationRule>

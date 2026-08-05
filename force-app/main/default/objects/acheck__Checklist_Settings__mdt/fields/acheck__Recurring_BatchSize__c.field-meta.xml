@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__Recurring_BatchSize__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Recurring Batch (ChecklistRecurring) Size - default 10</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Recurring Batch (ChecklistRecurring) Size - default 10</inlineHelpText>
+    <label>Recurring Batch Size</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

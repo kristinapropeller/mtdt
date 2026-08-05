@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If needed, re-tries will be made when callouts to org62 timeout.  This is the current number, which will not exceed the max defined in Max Retries. --></help>
+    <label><!-- Current Retries --></label>
+    <name>CHANNEL_ORDERS__Current_Retries__c</name>
+</CustomFieldTranslation>

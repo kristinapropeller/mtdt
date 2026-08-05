@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Order_Type_Formula__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Order Type showed to the user (with &apos;Renewal&apos; instead of &apos;Upgrade - Partner App&apos; and &apos;Upgrade&apos; instead of &apos;Upgrade - Org Edition&apos;)</description>
+    <externalId>false</externalId>
+    <formula>IF(Text(CHANNEL_ORDERS__Order_Type__c) == &quot;Upgrade - Partner App&quot;, &quot;Renewal&quot;, 
+IF(Text(CHANNEL_ORDERS__Order_Type__c) == &quot;Upgrade - Org Edition&quot;, &quot;Upgrade&quot;, Text(CHANNEL_ORDERS__Order_Type__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Order Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

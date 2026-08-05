@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Link to Account if checklist is related to an Account --></help>
+    <label><!-- Account --></label>
+    <name>acheck__Account__c</name>
+    <relationshipLabel><!-- Checklist Instances --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,3 @@
+<apex:page standardController="Opportunity" extensions="taralex.XappexFilesObjectPageController">
+    <taralex:XappexFiles recordId="{!Opportunity.Id}"/>
+</apex:page>

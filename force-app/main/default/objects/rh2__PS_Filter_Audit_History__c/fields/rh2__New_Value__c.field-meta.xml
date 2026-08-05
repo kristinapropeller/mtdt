@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__New_Value__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The new value of the updated field</description>
+    <inlineHelpText>The new value of the updated field</inlineHelpText>
+    <label>New Value</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

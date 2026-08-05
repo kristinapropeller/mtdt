@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unclosed_Compensations</fullName>
+    <columns>NAME</columns>
+    <columns>Category__c</columns>
+    <columns>Total__c</columns>
+    <columns>Description__c</columns>
+    <columns>Date__c</columns>
+    <columns>Person__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Closed__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Person__c</field>
+        <operation>notEqual</operation>
+        <value>Vlad Lipen</value>
+    </filters>
+    <filters>
+        <field>Person__c</field>
+        <operation>notEqual</operation>
+        <value>Kirill Gorodensky</value>
+    </filters>
+    <label>Unclosed Compensations</label>
+</ListView>

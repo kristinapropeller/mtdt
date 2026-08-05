@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Task Priority (default Normal) - validity checked when entered --></help>
+    <label><!-- Priority --></label>
+    <name>acheck__Priority__c</name>
+</CustomFieldTranslation>

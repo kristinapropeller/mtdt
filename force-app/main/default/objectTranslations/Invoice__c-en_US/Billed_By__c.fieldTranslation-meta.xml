@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Payer --></label>
+    <name>Billed_By__c</name>
+    <relationshipLabel><!-- Invoices (Payer) --></relationshipLabel>
+</CustomFieldTranslation>

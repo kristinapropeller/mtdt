@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Enforce Peer Review at Branch --></label>
+    <name>Flosum__Enforce_pull_request__c</name>
+</CustomFieldTranslation>

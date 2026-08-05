@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total length of all eaves, according to the report (ft). --></help>
+    <label><!-- Eaves --></label>
+    <name>eagleview__Eaves__c</name>
+</CustomFieldTranslation>

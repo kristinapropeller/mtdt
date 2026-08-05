@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Services</fullName>
+    <active>true</active>
+    <description>Salesforce instance credentials.</description>
+    <label>Salesforce Services</label>
+    <picklistValues>
+        <picklist>Environment_Type__c</picklist>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandbox</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

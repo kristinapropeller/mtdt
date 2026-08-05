@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Calculate the Due Date of a Task based on a future Target Date (e.g. planned meeting) - manual entry --></help>
+    <label><!-- Future Target Date --></label>
+    <name>acheck__IsTargetDate__c</name>
+</CustomFieldTranslation>

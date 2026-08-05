@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sent From Flow --></label>
+    <name>Cloudrop__Sent_From_Flow__c</name>
+</CustomFieldTranslation>

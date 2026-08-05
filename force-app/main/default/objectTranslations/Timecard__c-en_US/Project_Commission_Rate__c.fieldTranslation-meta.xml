@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Commission Rate value that is taken from the Project --></help>
+    <label><!-- Project Commission Rate --></label>
+    <name>Project_Commission_Rate__c</name>
+</CustomFieldTranslation>

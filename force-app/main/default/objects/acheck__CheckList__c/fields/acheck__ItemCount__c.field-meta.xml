@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__ItemCount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of active Checklist Items</description>
+    <inlineHelpText>Number of active Checklist Items</inlineHelpText>
+    <label>Item Count</label>
+    <summaryFilterItems>
+        <field>acheck__CheckListItem__c.acheck__IsActive__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>acheck__CheckListItem__c.acheck__CheckList__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

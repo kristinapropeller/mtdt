@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Action Type --></label>
+    <name>Flosum__Action_Type__c</name>
+    <picklistValues>
+        <masterLabel>Branch Merge</masterLabel>
+        <translation><!-- Branch Merge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commit</masterLabel>
+        <translation><!-- Commit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Impact Analysis Merge</masterLabel>
+        <translation><!-- Impact Analysis Merge --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

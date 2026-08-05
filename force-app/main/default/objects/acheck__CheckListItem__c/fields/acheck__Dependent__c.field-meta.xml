@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__Dependent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The task/item is Dependent on this task/item to be complete. Depending on all/any dependent completion, the status of the Dependent task/item is set from Waiting to Not Started</description>
+    <inlineHelpText>The task/item is Dependent on this task/item to be complete. Depending on all/any dependent completion, the status of the Dependent task/item is set from Waiting to Not Started</inlineHelpText>
+    <label>Dependent</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Dependent must be part of this Checklist</errorMessage>
+        <filterItems>
+            <field>acheck__CheckListItem__c.acheck__CheckList__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.acheck__CheckList__c</valueField>
+        </filterItems>
+        <infoMessage>Select another Checklist Item which is dependent on the completion of this  Item</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>acheck__CheckListItem__c</referenceTo>
+    <relationshipLabel>Checklist Items (Dependent of)</relationshipLabel>
+    <relationshipName>CheckList_Dependents</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- We are deprecating this field and have created a new field due to the character limit of 255 being too small. The New field label is “Description”. Please ensure you add the new field to the layouts and remove the deprecated field. --></help>
+    <label><!-- Deprecated Description --></label>
+    <name>Flosum__Comment__c</name>
+</CustomFieldTranslation>

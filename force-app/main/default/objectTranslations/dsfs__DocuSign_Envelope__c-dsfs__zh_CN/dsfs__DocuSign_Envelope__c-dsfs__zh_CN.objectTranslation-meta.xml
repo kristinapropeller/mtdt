@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DocuSign 信封</value>
+    </caseValues>
+    <nameFieldLabel><!-- DocuSign Envelope --></nameFieldLabel>
+    <webLinks>
+        <label>了解有关 DocuSign 的更多信息</label>
+        <name>dsfs__Learn_More</name>
+    </webLinks>
+    <webLinks>
+        <label>重新发送此信封</label>
+        <name>dsfs__Resend_This_Envelope</name>
+    </webLinks>
+</CustomObjectTranslation>

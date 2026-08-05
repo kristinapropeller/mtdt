@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- JWT token expire --></label>
+    <name>zisf__JWT_token_expire__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__All</fullName>
+    <columns>NAME</columns>
+    <columns>CHANNEL_ORDERS__Customer_Company_Name__c</columns>
+    <columns>CHANNEL_ORDERS__Customer_City__c</columns>
+    <columns>CHANNEL_ORDERS__Customer_Country__c</columns>
+    <columns>CHANNEL_ORDERS__Customer_Org_ID__c</columns>
+    <columns>CHANNEL_ORDERS__Customer_State__c</columns>
+    <columns>CHANNEL_ORDERS__Customer_Street__c</columns>
+    <columns>CHANNEL_ORDERS__Customer_ZIP_Postal_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

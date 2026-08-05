@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Partner Contract Term --></label>
+    <name>CHANNEL_ORDERS__pc_Partner_Contract_Term__c</name>
+    <relationshipLabel><!-- Service Order Detail --></relationshipLabel>
+</CustomFieldTranslation>

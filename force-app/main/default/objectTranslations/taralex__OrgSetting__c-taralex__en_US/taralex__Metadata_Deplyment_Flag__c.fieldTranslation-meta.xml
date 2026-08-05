@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Notifies that metadata deployment is complete --></help>
+    <label><!-- Metadata Deployment Flag --></label>
+    <name>taralex__Metadata_Deplyment_Flag__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Person --></label>
+    <lookupFilter>
+        <errorMessage><!-- This contact is inactive. --></errorMessage>
+    </lookupFilter>
+    <name>Person__c</name>
+    <relationshipLabel><!-- Timecards --></relationshipLabel>
+</CustomFieldTranslation>

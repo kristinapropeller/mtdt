@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Process Type --></label>
+    <name>Flosum__Process_Type__c</name>
+    <picklistValues>
+        <masterLabel>AccelQ</masterLabel>
+        <translation><!-- AccelQ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clean Org Data</masterLabel>
+        <translation><!-- Clean Org Data --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deployment</masterLabel>
+        <translation><!-- Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Install Vlocity Initial</masterLabel>
+        <translation><!-- Install Vlocity Initial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pack Retry (Heroku)</masterLabel>
+        <translation><!-- Pack Retry (Heroku) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patch</masterLabel>
+        <translation><!-- Patch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retrieve</masterLabel>
+        <translation><!-- Retrieve --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rollback (Deployment)</masterLabel>
+        <translation><!-- Rollback (Deployment) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rollback (Validate)</masterLabel>
+        <translation><!-- Rollback (Validate) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule Deployment</masterLabel>
+        <translation><!-- Schedule Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test Execution</masterLabel>
+        <translation><!-- Test Execution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test Execution Job</masterLabel>
+        <translation><!-- Test Execution Job --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tracking Organization - Retrieve</masterLabel>
+        <translation><!-- Tracking Organization - Retrieve --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validate</masterLabel>
+        <translation><!-- Validate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veeva Deployment</masterLabel>
+        <translation><!-- Veeva Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veeva Rollback (Deployment)</masterLabel>
+        <translation><!-- Veeva Rollback (Deployment) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

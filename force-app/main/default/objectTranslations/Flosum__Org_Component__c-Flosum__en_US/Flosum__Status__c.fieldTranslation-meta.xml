@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Flosum__Status__c</name>
+    <picklistValues>
+        <masterLabel>Deleted</masterLabel>
+        <translation><!-- Deleted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Error</masterLabel>
+        <translation><!-- Error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation><!-- In Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation><!-- Pending --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retrieved</masterLabel>
+        <translation><!-- Retrieved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Too Large</masterLabel>
+        <translation><!-- Too Large --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

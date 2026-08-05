@@ -1,0 +1,18 @@
+description: Propeller Plan Bot (Sandbox)
+commands:
+  /comp_test:
+    action:
+      definition: apex__action__slackbot_CompensationsCommandDispatcher
+    title: View Compensation (or add new)
+    description: A command to view compensations or add a new one
+  /vac_test:
+    action:
+      definition: apex__action__slackbot_VacationsCommandDispatcher
+    title: View Vacations (or add new)
+    description: A command to view vacations or add a new one
+events:
+  app_home_opened:
+    action:
+      definition: apex__action__slackbot_AppHomeOpened
+    title: Event handler for app_home_opened
+    description: Event fires when a user opens the home tab

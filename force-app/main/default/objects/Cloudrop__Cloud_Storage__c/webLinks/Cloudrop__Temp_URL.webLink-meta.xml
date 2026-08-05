@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Temp_URL</fullName>
+    <availability>online</availability>
+    <description>creates temporary URL for downloading the particular file.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Temp URL</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>if(&apos;{!Cloudrop__Cloud_Storage__c.RecordType}&apos; == &apos;Folder&apos;){
+alert(&apos;Temp Url is not available for folders&apos;);
+}
+else{
+var furl =document.domain;
+var ffurl = furl.split(&apos;\.&apos;);
+var staticURL = &quot;https://cloudrop.&quot;+ffurl[0]+&quot;.visual.force.com/apex/tempurlcreate?id={!Cloudrop__Cloud_Storage__c.Id}&quot;;
+location.replace(staticURL);
+}</url>
+</WebLink>

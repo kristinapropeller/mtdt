@@ -1,0 +1,56 @@
+# vacation.view
+description: "Displays compensation(s)."
+schema:
+  properties:
+    compensations:
+      type: list
+      required: true
+    header:
+      type: string
+      required: true
+components:
+  - definition: message
+    properties:
+      text: "{!view.properties.header}"
+    components:
+      - definition: header
+        properties:
+          text: "{!view.properties.header}"
+      - definition: iteration
+        properties:
+          foreach: "{!view.properties.compensations}"
+          foritem: "compensation"
+        components:
+          - definition: section
+            properties:
+              text:
+                type: "mrkdwn"
+                text: "[_{!compensation.category}_] *{!compensation.description}*\nAmount: *{!compensation.currencyCode}{!compensation.amount}*\nDate: *{!compensation.dateOf}*"
+          - definition: actions
+            components:
+              - definition: button
+                properties:
+                  name: "edit_compensation"
+                  label: "Edit"
+                events:
+                  onclick:
+                    definition: "apex__action__slackbot_CompensationActionDispatcher"
+                    properties:
+                      recordId: "{!compensation.id}"
+              - definition: button
+                properties:
+                  name: "delete_compensation"
+                  style: "danger"
+                  label: "Delete"
+                  confirm:
+                    title: "Delete compensation"
+                    text: "Are you sure you want to delete this compensation?"
+                    confirm: "Delete"
+                    deny: "Cancel"
+                    style: "danger"
+                events:
+                  onclick:
+                    definition: "apex__action__slackbot_CompensationActionDispatcher"
+                    properties:
+                      recordId: "{!compensation.id}"
+                      isDelete: true

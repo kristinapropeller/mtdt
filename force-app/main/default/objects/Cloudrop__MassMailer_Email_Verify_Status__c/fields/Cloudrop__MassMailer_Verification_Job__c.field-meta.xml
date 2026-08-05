@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__MassMailer_Verification_Job__c</fullName>
+    <deprecated>false</deprecated>
+    <label>MassMailer Verification Job</label>
+    <referenceTo>Cloudrop__MassMailer_Email_Verification_Jobs__c</referenceTo>
+    <relationshipLabel>MassMailer Verify Status</relationshipLabel>
+    <relationshipName>MassMailer_Verify_Status</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

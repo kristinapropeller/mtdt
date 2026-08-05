@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The value of the email field entered here will be auto-selected on the “To Email” field on the Send Email component. --></help>
+    <label><!-- Default Email Api --></label>
+    <name>TDC_EC__Default_Email_Api__c</name>
+</CustomFieldTranslation>

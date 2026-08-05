@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- MassMailer Verification Job --></label>
+    <name>Cloudrop__MassMailer_Verification_Job__c</name>
+    <relationshipLabel><!-- MassMailer Verify Status --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This feature is limited to the pipeline selected on the branch record, configured to execute automatically upon branch merge. When disabled, it deploys only the merged components; when enabled, it deploys all branch components regardless of merge status. It differs from Delta Deployment, which is only available when manually running the pipeline from the branch record. --></help>
+    <label><!-- Full Deploy --></label>
+    <name>Flosum__Full_Deploy__c</name>
+</CustomFieldTranslation>

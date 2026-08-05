@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Filter__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The filter for this audit record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The filter for this audit record.</inlineHelpText>
+    <label>Filter</label>
+    <length>20</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

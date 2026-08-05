@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Record Type of the Task record to be created (if used, empty for default) - validity checked when entered --></help>
+    <label><!-- Record Type --></label>
+    <name>acheck__RecordType__c</name>
+</CustomFieldTranslation>

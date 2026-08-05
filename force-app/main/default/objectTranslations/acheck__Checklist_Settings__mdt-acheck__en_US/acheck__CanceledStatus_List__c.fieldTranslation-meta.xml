@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Task Closed - Cancel Status Names separated by ;
+(first one is used by Instance cancel) -->
+    </help>
+    <label><!-- Canceled Status List --></label>
+    <name>acheck__CanceledStatus_List__c</name>
+</CustomFieldTranslation>

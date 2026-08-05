@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pricing Type --></label>
+    <name>CHANNEL_ORDERS__Pricing_Type__c</name>
+    <picklistValues>
+        <masterLabel>FIXED</masterLabel>
+        <translation><!-- FIXED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIST</masterLabel>
+        <translation><!-- LIST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PNR</masterLabel>
+        <translation><!-- PNR --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

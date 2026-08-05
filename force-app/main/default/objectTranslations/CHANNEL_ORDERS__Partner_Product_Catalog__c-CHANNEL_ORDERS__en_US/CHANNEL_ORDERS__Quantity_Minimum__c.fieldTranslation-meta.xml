@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- While placing an order, quantity should be greater than or equal to minimum quantity specified for a given product. --></help>
+    <label><!-- Quantity Minimum --></label>
+    <name>CHANNEL_ORDERS__Quantity_Minimum__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>a2MPj000001NoI6MAK_001</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Send Contract (DO NOT USE)</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(&quot;/apex/pdffiller_sfree__airslateApp&quot;,null,[buttonId=&quot;a2MPj000001NoI6MAK&quot;,recordId=Account.Id,objectName=&quot;Account&quot;])}</url>
+</WebLink>

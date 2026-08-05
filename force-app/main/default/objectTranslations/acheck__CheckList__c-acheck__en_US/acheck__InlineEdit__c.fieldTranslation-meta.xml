@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Default Inline Edit fields to show: all: Task+Record(default), Task Only, Record Only, None - can be overwritten in the Checklist Item
+        Inline Edit setting. Inline Edit fields need to be selected in a FieldSet &quot;ChecklistInlineEdit&quot; on Task and Related Object -->
+    </help>
+    <label><!-- Inline Edit --></label>
+    <name>acheck__InlineEdit__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation><!-- All --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Record</masterLabel>
+        <translation><!-- Record --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Task</masterLabel>
+        <translation><!-- Task --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

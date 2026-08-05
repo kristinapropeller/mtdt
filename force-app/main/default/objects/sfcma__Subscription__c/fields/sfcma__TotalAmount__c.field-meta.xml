@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__TotalAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total amount for the subscription</description>
+    <formula>IF(  TEXT(sfcma__CouponDiscountType__c) = &apos;percent&apos;,
+     (  sfcma__Charge__c  -  (  sfcma__Charge__c  *  sfcma__PercentDiscountedByCoupon__c  )  )  *  sfcma__NumberOfUnits__c ,
+        (sfcma__Charge__c * (IF(sfcma__NumberOfUnits__c=0, 1, sfcma__NumberOfUnits__c) ) - sfcma__AmountDiscountedByCoupon__c) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

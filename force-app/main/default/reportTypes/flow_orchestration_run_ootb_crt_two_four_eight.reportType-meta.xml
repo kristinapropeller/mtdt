@@ -8,7 +8,7 @@
     <label>Orchestration Runs Spring &apos;24</label>
     <sections>
         <columns>
-            <checkedByDefault>false</checkedByDefault>
+            <checkedByDefault>true</checkedByDefault>
             <field>Name</field>
             <table>FlowOrchestrationInstance</table>
         </columns>

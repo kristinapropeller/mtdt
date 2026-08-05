@@ -16,9 +16,4 @@
         <default>false</default>
         <label>Web</label>
     </standardValue>
-    <standardValue>
-        <fullName>Chatter Answers</fullName>
-        <default>false</default>
-        <label>Chatter Answers</label>
-    </standardValue>
 </StandardValueSet>

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>ContactId</fullName>
-    <trackFeedHistory>false</trackFeedHistory>
+    <lookupFilter>
+        <active>false</active>
+        <errorMessage>This contact is inactive.</errorMessage>
+        <filterItems>
+            <field>Contact.Inactive__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.Account.Name</field>
+            <operation>equals</operation>
+            <value>Propeller Plan</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

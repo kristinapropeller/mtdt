@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Certification that a corresponding customer order has been received.  This is a required field --></help>
+    <label><!-- I Certify a Corresponding Order Is Rec&apos;d --></label>
+    <name>CHANNEL_ORDERS__I_certify__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation><!-- Yes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

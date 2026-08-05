@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flosum__Veeva</fullName>
+    <active>true</active>
+    <label>Veeva</label>
+    <picklistValues>
+        <picklist>Flosum__Category__c</picklist>
+        <values>
+            <fullName>DevHub</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scratch</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flosum__Lifecycle_Stage__c</picklist>
+        <values>
+            <fullName>Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flosum__Organisation_Type__c</picklist>
+        <values>
+            <fullName>Developer%2FProduction</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Government cloud org</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandbox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veeva Vault</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

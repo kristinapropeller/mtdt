@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Make this True to give Delete permission to Checklist Items of a Locked checklist. --></help>
+    <label><!-- Delete Permission --></label>
+    <name>kt_checklist__Delete_Permission__c</name>
+</CustomFieldTranslation>

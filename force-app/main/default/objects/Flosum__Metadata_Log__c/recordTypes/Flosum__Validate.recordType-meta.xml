@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flosum__Validate</fullName>
+    <active>true</active>
+    <label>Validate</label>
+    <picklistValues>
+        <picklist>Flosum__Process_Type__c</picklist>
+        <values>
+            <fullName>Deployment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retrieve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollback %28Deployment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollback %28Validate%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule Deployment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flosum__Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exception</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

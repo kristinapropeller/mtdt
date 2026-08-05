@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__Prerequisite__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Prerequisite item/task to be completed - The Prerequisite needs to be completed before the Status of this item/task is set from Waiting to Not Started</description>
+    <inlineHelpText>Prerequisite item/task to be completed - The Prerequisite needs to be completed before the Status of this item/task is set from Waiting to Not Started</inlineHelpText>
+    <label>Prerequisite</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Prerequisite must be part of this Checklist</errorMessage>
+        <filterItems>
+            <field>acheck__CheckListItem__c.acheck__CheckList__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.acheck__CheckList__c</valueField>
+        </filterItems>
+        <infoMessage>Select another Checklist Item which should be completed before starting this Item</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>acheck__CheckListItem__c</referenceTo>
+    <relationshipLabel>Checklist Items (Prerequisite for)</relationshipLabel>
+    <relationshipName>CheckList_Prerequisites</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

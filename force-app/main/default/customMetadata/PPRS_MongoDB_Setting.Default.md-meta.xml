@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Api_Key__c</field>
+        <value xsi:type="xsd:string">Algsz88ctEOGQ06zpwUIUDRTQMTe7EBFCXm2IIOM0SPSiRg0SpLo9BKkwtZLflSz</value>
+    </values>
+    <values>
+        <field>Collection__c</field>
+        <value xsi:type="xsd:string">logs</value>
+    </values>
+    <values>
+        <field>Data_Source__c</field>
+        <value xsi:type="xsd:string">Cluster0</value>
+    </values>
+    <values>
+        <field>Database__c</field>
+        <value xsi:type="xsd:string">testDB</value>
+    </values>
+    <values>
+        <field>URL__c</field>
+        <value xsi:type="xsd:string">https://data.mongodb-api.com/app/data-lyzqujk/endpoint/data/v1/</value>
+    </values>
+</CustomMetadata>

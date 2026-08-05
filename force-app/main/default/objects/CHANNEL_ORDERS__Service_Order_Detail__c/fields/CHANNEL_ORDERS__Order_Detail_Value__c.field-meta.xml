@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Order_Detail_Value__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total value of the line item.</description>
+    <formula>IF(  ISPICKVAL(CHANNEL_ORDERS__pc_Pricing_Type__c, &apos;FIXED&apos;), CHANNEL_ORDERS__Quantity__c *   CHANNEL_ORDERS__pc_Fixed_Price__c  , CHANNEL_ORDERS__Quantity__c *     CHANNEL_ORDERS__Customer_Price_Per_Month__c  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Order Detail Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

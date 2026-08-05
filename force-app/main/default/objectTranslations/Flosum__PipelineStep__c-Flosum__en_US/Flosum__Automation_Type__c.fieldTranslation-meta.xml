@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Automation Type --></label>
+    <name>Flosum__Automation_Type__c</name>
+    <picklistValues>
+        <masterLabel>ApexPMD</masterLabel>
+        <translation><!-- ApexPMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation><!-- Custom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flosum Scan</masterLabel>
+        <translation><!-- Flosum Scan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flow</masterLabel>
+        <translation><!-- Flow --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

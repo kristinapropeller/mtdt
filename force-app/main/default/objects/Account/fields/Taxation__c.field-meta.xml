@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Taxation__c</fullName>
+    <label>Taxation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Poland Spolka</fullName>
+                <default>false</default>
+                <label>Poland Spolka</label>
+            </value>
+            <value>
+                <fullName>Poland IB</fullName>
+                <default>false</default>
+                <label>Poland IB</label>
+            </value>
+            <value>
+                <fullName>Belarus Company</fullName>
+                <default>false</default>
+                <label>Belarus Company</label>
+            </value>
+            <value>
+                <fullName>Belarus IB</fullName>
+                <default>false</default>
+                <label>Belarus IB</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

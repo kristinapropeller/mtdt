@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Rate__c</fullName>
+    <description>Is used to determine the final rate what the revenue is calculated against from in reports</description>
+    <formula>Rate__c - Rate__c *  Tax_Rate__c - Rate__c * Commission_Rate__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Is used to determine the final rate what the revenue is calculated against from in reports</inlineHelpText>
+    <label>Final Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

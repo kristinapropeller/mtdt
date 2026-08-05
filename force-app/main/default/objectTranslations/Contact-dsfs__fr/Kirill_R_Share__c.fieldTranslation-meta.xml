@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Kirill R. Share --></label>
+    <name>Kirill_R_Share__c</name>
+</CustomFieldTranslation>

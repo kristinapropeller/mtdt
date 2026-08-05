@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__RecordType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Record Type of the Task record to be created (if used, empty for default) - validity checked when entered</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Record Type of the Task record to be created (if used, empty for default) - validity checked when entered</inlineHelpText>
+    <label>Record Type</label>
+    <length>60</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

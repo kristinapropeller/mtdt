@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DocuSign 状态</value>
+    </caseValues>
+    <nameFieldLabel>信封编号</nameFieldLabel>
+    <webLinks>
+        <label><!-- XLFile_Classic --></label>
+        <name>XLFile_Classic</name>
+    </webLinks>
+    <webLinks>
+        <label>在 DocuSign 中更正</label>
+        <name>dsfs__Correct_DocuSign_Envelope</name>
+    </webLinks>
+    <webLinks>
+        <label>重新发送 DocuSign 电子邮件</label>
+        <name>dsfs__Resend_DocuSign_Email</name>
+    </webLinks>
+    <webLinks>
+        <label>在 DocuSign 中查看</label>
+        <name>dsfs__View_DocuSign_Envelope</name>
+    </webLinks>
+    <webLinks>
+        <label>清空信封</label>
+        <name>dsfs__Void_DocuSign_Envelope</name>
+    </webLinks>
+</CustomObjectTranslation>

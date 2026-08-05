@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Compact</fullName>
+    <fields>Subject</fields>
+    <fields>External_System_ID__c</fields>
+    <fields>AccountId</fields>
+    <fields>Project__c</fields>
+    <fields>Status</fields>
+    <fields>Time_Spent__c</fields>
+    <fields>Time_Left__c</fields>
+    <label>Case Compact</label>
+</CompactLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TVA_CO__Days_Selected__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Days Selected</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>TVA_CO__Frequency__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SUN</fullName>
+                <default>false</default>
+                <label>SUN</label>
+            </value>
+            <value>
+                <fullName>MON</fullName>
+                <default>false</default>
+                <label>MON</label>
+            </value>
+            <value>
+                <fullName>TUE</fullName>
+                <default>false</default>
+                <label>TUE</label>
+            </value>
+            <value>
+                <fullName>WED</fullName>
+                <default>false</default>
+                <label>WED</label>
+            </value>
+            <value>
+                <fullName>THU</fullName>
+                <default>false</default>
+                <label>THU</label>
+            </value>
+            <value>
+                <fullName>FRI</fullName>
+                <default>false</default>
+                <label>FRI</label>
+            </value>
+            <value>
+                <fullName>SAT</fullName>
+                <default>false</default>
+                <label>SAT</label>
+            </value>
+            <value>
+                <fullName>Every Weekday</fullName>
+                <default>false</default>
+                <label>Every Weekday</label>
+            </value>
+            <value>
+                <fullName>Every Day</fullName>
+                <default>false</default>
+                <label>Every Day</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Daily</controllingFieldValue>
+            <valueName>Every Weekday</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Daily</controllingFieldValue>
+            <valueName>Every Day</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weekly</controllingFieldValue>
+            <valueName>SUN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weekly</controllingFieldValue>
+            <valueName>MON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weekly</controllingFieldValue>
+            <valueName>TUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weekly</controllingFieldValue>
+            <valueName>WED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weekly</controllingFieldValue>
+            <valueName>THU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weekly</controllingFieldValue>
+            <valueName>FRI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weekly</controllingFieldValue>
+            <valueName>SAT</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>taralex__FileId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Could be populated with File or File Version Id</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>File or File Version Id for download with the Get XL-File button</inlineHelpText>
+    <label>File Id</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

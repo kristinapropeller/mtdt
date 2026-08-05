@@ -184,11 +184,14 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Case_LEX</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -196,9 +199,9 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>true</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
+    <compactLayoutAssignment>Case_Compact</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWriteTransfer</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
@@ -214,11 +217,14 @@
         <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <massQuickActions>Close_Case</massQuickActions>
         <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>External_System_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Time_Spent__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWriteTransfer</sharingModel>
 </CustomObject>

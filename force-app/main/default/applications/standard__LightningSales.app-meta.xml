@@ -9,8 +9,96 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Sales</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <recordType>Expense_Line_Item__c.Education</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <recordType>Expense_Line_Item__c.Entertainment</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <recordType>Expense_Line_Item__c.Gifts</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <recordType>Expense_Line_Item__c.Lunch</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <recordType>Expense_Line_Item__c.Maintenance</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <recordType>Expense_Line_Item__c.Medicine</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <recordType>Expense_Line_Item__c.Office</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <recordType>Expense_Line_Item__c.Taxes</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Expense_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Expense_Line_Item__c</pageOrSobjectType>
+        <recordType>Expense_Line_Item__c.Trips</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
-    <tabs>standard-WaveHomeLightning</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
@@ -26,6 +114,7 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-Quote</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>

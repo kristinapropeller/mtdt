@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Label</shortDescription>
+        <value>HOHOHO</value>
+    </labels>
+    <labels>
+        <fullName>HOHO_LABEL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOHO LABEL</shortDescription>
+        <value>HOHOHOHO</value>
+    </labels>
+</CustomLabels>

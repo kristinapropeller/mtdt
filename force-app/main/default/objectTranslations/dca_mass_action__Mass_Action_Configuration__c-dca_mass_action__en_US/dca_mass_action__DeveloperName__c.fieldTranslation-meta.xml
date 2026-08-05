@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- A unique name to reference this record by without knowing its ID. --></help>
+    <label><!-- Mass Action Configuration Unique Name --></label>
+    <name>dca_mass_action__DeveloperName__c</name>
+</CustomFieldTranslation>

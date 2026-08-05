@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the timestamp of the completion date for the last successful execution of the batch job. --></help>
+    <label><!-- Last Success Date --></label>
+    <name>CHANNEL_ORDERS__Last_Success_Date__c</name>
+</CustomFieldTranslation>

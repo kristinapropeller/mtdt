@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Email Type Option --></label>
+    <name>Cloudrop__Email_Type_Option__c</name>
+    <picklistValues>
+        <masterLabel>Non-Transactional</masterLabel>
+        <translation><!-- Non-Transactional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transactional</masterLabel>
+        <translation><!-- Transactional --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MassMailer Outreach</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MassMailer Outreaches</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Preview_Template --></label>
+        <name>Cloudrop__Preview_Template</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Relaunch --></label>
+        <name>Cloudrop__Relaunch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unschedule_Job --></label>
+        <name>Cloudrop__Unschedule_Job</name>
+    </webLinks>
+</CustomObjectTranslation>

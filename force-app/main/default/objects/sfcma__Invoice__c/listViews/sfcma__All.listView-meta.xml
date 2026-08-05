@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__All</fullName>
+    <columns>sfcma__Amount__c</columns>
+    <columns>sfcma__Attempts__c</columns>
+    <columns>sfcma__EndDate__c</columns>
+    <columns>sfcma__IsPaid__c</columns>
+    <columns>sfcma__Subscription__c</columns>
+    <columns>sfcma__Transaction__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

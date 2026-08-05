@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Deployments Manifest</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Patch Manifests</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_Components_to_Deployment --></label>
+        <name>Flosum__Add_Components_to_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_Components_to_Manifest --></label>
+        <name>Flosum__Add_Components_to_Manifest</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Change_User_Parameters --></label>
+        <name>Flosum__Change_User_Parameters</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Remove_Patch_Manifest --></label>
+        <name>Flosum__Remove_Patch_Manifest</name>
+    </webLinks>
+</CustomObjectTranslation>

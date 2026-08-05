@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Order_must_belong_to_contract_terms</fullName>
+    <active>true</active>
+    <errorConditionFormula>CHANNEL_ORDERS__pc_Partner_Contract_Term__c &lt;&gt;  CHANNEL_ORDERS__Partner_Order__r.CHANNEL_ORDERS__Partner_Contract_Rules__c</errorConditionFormula>
+    <errorDisplayField>CHANNEL_ORDERS__Partner_Order__c</errorDisplayField>
+    <errorMessage>The Service Order you selected is not part of the Contract Term you chose</errorMessage>
+</ValidationRule>

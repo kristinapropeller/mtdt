@@ -1,0 +1,87 @@
+# vacation_form.view
+description: "Edits a vacation record by triggering an Apex action on submission."
+schema:
+  properties:
+    channel:
+      type: string
+    title:
+      type: string
+      required: true
+    recordId:
+      type: string
+    startDate:
+      type: string
+    endDate:
+      type: string
+    type:
+      type: string
+    status:
+      type: string
+components:
+  - definition: modal
+    properties:
+      title: "{!view.properties.title}"
+      submitLabel: "Save"
+    events:
+      onsubmit:
+        definition: "apex__action__slackbot_SaveVacationActionDispatcher"
+        properties:
+          id: "{!view.properties.recordId}"
+          channel: "{!view.properties.channel}"
+    components:
+      - definition: input
+        properties:
+          label: "Start Date"
+          required: true
+        components:
+          - definition: datepicker
+            properties:
+              name: "startDate"
+              placeholder: "YYYY-MM-DD"
+              value: "{!view.properties.startDate}"
+      - definition: input
+        properties:
+          label: "End Date"
+          required: true
+        components:
+          - definition: datepicker
+            properties:
+              name: "endDate"
+              placeholder: "YYYY-MM-DD"
+              value: "{!view.properties.endDate}"
+      - definition: input
+        properties:
+          label: "Type"
+          required: true
+        components:
+          - definition: select
+            properties:
+              name: "type"
+              value: "{!view.properties.type}"
+              placeholder: "Select a type"
+              options:
+                - identifier: "Day Off"
+                  label: "Day Off"
+                - identifier: "Part Time"
+                  label: "Part Time"
+                - identifier: "Personal Vacation"
+                  label: "Personal Vacation"
+                - identifier: "Sick Leave"
+                  label: "Sick Leave"
+      - definition: input
+        properties:
+          label: "Status"
+          required: true
+        components:
+          - definition: select
+            properties:
+              name: "status"
+              value: "{!view.properties.status}"
+              placeholder: "Select a status"
+              options:
+                - identifier: "Planned"
+                  label: "Planned"
+                - identifier: "Confirmed"
+                  label: "Confirmed"
+                - identifier: "Past"
+                  label: "Past"

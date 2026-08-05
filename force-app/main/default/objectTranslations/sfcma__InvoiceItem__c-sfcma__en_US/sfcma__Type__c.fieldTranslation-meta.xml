@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>sfcma__Type__c</name>
+    <picklistValues>
+        <masterLabel>Invoice Item</masterLabel>
+        <translation><!-- Invoice Item --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscription</masterLabel>
+        <translation><!-- Subscription --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

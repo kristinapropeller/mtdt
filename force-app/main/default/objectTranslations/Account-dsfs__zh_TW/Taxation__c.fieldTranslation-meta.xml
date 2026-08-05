@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Taxation --></label>
+    <name>Taxation__c</name>
+    <picklistValues>
+        <masterLabel>Belarus Company</masterLabel>
+        <translation><!-- Belarus Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Belarus IB</masterLabel>
+        <translation><!-- Belarus IB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poland IB</masterLabel>
+        <translation><!-- Poland IB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poland Spolka</masterLabel>
+        <translation><!-- Poland Spolka --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

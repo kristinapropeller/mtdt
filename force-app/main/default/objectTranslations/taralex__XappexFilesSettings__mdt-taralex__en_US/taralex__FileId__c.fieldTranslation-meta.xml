@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- File or File Version Id for download with the Get XL-File button --></help>
+    <label><!-- File Id --></label>
+    <name>taralex__FileId__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Address of IB registration: Country, Postal Code, City, Street, Building, Appartments no. --></help>
+    <label><!-- (deprecated)IB Address --></label>
+    <name>IB_Address__c</name>
+</CustomFieldTranslation>

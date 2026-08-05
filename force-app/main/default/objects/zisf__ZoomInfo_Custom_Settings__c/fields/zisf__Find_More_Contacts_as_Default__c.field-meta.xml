@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zisf__Find_More_Contacts_as_Default__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Make Find More Contacts the Default Tab on Account Panel</description>
+    <inlineHelpText>Make Find More Contacts the Default Tab on Account Panel</inlineHelpText>
+    <label>Account Find More Contacts as Default</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

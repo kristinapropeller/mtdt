@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlackApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <appKey>A07TUK0NTDG</appKey>
+    <appToken>*</appToken>
+    <botScopes>assistant:write,chat:write,chat:write.public,incoming-webhook,im:history,channels:history,groups:history,groups:read,channels:read,reactions:read,commands,users:read</botScopes>
+    <clientKey>*</clientKey>
+    <clientSecret>*</clientSecret>
+    <isProtected>false</isProtected>
+    <masterLabel>Propeller Plan Bot (Sandbox)</masterLabel>
+    <signingSecret>*</signingSecret>
+    <userScopes>im:read,im:write,channels:read,channels:write,chat:write,groups:read,mpim:read,mpim:write,users:read,groups:write,reactions:read</userScopes>
+</SlackApp>

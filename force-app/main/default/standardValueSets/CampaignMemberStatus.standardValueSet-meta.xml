@@ -2,6 +2,66 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>true</sorted>
     <standardValue>
+        <fullName>Bounce</fullName>
+        <default>false</default>
+        <label>Bounce</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Click</fullName>
+        <default>false</default>
+        <label>Click</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Deferred</fullName>
+        <default>false</default>
+        <label>Deferred</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivered</fullName>
+        <default>false</default>
+        <label>Delivered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dropped</fullName>
+        <default>false</default>
+        <label>Dropped</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group Resubscribe</fullName>
+        <default>false</default>
+        <label>Group Resubscribe</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group Unsubscribe</fullName>
+        <default>false</default>
+        <label>Group Unsubscribe</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invalid</fullName>
+        <default>false</default>
+        <label>Invalid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Processed</fullName>
+        <default>false</default>
+        <label>Processed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reply</fullName>
+        <default>false</default>
+        <label>Reply</label>
+    </standardValue>
+    <standardValue>
         <fullName>Responded</fullName>
         <default>false</default>
         <label>Responded</label>
@@ -10,5 +70,15 @@
         <fullName>Sent</fullName>
         <default>false</default>
         <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spam Report</fullName>
+        <default>false</default>
+        <label>Spam Report</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unsubscribe</fullName>
+        <default>false</default>
+        <label>Unsubscribe</label>
     </standardValue>
 </StandardValueSet>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Branch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Branches</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Commerce Cloud --></label>
+        <name>Flosum__Commerce_Cloud</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Flosum__Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Locked --></label>
+        <name>Flosum__Locked</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Marketing Cloud --></label>
+        <name>Flosum__Marketing_Cloud</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Veeva --></label>
+        <name>Flosum__Veeva</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t override peer review setting. --></errorMessage>
+        <name>Flosum__OveridePullRequestValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Repository is mandatory on branch. --></errorMessage>
+        <name>Flosum__RepositoryIsMandatory</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Deploy --></label>
+        <name>Flosum__Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeployBranch --></label>
+        <name>Flosum__DeployBranch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deployment_Analyzer --></label>
+        <name>Flosum__Deployment_Analyzer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Download_Components --></label>
+        <name>Flosum__Download_Components</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Partial_PermissionSet --></label>
+        <name>Flosum__Get_Partial_PermissionSet</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Profile --></label>
+        <name>Flosum__Get_Profile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Impact_Analysis_Branch --></label>
+        <name>Flosum__Impact_Analysis_Branch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Lightning_Test --></label>
+        <name>Flosum__Lightning_Test</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Make_Review --></label>
+        <name>Flosum__Make_Review</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Merge --></label>
+        <name>Flosum__Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Merge_Branch --></label>
+        <name>Flosum__Merge_Branch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PullRequest --></label>
+        <name>Flosum__PullRequest</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rebaseline --></label>
+        <name>Flosum__Rebaseline</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rollback --></label>
+        <name>Flosum__Rollback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_AccelQ_Test --></label>
+        <name>Flosum__Run_AccelQ_Test</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_ApexPMD --></label>
+        <name>Flosum__Run_ApexPMD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_Pipeline --></label>
+        <name>Flosum__Run_Pipeline</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Schedule_Deployment --></label>
+        <name>Flosum__Schedule_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unlocked_Package --></label>
+        <name>Flosum__Unlocked_Package</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Validate --></label>
+        <name>Flosum__Validate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Dependencies --></label>
+        <name>Flosum__View_Dependencies</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_sync_jobs --></label>
+        <name>Flosum__View_sync_jobs</name>
+    </webLinks>
+</CustomObjectTranslation>

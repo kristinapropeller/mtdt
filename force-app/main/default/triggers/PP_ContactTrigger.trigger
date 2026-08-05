@@ -1,0 +1,1 @@
+trigger PP_ContactTrigger on Contact (after insert) {  }

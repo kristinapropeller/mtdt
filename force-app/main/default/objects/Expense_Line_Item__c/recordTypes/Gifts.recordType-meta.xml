@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gifts</fullName>
+    <active>false</active>
+    <description>BDs gifts, gifts for Clients, etc.</description>
+    <label>Gifts</label>
+    <picklistValues>
+        <picklist>Guests__c</picklist>
+        <values>
+            <fullName>Igor Petrovich</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slava Brezovsky</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

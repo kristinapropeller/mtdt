@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Task Status for Waiting for the Prerequisite to be completed - default: Waiting on someone else --></help>
+    <label><!-- Prerequisite Status Waiting --></label>
+    <name>acheck__PrerequisiteStatus_Waiting__c</name>
+</CustomFieldTranslation>

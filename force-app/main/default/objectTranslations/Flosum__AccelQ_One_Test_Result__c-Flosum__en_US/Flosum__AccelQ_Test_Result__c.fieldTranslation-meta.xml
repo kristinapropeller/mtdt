@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- AccelQ Test Result --></label>
+    <name>Flosum__AccelQ_Test_Result__c</name>
+    <relationshipLabel><!-- AccelQ One Test Results --></relationshipLabel>
+</CustomFieldTranslation>

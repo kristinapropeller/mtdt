@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The OrderItem.Id for the related data in org62. --></help>
+    <label><!-- Order Product Id --></label>
+    <name>CHANNEL_ORDERS__Order_Product_Id__c</name>
+</CustomFieldTranslation>

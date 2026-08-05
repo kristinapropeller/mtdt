@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The filter label (the value that is displayed to the user, as opposed to the name value which is used internally). --></help>
+    <label><!-- Filter Label --></label>
+    <name>rh2__Filter_Label__c</name>
+</CustomFieldTranslation>

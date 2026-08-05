@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Choose which hours of the day this action will run. Salesforce uses the time zone of the user who schedules the job --></help>
+    <label><!-- Schedule Hour --></label>
+    <name>dca_mass_action__Schedule_HourOfDay__c</name>
+</CustomFieldTranslation>

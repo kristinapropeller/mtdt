@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Service Orders</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Custom Fields --></label>
+        <name>CHANNEL_ORDERS__Custom_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Order Details --></label>
+        <name>CHANNEL_ORDERS__Order_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Service &amp; Order Dates --></label>
+        <name>CHANNEL_ORDERS__Service_Order_Dates</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Terms &amp; Conditions --></label>
+        <name>CHANNEL_ORDERS__Terms_Conditions</name>
+    </fieldSets>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Autorenew_cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Autorenew_cannot_be_changed_addon</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Billing_Country_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Contract_Length_cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Contract_Length_cannot_be_changed_addon</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract is a required field. --></errorMessage>
+        <name>CHANNEL_ORDERS__Contract_is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Corresponding_Order_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__DateCustomerAcceptedSfdcServiceAgmt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__DatePartnerReceivedCustomerOrder</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__ICertify</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must select an Order Type. --></errorMessage>
+        <name>CHANNEL_ORDERS__OrderTypeRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Org_ID_is_invalid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Send order must be false when first creating a Service order --></errorMessage>
+        <name>CHANNEL_ORDERS__SendOrderOnInsert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Service_Order_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Shipping_Country_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__StartDate_is_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_Order --></label>
+        <name>CHANNEL_ORDERS__Send_Order</name>
+    </webLinks>
+</CustomObjectTranslation>

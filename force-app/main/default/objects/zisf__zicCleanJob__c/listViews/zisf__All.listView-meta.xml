@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zisf__All</fullName>
+    <columns>NAME</columns>
+    <columns>zisf__Job_Type__c</columns>
+    <columns>zisf__Job_Status__c</columns>
+    <columns>zisf__DateTime_Submitted__c</columns>
+    <columns>zisf__Records__c</columns>
+    <columns>zisf__Matched__c</columns>
+    <columns>zisf__Matched_Only_Company__c</columns>
+    <columns>zisf__Unmatched__c</columns>
+    <columns>zisf__Errors__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

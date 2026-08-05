@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Date_Customer_Accepted_SFDC_Svc_Agrmnt__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date that the customer accepted the SFDC Service Agreement (FOR OEMs only)</description>
+    <inlineHelpText>Date that the customer accepted the SFDC Service Agreement (FOR OEMs only)</inlineHelpText>
+    <label>Date Customer Accepted SFDC Agreement</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

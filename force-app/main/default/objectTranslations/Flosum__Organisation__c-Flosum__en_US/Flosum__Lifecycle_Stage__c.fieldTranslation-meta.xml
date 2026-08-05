@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lifecycle Stage --></label>
+    <name>Flosum__Lifecycle_Stage__c</name>
+    <picklistValues>
+        <masterLabel>Configuration</masterLabel>
+        <translation><!-- Configuration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Developer</masterLabel>
+        <translation><!-- Developer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance Test</masterLabel>
+        <translation><!-- Performance Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production</masterLabel>
+        <translation><!-- Production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stage</masterLabel>
+        <translation><!-- Stage --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

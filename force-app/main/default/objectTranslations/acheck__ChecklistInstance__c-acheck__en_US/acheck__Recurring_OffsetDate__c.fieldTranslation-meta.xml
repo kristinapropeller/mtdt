@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Date calculated by Recurring Offset days - the date when the next recurring set of tasks should be created. --></help>
+    <label><!-- Recurring Offset Date --></label>
+    <name>acheck__Recurring_OffsetDate__c</name>
+</CustomFieldTranslation>

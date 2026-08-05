@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__PartnerCantConnectStripe__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Receive an email when the AppExchange can&apos;t connect to your Stripe account.</description>
+    <label>Partner Can&apos;t Connect to Stripe</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

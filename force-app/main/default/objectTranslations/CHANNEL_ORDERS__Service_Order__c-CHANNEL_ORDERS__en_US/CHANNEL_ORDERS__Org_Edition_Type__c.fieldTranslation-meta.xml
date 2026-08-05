@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Org Edition Type --></label>
+    <name>CHANNEL_ORDERS__Org_Edition_Type__c</name>
+    <picklistValues>
+        <masterLabel>EE</masterLabel>
+        <translation><!-- EE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GE</masterLabel>
+        <translation><!-- GE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PE</masterLabel>
+        <translation><!-- PE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UE</masterLabel>
+        <translation><!-- UE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

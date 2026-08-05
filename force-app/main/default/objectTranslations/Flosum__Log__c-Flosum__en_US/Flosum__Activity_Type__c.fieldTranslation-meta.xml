@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Activity Type --></label>
+    <name>Flosum__Activity_Type__c</name>
+    <picklistValues>
+        <masterLabel>Code Scan</masterLabel>
+        <translation><!-- Code Scan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Pull Request</masterLabel>
+        <translation><!-- Create Pull Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete Components</masterLabel>
+        <translation><!-- Delete Components --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dependency</masterLabel>
+        <translation><!-- Dependency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deployment</masterLabel>
+        <translation><!-- Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deployment Analyzer</masterLabel>
+        <translation><!-- Deployment Analyzer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Impact analysis</masterLabel>
+        <translation><!-- Impact analysis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Status Pull Request</masterLabel>
+        <translation><!-- Status Pull Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Update Components</masterLabel>
+        <translation><!-- Update Components --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

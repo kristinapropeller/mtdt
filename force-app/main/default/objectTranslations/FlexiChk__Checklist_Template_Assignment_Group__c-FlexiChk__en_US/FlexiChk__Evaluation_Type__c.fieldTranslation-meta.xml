@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Evaluation Type --></label>
+    <name>FlexiChk__Evaluation_Type__c</name>
+    <picklistValues>
+        <masterLabel>Criteria Builder</masterLabel>
+        <translation><!-- Criteria Builder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Formula Criteria</masterLabel>
+        <translation><!-- Formula Criteria --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

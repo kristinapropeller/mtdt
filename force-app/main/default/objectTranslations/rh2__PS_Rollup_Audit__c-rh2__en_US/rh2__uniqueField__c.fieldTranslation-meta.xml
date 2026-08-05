@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The field to evaluate on child records when performing a unique rollup --></help>
+    <label><!-- Unique Field --></label>
+    <name>rh2__uniqueField__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__CurrentBillingReminderSent__c</fullName>
+    <deprecated>false</deprecated>
+    <formula>IF( ISBLANK(sfcma__LastBillingReminder__c), false,
+/* In short - have we already sent a reminder this period (which could be monthly or annually */
+sfcma__LastBillingReminder__c &gt;= sfcma__CurrentPeriodBeginsAt__c &amp;&amp; sfcma__LastBillingReminder__c &lt;= sfcma__CurrentPeriodEndsAt__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current Period Billing Reminder Sent</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Custom_Fields</fullName>
+    <description>Custom fields to be included in the View and Create/​Update Service Order pages.</description>
+    <label>Custom Fields</label>
+</FieldSet>

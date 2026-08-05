@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Make Web Mentions the Default Tab on Contact Panel --></help>
+    <label><!-- Contact Web Mentions as Default --></label>
+    <name>zisf__Contact_Web_Mentions_as_Default__c</name>
+</CustomFieldTranslation>

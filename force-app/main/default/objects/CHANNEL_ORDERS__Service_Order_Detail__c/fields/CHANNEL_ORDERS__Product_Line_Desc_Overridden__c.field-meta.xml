@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Product_Line_Desc_Overridden__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Field retired in Channel Order App v2.0.</description>
+    <inlineHelpText>True if this detail uses an individual description rather than using SFDC Invoice Description</inlineHelpText>
+    <label>Prod Line Desc Overridden (deprecated)</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

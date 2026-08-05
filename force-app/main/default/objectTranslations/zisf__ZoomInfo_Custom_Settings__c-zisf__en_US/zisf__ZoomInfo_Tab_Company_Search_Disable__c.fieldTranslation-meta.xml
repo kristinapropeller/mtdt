@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Disable Company Search Option on ZoomInfo Tab --></help>
+    <label><!-- ZoomInfo Tab Company Search Disable --></label>
+    <name>zisf__ZoomInfo_Tab_Company_Search_Disable__c</name>
+</CustomFieldTranslation>

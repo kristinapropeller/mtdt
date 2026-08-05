@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Result --></label>
+    <name>Flosum__Result__c</name>
+    <picklistValues>
+        <masterLabel>CREATED</masterLabel>
+        <translation><!-- CREATED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DELETED</masterLabel>
+        <translation><!-- DELETED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NO CHANGE</masterLabel>
+        <translation><!-- NO CHANGE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPDATED</masterLabel>
+        <translation><!-- UPDATED --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>sfcma__Status__c</name>
+    <picklistValues>
+        <masterLabel>Error</masterLabel>
+        <translation>エラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invalid</masterLabel>
+        <translation>無効</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation>なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processed</masterLabel>
+        <translation>処理されたドル換算率</translation>
+    </picklistValues>
+</CustomFieldTranslation>

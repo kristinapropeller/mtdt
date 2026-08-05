@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowGuestPaymentsApi>false</allowGuestPaymentsApi>
+    <allowHomePage>false</allowHomePage>
+    <allowStandardAnswersPages>false</allowStandardAnswersPages>
+    <allowStandardIdeasPages>false</allowStandardIdeasPages>
+    <allowStandardLookups>false</allowStandardLookups>
+    <allowStandardPortalPages>true</allowStandardPortalPages>
+    <allowStandardSearch>false</allowStandardSearch>
+    <authorizationRequiredPage>Cloudrop__Unauthorized</authorizationRequiredPage>
+    <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
+    <browserXssProtection>false</browserXssProtection>
+    <cachePublicVisualforcePagesInProxyServers>false</cachePublicVisualforcePagesInProxyServers>
+    <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
+    <contentSniffingProtection>false</contentSniffingProtection>
+    <description>MassMailer Site captures and stores email events such as open, click, bounce, unsubscribe, etc.</description>
+    <enableAuraRequests>true</enableAuraRequests>
+    <fileNotFoundPage>FileNotFound</fileNotFoundPage>
+    <genericErrorPage>Exception</genericErrorPage>
+    <inMaintenancePage>InMaintenance</inMaintenancePage>
+    <inactiveIndexPage>InMaintenance</inactiveIndexPage>
+    <indexPage>Cloudrop__MassMailerHome</indexPage>
+    <masterLabel>MassMailer_Site</masterLabel>
+    <redirectToCustomDomain>false</redirectToCustomDomain>
+    <referrerPolicyOriginWhenCrossOrigin>false</referrerPolicyOriginWhenCrossOrigin>
+    <siteAdmin>isv@propellerplan.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>isv@propellerplan.com</siteGuestRecordDefaultOwner>
+    <siteTemplate>SiteTemplate</siteTemplate>
+    <siteType>Visualforce</siteType>
+    <subdomain>propeller-plan</subdomain>
+    <urlPathPrefix>massmailer</urlPathPrefix>
+</CustomSite>

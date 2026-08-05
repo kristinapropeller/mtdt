@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Invoices</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Billable --></label>
+        <name>Billable</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Payable --></label>
+        <name>Payable</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- ERROR --></errorMessage>
+        <name>Name</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Invoice_Field_Link --></label>
+        <name>Invoice_Field_Link</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- a2MPj00000144UHMAY_a0a --></label>
+        <name>a2MPj00000144UHMAY_a0a</name>
+    </webLinks>
+</CustomObjectTranslation>

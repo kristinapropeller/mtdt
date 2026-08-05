@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__Coupon_Lifespan__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The lifespan of the coupon applied to the subscription.</description>
+    <label>Coupon Lifespan</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>One Time</fullName>
+                <default>false</default>
+                <label>One Time</label>
+            </value>
+            <value>
+                <fullName>Forever</fullName>
+                <default>false</default>
+                <label>Forever</label>
+            </value>
+            <value>
+                <fullName>Limited Time</fullName>
+                <default>false</default>
+                <label>Limited Time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

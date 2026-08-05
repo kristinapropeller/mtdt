@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- You can find the Organization ID on the tab Orgs -&gt; choose Org -&gt; go to Details tab -&gt; copy Organization ID and paste to this field.
+If you do not specify an Organization ID, then an object from this organization will be used. -->
+    </help>
+    <label><!-- Organization ID --></label>
+    <name>Flosum__Organization_ID__c</name>
+</CustomFieldTranslation>

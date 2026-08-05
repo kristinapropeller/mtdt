@@ -1,0 +1,108 @@
+<aura:component implements="force:lightningQuickAction,flexipage:availableForAllPageTypes" access="global" controller="NewTransactionController" >
+    <aura:attribute name="transactions" type="Transaction__c[]" />
+    <aura:attribute name="currencyOptions" type="List" />
+    <aura:attribute name="incomeCategoryOptions" type="List"/>
+    <aura:attribute name="outcomeCategoryOptions" type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <c:Utils context="{!this}"/>
+    <lightning:utilityBarAPI aura:id="utilitybar" />
+    <table class="slds-table slds-table_bordered slds-scrollable">
+        <thead>
+        <tr>
+            <th style="min-width: 140px"><abbr class="slds-required" title="required">*</abbr>Person</th>
+            <th style="min-width: 135px"><abbr class="slds-required" title="required">*</abbr>Date</th>
+            <th>Currency</th>
+            <th>Income / Outcome</th>
+            <th>Bank Account</th>
+            <th>Category</th>
+            <th style="min-width: 310px"><abbr class="slds-required" title="required">*</abbr>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <aura:iteration items="{!v.transactions}" var="transaction" indexVar="index">
+            <tr>
+                <td class="myTd">
+                    <c:strike_lookup object="Contact"
+                                     searchField="Name"
+                                     aura:id="inputLookup"
+                                     value="{!transaction.Person__c}"
+                                     filter="Account.Name = 'Propeller Plan'"
+                                     showRecentRecords="true"/>
+                </td>
+                <td class="myTd">
+                    <lightning:input type="date"
+                                     value="{!transaction.Date__c}"
+                                     aura:id="inputDate"
+                                     variant="label-hidden"
+                                     valid="true"
+                                     required="true"/>
+                </td>
+                <td class="myTd">
+                    <lightning:combobox placeholder="" variant="label-hidden" options="{!v.currencyOptions}" value="{!transaction.CurrencyIsoCode}"/>
+                </td>
+                <td style="vertical-align: top; padding-top: 8px">
+                    <lightning:input type="number"
+                                     step="0.01"
+                                     pattern="^-?\d+(\.\d{1,2})?$"
+                                     messageWhenPatternMismatch="Please enter a valid decimal value."
+                                     value="{!transaction.Income__c}"
+                                     label="Income"/>
+                    <lightning:input type="number"
+                                     step="0.01"
+                                     pattern="^-?\d+(\.\d{1,2})?$"
+                                     messageWhenPatternMismatch="Please enter a valid decimal value."
+                                     value="{!transaction.Outcome__c}"
+                                     label="Outcome"/>
+                </td>
+                <td style="vertical-align: top; padding-top: 13px;">
+                    <c:strike_lookup object="Bank_Account__c"
+                                     searchField="Name"
+                                     value="{!transaction.Income_Bank_Account__c}"
+                                     label=" "
+                                     showRecentRecords="true"
+                                     sortRecentRecords="true"/>
+                    <c:strike_lookup object="Bank_Account__c"
+                                     searchField="Name"
+                                     value="{!transaction.Outcome_Bank_Account__c}"
+                                     label=" "
+                                     class="myPadding"
+                                     showRecentRecords="true"
+                                     sortRecentRecords="true"/>
+                </td>
+                <td style="vertical-align: top; padding-top: 13px;">
+                    <lightning:combobox placeholder="" label="" options="{!v.incomeCategoryOptions}" value="{!transaction.Income_Category__c}"/>
+                    <lightning:combobox placeholder="" class="myPadding" label="" options="{!v.outcomeCategoryOptions}" value="{!transaction.Outcome_Category__c}"/>
+                </td>
+                <td class="myTd">
+                    <lightning:textarea value="{!transaction.Description__c}"
+                                        variant="label-hidden"
+                                        aura:id="inputDescription"
+                                        required="true"
+                                        class="myTextArea"/>
+                </td>
+                <td style="padding-top: 24px; vertical-align: top;">
+                    <lightning:buttonIcon value="{!index}" onclick="{!c.cloneTransaction}" iconName="utility:copy" variant="bare"/>
+                    <lightning:buttonIcon value="{!index}" onclick="{!c.deleteTransaction}" iconName="utility:close" variant="bare"/>
+                </td>
+            </tr>
+        </aura:iteration>
+        <div style="padding-left: 8px">
+                <lightning:button label="Add"
+                                  iconName="utility:new"
+                                  iconPosition="left"
+                                  variant="base"
+                                  onclick="{!c.addTransaction}"/>
+
+        </div>
+        </tbody>
+    </table>
+
+    <div class="slds-grid slds-gutters" style="float: right; padding: 20px">
+        <div class="slds-col">
+            <lightning:button variant="brand"
+                              onclick="{!c.handleSave}"
+                              label="Save"/>
+
+        </div>
+    </div>
+</aura:component>

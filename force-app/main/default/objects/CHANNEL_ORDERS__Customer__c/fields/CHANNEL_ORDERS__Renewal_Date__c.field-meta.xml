@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Renewal_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For a customer with multiple contracts, this displays the date of the contract with a future date that is closest to today&apos;s date</description>
+    <inlineHelpText>For a customer with multiple contracts, this displays the date of the contract with a future date that is closest to today&apos;s date</inlineHelpText>
+    <label>Renewal Date (Deprecated)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lead&apos;s Answer --></label>
+    <name>Lead_s_Answer__c</name>
+    <picklistValues>
+        <masterLabel>Auto-Reply</masterLabel>
+        <translation><!-- Auto-Reply --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation><!-- Custom --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

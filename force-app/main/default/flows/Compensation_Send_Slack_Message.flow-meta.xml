@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Slack_Message</name>
+        <label>Send Slack Message</label>
+        <locationX>308</locationX>
+        <locationY>408</locationY>
+        <actionName>slackPostMessage</actionName>
+        <actionType>slackPostMessage</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>slackAppIdForToken</name>
+            <value>
+                <stringValue>A03269G3DNE</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackConversationId</name>
+            <value>
+                <stringValue>C04SB7K9RKQ</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackMessage</name>
+            <value>
+                <elementReference>formulaCompensation</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>slackWorkspaceIdForToken</name>
+            <value>
+                <stringValue>T2D5SCA0K</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>slackPostMessage</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <formulas>
+        <name>formulaCompensation</name>
+        <dataType>String</dataType>
+        <expression>&quot; :heavy_dollar_sign: &quot; +  &apos;_&apos; + {!Get_Person.Name} + &apos;_&apos; + &quot; &quot; +  &apos;*&apos; + TEXT({!$Record.CurrencyIsoCode}) + &quot; &quot; +  TEXT({!$Record.Total__c}) + &apos;*&apos;  + BR() + 
+TEXT({!$Record.Category__c})+ &quot;: &quot; + &quot;&lt;https://propellerplan.lightning.force.com/&quot; + {!$Record.Id} + &apos;|*&apos; + {!$Record.Description__c} + &apos;*&gt;&apos;</expression>
+    </formulas>
+    <interviewLabel>Compensation: Send Slack Message {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Compensation: Send Slack Message</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Person</name>
+        <label>Get Person</label>
+        <locationX>308</locationX>
+        <locationY>288</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Slack_Message</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Person__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <object>Compensation__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <connector>
+                <targetReference>Get_Person</targetReference>
+            </connector>
+            <pathType>AsyncAfterCommit</pathType>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>templateCompensation</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>:heavy_dollar_sign: COMPENSATION:
+
+Person: {!Get_Person.Name}
+Date: {!$Record.Date__c}
+Category: {!$Record.Category__c}.
+Amount {!$Record.CurrencyIsoCode} {!$Record.Total__c}.
+Description: {!$Record.Description__c}
+
+Link: https://propellerplan.lightning.force.com/lightning/r/Compensation__c/{!$Record.Id}/view</text>
+    </textTemplates>
+</Flow>

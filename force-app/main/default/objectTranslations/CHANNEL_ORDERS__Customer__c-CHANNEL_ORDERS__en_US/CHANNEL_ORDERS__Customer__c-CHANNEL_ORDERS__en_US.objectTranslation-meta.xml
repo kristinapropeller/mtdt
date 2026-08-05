@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customers</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Country_2_letter_code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Invalid_OrgID</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__OrgID_must_be_alphanumeric</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Valid_Canada_State</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- (deprecated) --></errorMessage>
+        <name>CHANNEL_ORDERS__Valid_US_State</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Service_Order --></label>
+        <name>CHANNEL_ORDERS__New_Service_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Service_Order_List_View --></label>
+        <name>CHANNEL_ORDERS__New_Service_Order_List_View</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- XLFile_Classic --></label>
+        <name>XLFile_Classic</name>
+    </webLinks>
+</CustomObjectTranslation>

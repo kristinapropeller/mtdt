@@ -4,16 +4,12 @@
     <columns>FULL_NAME</columns>
     <columns>LEAD.COMPANY</columns>
     <columns>LEAD.STATE</columns>
-    <columns>LEAD.PHONE</columns>
     <columns>LEAD.EMAIL</columns>
     <columns>LEAD.STATUS</columns>
-    <columns>CORE.USERS.ALIAS</columns>
     <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>LEAD.STATUS</field>
-        <operation>notEqual</operation>
-        <value>Qualified</value>
-    </filters>
     <label>All Open Leads</label>
 </ListView>

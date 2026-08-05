@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Effective Distribution --></label>
+    <name>Effective_Distribution__c</name>
+    <picklistValues>
+        <masterLabel>Month</masterLabel>
+        <translation><!-- Month --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quater</masterLabel>
+        <translation><!-- Quater --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Year</masterLabel>
+        <translation><!-- Year --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

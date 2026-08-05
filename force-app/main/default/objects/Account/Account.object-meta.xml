@@ -252,10 +252,11 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>true</enableFeeds>
-    <enableHistory>false</enableHistory>
-    <externalSharingModel>Private</externalSharingModel>
+    <compactLayoutAssignment>Account_Compact</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
@@ -275,5 +276,5 @@
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

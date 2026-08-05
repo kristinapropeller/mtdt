@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Source Object Name --></label>
+    <name>Flosum__Source_Object_Name__c</name>
+    <picklistValues>
+        <masterLabel>Branch</masterLabel>
+        <translation><!-- Branch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deployment</masterLabel>
+        <translation><!-- Deployment --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

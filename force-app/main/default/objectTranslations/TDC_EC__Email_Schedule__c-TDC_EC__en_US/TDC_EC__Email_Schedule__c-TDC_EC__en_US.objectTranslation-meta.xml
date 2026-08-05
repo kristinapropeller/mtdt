@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Email Schedule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Email Schedules</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Cancel_Scheduled_Email --></label>
+        <name>TDC_EC__Cancel_Scheduled_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

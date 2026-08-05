@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- If selected, to start the task, ALL prior Tasks need to be completed (the tasks/Items this item/task depends).
+Otherwise, if ANY of the previous Tasks is completed, this Item/Task Status is set from Waiting to Not Started. -->
+    </help>
+    <label><!-- All Complete --></label>
+    <name>acheck__IsDependentsAllComplete__c</name>
+</CustomFieldTranslation>

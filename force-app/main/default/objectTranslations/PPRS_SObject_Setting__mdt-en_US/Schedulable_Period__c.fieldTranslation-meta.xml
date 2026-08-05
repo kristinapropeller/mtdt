@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Schedulable Period --></label>
+    <name>Schedulable_Period__c</name>
+    <picklistValues>
+        <masterLabel>daily</masterLabel>
+        <translation><!-- daily --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>monthly</masterLabel>
+        <translation><!-- monthly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>weekly</masterLabel>
+        <translation><!-- weekly --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

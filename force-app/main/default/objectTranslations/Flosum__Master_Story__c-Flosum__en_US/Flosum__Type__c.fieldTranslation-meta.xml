@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Flosum__Type__c</name>
+    <picklistValues>
+        <masterLabel>Agile Work</masterLabel>
+        <translation><!-- Agile Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Object</masterLabel>
+        <translation><!-- Custom Object --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JIRA</masterLabel>
+        <translation><!-- JIRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Now</masterLabel>
+        <translation><!-- Service Now --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

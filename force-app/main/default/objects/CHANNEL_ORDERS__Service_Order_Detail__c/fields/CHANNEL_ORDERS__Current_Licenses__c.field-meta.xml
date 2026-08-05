@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Current_Licenses__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For internal use by Salesforce. Represents the total number of product licenses assigned to the customer. This field populates with data only for orders created in Channel Order App v2.0 or later.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The total number of licenses that customer currently has on that product</inlineHelpText>
+    <label>Current Licenses (internal use only)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

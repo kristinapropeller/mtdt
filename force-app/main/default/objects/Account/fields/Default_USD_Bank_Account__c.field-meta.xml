@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_USD_Bank_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Default USD Bank Account</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Bank_Account__c.Bank__r.Account__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Id</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Bank_Account__c</referenceTo>
+    <relationshipLabel>Default USD Accounts</relationshipLabel>
+    <relationshipName>Default_USD_Accounts_del</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

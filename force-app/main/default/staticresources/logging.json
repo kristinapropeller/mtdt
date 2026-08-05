@@ -1,0 +1,15 @@
+[
+  {
+    "patterns": [ "sumoSource1" ],
+    "level": "DEBUG",
+    "appenders": [
+      {
+        "name": "pp_SumoLogicAppender",
+        "options": {
+          "prefixPattern": "%date [%logger]|%level|%class.%method|Line:%line,Column:%column - ",
+          "sourceUrl": "https://collectors.de.sumologic.com/receiver/v1/http/ZaVnC4dhaV1Brwb8chvyZmWHTPCJQkpgs6BRdTzytVJbKcE6T78o9WEJGHX7tj1a63iTPVNPThS2UygxKqFogD7BOMu5srM8HtQ7ppg_ZcAZwC0jk_VBrw=="
+        }
+      }
+    ]
+  }
+]

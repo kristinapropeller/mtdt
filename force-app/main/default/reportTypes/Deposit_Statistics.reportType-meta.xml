@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Deposit_Statistics__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Our main desire for the next year is to meet you live</description>
+    <label>Deposit Statistics</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Expense_Total__c</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Timecard_Total__c</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Invoice_Actual_Income__c</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Date_Creation__c</field>
+            <table>Deposit_Statistics__c</table>
+        </columns>
+        <masterLabel>Deposit Statistics</masterLabel>
+    </sections>
+</ReportType>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Task Type (e.g. Call, Meeting, Email, Other, ...) - validity checked when entered --></help>
+    <label><!-- Type --></label>
+    <name>acheck__Type__c</name>
+</CustomFieldTranslation>

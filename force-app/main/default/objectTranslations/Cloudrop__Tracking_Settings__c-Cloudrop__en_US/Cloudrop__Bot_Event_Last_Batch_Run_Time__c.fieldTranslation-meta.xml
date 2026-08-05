@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Bot Event Last Batch Run Time --></label>
+    <name>Cloudrop__Bot_Event_Last_Batch_Run_Time__c</name>
+</CustomFieldTranslation>

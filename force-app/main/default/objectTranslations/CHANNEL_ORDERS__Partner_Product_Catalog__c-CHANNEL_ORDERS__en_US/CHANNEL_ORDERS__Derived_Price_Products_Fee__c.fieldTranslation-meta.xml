@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Denotes the partner’s percent of net pricing, which is calculated as a percentage of contributing license fees (where applicable) --></help>
+    <label><!-- Derived Price Products Fee % --></label>
+    <name>CHANNEL_ORDERS__Derived_Price_Products_Fee__c</name>
+</CustomFieldTranslation>

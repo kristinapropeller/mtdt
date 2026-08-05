@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Set the date you would like the Case to be filtered by in Kanban board by entering value --></help>
+    <label><!-- Filtering Period --></label>
+    <name>Filtering_Period__c</name>
+</CustomFieldTranslation>

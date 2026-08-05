@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Flosum__Status__c</name>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation><!-- Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Did Not Run</masterLabel>
+        <translation><!-- Did Not Run --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exception</masterLabel>
+        <translation><!-- Exception --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation><!-- In Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Started</masterLabel>
+        <translation><!-- Not Started --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Completed</masterLabel>
+        <translation><!-- Partial Completed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

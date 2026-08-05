@@ -1,0 +1,90 @@
+# vacation_list.view
+description: "Displays upcoming vacations."
+schema:
+  properties:
+    vacations:
+      type: List
+      required: true
+    personalVacationUsed:
+      type: number
+      required: true
+    personalVacationTotal:
+      type: number
+      required: true
+    dayOffUsed:
+      type: number
+      required: true
+    dayOffTotal:
+      type: number
+      required: true
+components:
+  - definition: message
+    properties:
+      text: "Your upcoming vacations"
+    components:
+      - definition: header
+        properties:
+          text: "Your upcoming vacations"
+      - definition: context
+        name: "context_block"
+        components:
+          - definition: text
+            properties:
+              text:
+                text: ":pto: _Personal Vacation_: You used *{!view.properties.personalVacationUsed}/{!view.properties.personalVacationTotal}* days."
+                type: "mrkdwn"
+          - definition: text
+            properties:
+              text:
+                text: ":ooo: _Day Off_: You used *{!view.properties.dayOffUsed}/{!view.properties.dayOffTotal}* days."
+                type: "mrkdwn"
+      - definition: iteration
+        properties:
+          foreach: "{!view.properties.vacations}"
+          foritem: "vacation"
+        components:
+          - definition: divider
+          - definition: section
+            properties:
+              text:
+                type: "mrkdwn"
+                text: "{!vacation.typeEmoji} _{!vacation.type}_ on *{!vacation.datesRange}* | {!vacation.statusEmoji}"
+          - definition: actions
+            components:
+              - definition: button
+                properties:
+                  name: "Edit_vacation"
+                  label: "Edit"
+                events:
+                  onclick:
+                    definition: "apex__action__slackbot_VacationActionDispatcher"
+                    properties:
+                      recordId: "{!vacation.id}"
+              - definition: button
+                properties:
+                  name: "delete_vacation"
+                  style: "danger"
+                  label: "Delete"
+                  confirm:
+                    title: "Delete vacation"
+                    text: "Are you sure you want to delete this vacation?"
+                    confirm: "Delete"
+                    deny: "Cancel"
+                    style: "danger"
+                events:
+                  onclick:
+                    definition: "apex__action__slackbot_VacationActionDispatcher"
+                    properties:
+                      recordId: "{!vacation.id}"
+                      isDelete: true
+      - definition: divider
+      - definition: actions
+        components:
+          - definition: button
+            properties:
+              name: "add_vacation"
+              style: "primary"
+              label: "Add new vacation"
+            events:
+              onclick:
+                definition: "apex__action__slackbot_VacationActionDispatcher"

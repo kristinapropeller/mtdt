@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfFma__XSS_Prevention_Namespace</fullName>
+    <active>true</active>
+    <description>Prevent malicious code from being stored in the Namespace Prefix text field.</description>
+    <errorConditionFormula>NOT(REGEX(sfFma__Namespace_Prefix__c , &quot;\\w+&quot;))</errorConditionFormula>
+    <errorDisplayField>sfFma__Namespace_Prefix__c</errorDisplayField>
+    <errorMessage>Namespace prefix must only contain alpha numeric characters and/or underscores.</errorMessage>
+</ValidationRule>

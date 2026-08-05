@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__New_Service_Order</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Service Order</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/apex/CHANNEL_ORDERS__COA_Order</url>
+</WebLink>

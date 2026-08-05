@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acheck__TargetDate_Dynamic__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Optional reference in the base record to find a future Target Date,
+e.g. CloseDate or Meeting_Date__c. It needs to be a date or date time field.  
+You can enter/overwrite the Target Date manually when creating the tasks.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Optional reference in the base record to find a future Target Date,
+e.g. CloseDate or Meeting_Date__c. It needs to be a date or date time field.  
+You can enter/overwrite the Target Date manually when creating the tasks.</inlineHelpText>
+    <label>Dynamic Target Date</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

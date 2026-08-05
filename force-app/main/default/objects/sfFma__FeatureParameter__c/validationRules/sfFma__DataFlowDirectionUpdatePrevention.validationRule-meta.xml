@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfFma__DataFlowDirectionUpdatePrevention</fullName>
+    <active>true</active>
+    <description>Data Flow Direction can only be updated by the Feature Management App.</description>
+    <errorConditionFormula>AND(  ISCHANGED( sfFma__DataFlowDirection__c ),
+ $User.Id &lt;&gt;  CreatedById 
+)</errorConditionFormula>
+    <errorDisplayField>sfFma__DataFlowDirection__c</errorDisplayField>
+    <errorMessage>This value is set by the installed package and cannot be changed. Click undo or cancel to continue.</errorMessage>
+</ValidationRule>

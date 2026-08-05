@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, Rollup Helper will override the object level force async setting to run in realtime. --></help>
+    <label><!-- Override Object Level Forced Async --></label>
+    <name>rh2__Override_Object_Level_Forced_Async__c</name>
+</CustomFieldTranslation>

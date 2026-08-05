@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Help Needed --></label>
+    <name>Help_Needed__c</name>
+    <picklistValues>
+        <masterLabel>Admin Help Needed</masterLabel>
+        <translation><!-- Admin Help Needed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Developer Help Needed</masterLabel>
+        <translation><!-- Developer Help Needed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

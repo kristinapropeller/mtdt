@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__AdditionalDetails__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used to optionally highlight any additional information about the pricing of this application to customers.</description>
+    <label>Additional Details</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

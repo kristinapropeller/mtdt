@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Doc_Sub_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Doc Sub Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Cloudrop__Doc_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sub Document Type</fullName>
+                <default>false</default>
+                <label>Sub Document Type</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Document Type</controllingFieldValue>
+            <valueName>Sub Document Type</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

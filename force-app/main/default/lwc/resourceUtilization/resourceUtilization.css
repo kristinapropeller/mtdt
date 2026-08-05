@@ -1,0 +1,13 @@
+/**
+ * Created on 13/03/2023.
+ */
+.timeline-header-two {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+.timeline-header-two.timeline-header-two_day {
+    width: 26px;
+}
+.timeline-header-two.timeline-header-two_month {
+    width: 90px;
+}

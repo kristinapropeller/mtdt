@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- If selected, skip Weekends and Holidays - e.g. Friday + 2 days = Tuesday (instead of Sunday).
+Define Holidays as All Day (recurring currently not supported). -->
+    </help>
+    <label><!-- Use Workdays --></label>
+    <name>acheck__IsWorkdays__c</name>
+</CustomFieldTranslation>

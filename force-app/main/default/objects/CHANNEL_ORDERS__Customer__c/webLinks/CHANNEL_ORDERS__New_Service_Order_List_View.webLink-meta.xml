@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__New_Service_Order_List_View</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>New Service Order</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>var ordersPage = &apos;/apex/CHANNEL_ORDERS__COA_Order&apos;;
+var records = {!GETRECORDIDS($ObjectType.CHANNEL_ORDERS__Customer__c)};
+if(records &amp;&amp; records.length === 1){
+    ordersPage+=&apos;?customerId=&apos;+records[0];
+}
+window.location = ordersPage;</url>
+</WebLink>

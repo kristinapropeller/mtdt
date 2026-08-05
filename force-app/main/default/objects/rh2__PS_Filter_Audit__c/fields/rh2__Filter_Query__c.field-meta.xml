@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Filter_Query__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The filter query with all sorts and conditions applied.</description>
+    <inlineHelpText>The filter query with all sorts and conditions applied.</inlineHelpText>
+    <label>Filter Query</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

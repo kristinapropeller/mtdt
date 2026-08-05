@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type of Message --></label>
+    <name>Type_of_Message__c</name>
+    <picklistValues>
+        <masterLabel>Long Message</masterLabel>
+        <translation><!-- Long Message --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Short Message</masterLabel>
+        <translation><!-- Short Message --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

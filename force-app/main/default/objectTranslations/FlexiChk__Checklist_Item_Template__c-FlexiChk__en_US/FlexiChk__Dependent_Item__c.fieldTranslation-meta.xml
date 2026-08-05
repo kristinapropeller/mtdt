@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Dependent Item --></label>
+    <name>FlexiChk__Dependent_Item__c</name>
+    <relationshipLabel><!-- Checklist Item Templates --></relationshipLabel>
+</CustomFieldTranslation>

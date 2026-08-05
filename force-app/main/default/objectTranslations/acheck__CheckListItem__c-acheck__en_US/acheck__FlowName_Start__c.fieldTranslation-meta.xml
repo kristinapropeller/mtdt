@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- AutoLaunched Flow name to be started when the task is started (Status: In Progress). Note that this is not reliable 
+as a user may directly close a task. -->
+    </help>
+    <label><!-- Flow Name Start --></label>
+    <name>acheck__FlowName_Start__c</name>
+</CustomFieldTranslation>

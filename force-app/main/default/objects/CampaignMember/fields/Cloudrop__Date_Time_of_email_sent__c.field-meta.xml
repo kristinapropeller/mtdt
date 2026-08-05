@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Date_Time_of_email_sent__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Date/Time of email sent</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

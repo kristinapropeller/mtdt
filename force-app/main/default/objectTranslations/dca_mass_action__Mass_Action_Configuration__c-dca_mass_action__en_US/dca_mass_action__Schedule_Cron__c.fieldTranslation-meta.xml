@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Specify your own cron expression to schedule this action. See &quot;Apex Scheduler&quot; in the Salesforce Apex Developer Guide for full details on supported format. --></help>
+    <label><!-- Schedule Cron --></label>
+    <name>dca_mass_action__Schedule_Cron__c</name>
+</CustomFieldTranslation>

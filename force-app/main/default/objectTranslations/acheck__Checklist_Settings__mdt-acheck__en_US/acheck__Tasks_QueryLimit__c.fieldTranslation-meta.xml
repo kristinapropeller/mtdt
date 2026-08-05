@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Maximum number of tasks to be queried for Task Management (Task Table) or Timeline - default: 500 (min: 10) --></help>
+    <label><!-- Tasks Query Limit --></label>
+    <name>acheck__Tasks_QueryLimit__c</name>
+</CustomFieldTranslation>

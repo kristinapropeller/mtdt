@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Icon__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (
+    AND (
+								NOT(ISBLANK(Income__c)),
+								NOT(ISBLANK(Outcome__c))
+    ),
+				IMAGE(&quot;/resource/TransactionIcons/transfer.png?v=3&quot;, &quot;Icon&quot;),
+				IF (
+								NOT(ISBLANK(Income__c)),
+								IMAGE(&quot;/resource/TransactionIcons/income.png?v=3&quot;, &quot;Icon&quot;),
+								IMAGE(&quot;/resource/TransactionIcons/outcome.png?v=3&quot;, &quot;Icon&quot;)
+				)
+)</formula>
+    <label>Icon</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

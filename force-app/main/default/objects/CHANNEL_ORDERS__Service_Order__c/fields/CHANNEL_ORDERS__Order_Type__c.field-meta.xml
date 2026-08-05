@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANNEL_ORDERS__Order_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>We want to show the user the field Order_Type_Formula__c  instead of this one</description>
+    <label>Order Type Internal</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial</fullName>
+                <default>false</default>
+                <label>Initial</label>
+            </value>
+            <value>
+                <fullName>Add-On</fullName>
+                <default>false</default>
+                <label>Add-On</label>
+            </value>
+            <value>
+                <fullName>Reduction</fullName>
+                <default>false</default>
+                <label>Reduction</label>
+            </value>
+            <value>
+                <fullName>Cancellation Order</fullName>
+                <default>false</default>
+                <label>Cancellation Order</label>
+            </value>
+            <value>
+                <fullName>Upgrade - Partner App</fullName>
+                <default>false</default>
+                <label>Upgrade - Partner App</label>
+            </value>
+            <value>
+                <fullName>Upgrade - Org Edition</fullName>
+                <default>false</default>
+                <label>Upgrade - Org Edition</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

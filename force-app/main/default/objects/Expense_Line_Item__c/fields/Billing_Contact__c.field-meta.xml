@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>The billing contact who will be charged for this payment.</inlineHelpText>
+    <label>Billing Contact</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>This contact is inactive.</errorMessage>
+        <filterItems>
+            <field>Contact.Inactive__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.Account.Name</field>
+            <operation>equals</operation>
+            <value>Propeller Plan</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Expenses (Billing Contact)</relationshipLabel>
+    <relationshipName>Expenses</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

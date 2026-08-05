@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (
+    AND (
+								NOT(ISBLANK(Income__c)),
+								NOT(ISBLANK(Outcome__c))
+    ),
+				TEXT(Outcome_Bank_Account__r.CurrencyIsoCode) + &apos; &apos; +  TEXT(Outcome__c) + &apos; (&apos; + Outcome_Bank_Account__r.Name + &apos;)&apos; + &apos; -&gt; &apos; + TEXT(Income_Bank_Account__r.CurrencyIsoCode) + &apos; &apos; +  TEXT(Income__c) + &apos; (&apos; + Income_Bank_Account__r.Name + &apos;)&apos;,
+				IF (
+								NOT(ISBLANK(Income__c)),
+								TEXT(Income_Bank_Account__r.CurrencyIsoCode) + &apos; &apos; +  TEXT(Income__c) + &apos; (&apos; + Income_Bank_Account__r.Name + &apos;)&apos;,
+								TEXT(Outcome_Bank_Account__r.CurrencyIsoCode) + &apos; &apos; +  TEXT(Outcome__c) + &apos; (&apos; + Outcome_Bank_Account__r.Name + &apos;)&apos;
+				)
+)</formula>
+    <label>Amount</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

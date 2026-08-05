@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Step --></label>
+    <name>Flosum__Step__c</name>
+    <picklistValues>
+        <masterLabel>AccelQ</masterLabel>
+        <translation><!-- AccelQ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Automation Step</masterLabel>
+        <translation><!-- Automation Step --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Backup</masterLabel>
+        <translation><!-- Backup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Change Branch Record Type</masterLabel>
+        <translation><!-- Change Branch Record Type --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deploy</masterLabel>
+        <translation><!-- Deploy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Execute Apex</masterLabel>
+        <translation><!-- Execute Apex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lock Branch</masterLabel>
+        <translation><!-- Lock Branch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual Step</masterLabel>
+        <translation><!-- Manual Step --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overwrite Protection</masterLabel>
+        <translation><!-- Overwrite Protection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peer Review</masterLabel>
+        <translation><!-- Peer Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PreDeploy Fix</masterLabel>
+        <translation><!-- PreDeploy Fix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rollback</masterLabel>
+        <translation><!-- Rollback --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unlock Branch</masterLabel>
+        <translation><!-- Unlock Branch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validate</masterLabel>
+        <translation><!-- Validate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WebHook</masterLabel>
+        <translation><!-- WebHook --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

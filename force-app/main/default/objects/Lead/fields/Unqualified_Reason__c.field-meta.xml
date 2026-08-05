@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unqualified_Reason__c</fullName>
+    <label>Unqualified Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Have partners</fullName>
+                <default>false</default>
+                <label>Have partners</label>
+            </value>
+            <value>
+                <fullName>Have internal resources</fullName>
+                <default>false</default>
+                <label>Have internal resources</label>
+            </value>
+            <value>
+                <fullName>Just have had onboarding with a new partner</fullName>
+                <default>false</default>
+                <label>Just have had onboarding with a new partner</label>
+            </value>
+            <value>
+                <fullName>Don&apos;t have budget</fullName>
+                <default>false</default>
+                <label>Don&apos;t have budget</label>
+            </value>
+            <value>
+                <fullName>Don&apos;t use SF extensively</fullName>
+                <default>false</default>
+                <label>Don&apos;t use SF extensively</label>
+            </value>
+            <value>
+                <fullName>No need</fullName>
+                <default>false</default>
+                <label>No need</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

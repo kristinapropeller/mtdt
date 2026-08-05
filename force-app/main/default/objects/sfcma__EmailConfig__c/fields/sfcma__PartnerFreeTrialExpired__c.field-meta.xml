@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__PartnerFreeTrialExpired__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Receive an email if a free trial expires, but the prospective customer hasn&apos;t started a subscription.</description>
+    <label>Partner Free Trial Expired</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

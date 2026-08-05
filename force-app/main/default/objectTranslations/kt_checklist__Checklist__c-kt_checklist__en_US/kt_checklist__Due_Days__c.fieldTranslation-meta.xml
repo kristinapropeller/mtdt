@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Number of days the checklist is due from the date of creation. --></help>
+    <label><!-- Due Days --></label>
+    <name>kt_checklist__Due_Days__c</name>
+</CustomFieldTranslation>

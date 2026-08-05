@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Review state --></label>
+    <name>Flosum__Review_State__c</name>
+    <picklistValues>
+        <masterLabel>IN PROGRESS</masterLabel>
+        <translation><!-- IN PROGRESS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEVER REVIEWED</masterLabel>
+        <translation><!-- NEVER REVIEWED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QUEUED</masterLabel>
+        <translation><!-- QUEUED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REVIEWED</masterLabel>
+        <translation><!-- REVIEWED --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Lookup relation between the User object and mass mailer email status object --></help>
+    <label><!-- User --></label>
+    <name>Cloudrop__User__c</name>
+    <relationshipLabel><!-- MassMailer Email Status --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The billing contact who will be charged for this payment. --></help>
+    <label><!-- Billing Contact --></label>
+    <lookupFilter>
+        <errorMessage><!-- This contact is inactive. --></errorMessage>
+    </lookupFilter>
+    <name>Billing_Contact__c</name>
+    <relationshipLabel><!-- Expenses (Billing Contact) --></relationshipLabel>
+</CustomFieldTranslation>

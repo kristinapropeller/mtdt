@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Auto_Add_Hidden_Page_Url__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <label>Auto Add Hidden Page Url</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

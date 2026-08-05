@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MassMailer List View</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MassMailer List Views</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_to_Suppression_List --></label>
+        <name>Cloudrop__Add_to_Suppression_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MassMailer_Verify --></label>
+        <name>Cloudrop__MassMailer_Verify</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Preview --></label>
+        <name>Cloudrop__Preview</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Via_MassMailer_Detail --></label>
+        <name>Cloudrop__Send_Via_MassMailer_Detail</name>
+    </webLinks>
+</CustomObjectTranslation>

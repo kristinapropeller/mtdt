@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>kristina@propellerplan.com</contactEmail>
+    <label>Contacto</label>
+    <oauthConfig>
+        <callbackUrl>https://localhost.com</callbackUrl>
+        <certificate>MIIEcjCCA1qgAwIBAgIOAZO2d+PeAAAAAG3Lq8EwDQYJKoZIhvcNAQELBQAwfjEWMBQGA1UEAwwNQ29udGFjdG9fVGVzdDEYMBYGA1UECwwPMDBEYmIwMDAwMDBDOFdUMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTAeFw0yNDEyMTExNjA1MzBaFw0yNTEyMTExMjAwMDBaMH4xFjAUBgNVBAMMDUNvbnRhY3RvX1Rlc3QxGDAWBgNVBAsMDzAwRGJiMDAwMDAwQzhXVDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCDGkMnLtjIYuB5tYCBwFpoqWEzxAnjpu31w1KZfGYnqDWC3rFVRTK3xLgOiFexiwZksdpFVGOlSnu3s8wGoxTu+OM6CxkSj3Ao2xnPetn4dt2h/q9sJ4GgOH5plVBRYtxsKJvgNVrmZpg4bQP9hBHC1v1MhJ4ncvz5VLyO5EK34DmyX068hzQA2zaeUz91YKOh42kHcVkHzV6FjcKgKqFaRmX+uQous7kdp53Ygu2ZB/9VYxQmHiqaL7roRAIhSAraSbD0+h1wbvQLvXP1JndWShdSKeCLAkuig/iWe5qvY9n/J1aGIJohxsZy7fqFOO4KbgU0GyiqUz9IoUz23F6pAgMBAAGjge0wgeowHQYDVR0OBBYEFCi1wO3dkTj2EyOcbUWuv7xEH1UMMA8GA1UdEwEB/wQFMAMBAf8wgbcGA1UdIwSBrzCBrIAUKLXA7d2ROPYTI5xtRa6/vEQfVQyhgYOkgYAwfjEWMBQGA1UEAwwNQ29udGFjdG9fVGVzdDEYMBYGA1UECwwPMDBEYmIwMDAwMDBDOFdUMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQYIOAZO2d+PeAAAAAG3Lq8EwDQYJKoZIhvcNAQELBQADggEBACcwCo8LzmjBk30/cGHvSE0P8m+f2LuXKZ8NF2ghZQ49a5L+NGnerVR/HHhiKWAlp3AzyOTKv/k3R0ckoCUG+Ois82CjiRDW5pJioNv5yx30g2stX/JDwvRSXLEtGLofcBltiuXAAERGOEtVgSR806B9WvXu9NBdwWgtAkrDA/S7zXV+fLC5VMwBxefsPhkrxatZUw1qeu/3qFkzz+iHumhLPgc13yWn/DvZiSBNnnFisNRwmyKQhXnH3S7WVRMlIreq8rDm8uluRZbkVO1IvpLti8OrkGJ29oX8yHRb4l3+w3Y0BlMhLok8EKaW9nNqww9bpnoVrhUWYxnGtuQ8shA=</certificate>
+        <consumerKey>3MVG9Fob0S.D_AiSql4xLreL7s.IkGGbez1aIUS7bqFL9HSVUmLidL3TXGPnX5w7ov2KumUtxVYQ7tGks_VQi</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>true</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+    <profileName>System Administrator (non-API user)</profileName>
+    <profileName>Standard User</profileName>
+    <profileName>Read Only</profileName>
+    <profileName>PropellerPlan Community Profile</profileName>
+    <profileName>Propeller Plan Team</profileName>
+    <profileName>Custom standard user</profileName>
+</ConnectedApp>

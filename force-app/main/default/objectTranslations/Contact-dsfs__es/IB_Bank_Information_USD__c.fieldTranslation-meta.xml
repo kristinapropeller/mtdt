@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Bank account no., Bank name, Bank postal code, Bank City, Street, Building, Bank Identification Code (БИК). --></help>
+    <label><!-- (deprecated)IB Bank Information USD --></label>
+    <name>IB_Bank_Information_USD__c</name>
+</CustomFieldTranslation>

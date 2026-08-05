@@ -2,58 +2,43 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Advertisement</fullName>
+        <fullName>Website</fullName>
         <default>false</default>
-        <label>Advertisement</label>
+        <label>Website</label>
     </standardValue>
     <standardValue>
-        <fullName>Employee Referral</fullName>
+        <fullName>LinkedIn</fullName>
         <default>false</default>
-        <label>Employee Referral</label>
+        <label>LinkedIn</label>
     </standardValue>
     <standardValue>
-        <fullName>External Referral</fullName>
+        <fullName>Upwork</fullName>
         <default>false</default>
-        <label>External Referral</label>
+        <label>Upwork</label>
     </standardValue>
     <standardValue>
-        <fullName>Partner</fullName>
+        <fullName>Referral</fullName>
         <default>false</default>
-        <label>Partner</label>
+        <label>Referral</label>
     </standardValue>
     <standardValue>
-        <fullName>Public Relations</fullName>
+        <fullName>Social</fullName>
         <default>false</default>
-        <label>Public Relations</label>
+        <label>Social</label>
     </standardValue>
     <standardValue>
-        <fullName>Seminar - Internal</fullName>
+        <fullName>Unlimail Waitlist</fullName>
         <default>false</default>
-        <label>Seminar - Internal</label>
+        <label>Unlimail Waitlist</label>
     </standardValue>
     <standardValue>
-        <fullName>Seminar - Partner</fullName>
+        <fullName>MTDT Waitlist</fullName>
         <default>false</default>
-        <label>Seminar - Partner</label>
+        <label>MTDT Waitlist</label>
     </standardValue>
     <standardValue>
-        <fullName>Trade Show</fullName>
+        <fullName>London World Tour 2025</fullName>
         <default>false</default>
-        <label>Trade Show</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Web</fullName>
-        <default>false</default>
-        <label>Web</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Word of mouth</fullName>
-        <default>false</default>
-        <label>Word of mouth</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Other</label>
+        <label>London World Tour 2025</label>
     </standardValue>
 </StandardValueSet>

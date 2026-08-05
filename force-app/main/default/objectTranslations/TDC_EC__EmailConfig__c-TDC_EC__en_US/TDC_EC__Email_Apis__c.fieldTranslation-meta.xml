@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The value(s) of the email API(s) entered here will be reflected in the “To Email” picklist field on the Send Email component along with the default email field. --></help>
+    <label><!-- Email Apis --></label>
+    <name>TDC_EC__Email_Apis__c</name>
+</CustomFieldTranslation>

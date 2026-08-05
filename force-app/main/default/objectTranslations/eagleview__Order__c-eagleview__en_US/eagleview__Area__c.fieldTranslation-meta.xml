@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total area, according to the report (sq). --></help>
+    <label><!-- Area --></label>
+    <name>eagleview__Area__c</name>
+</CustomFieldTranslation>

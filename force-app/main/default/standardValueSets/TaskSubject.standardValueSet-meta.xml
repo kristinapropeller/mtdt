@@ -2,23 +2,43 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
+        <fullName>LinkedIn Request</fullName>
+        <default>false</default>
+        <label>LinkedIn Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn Message</fullName>
+        <default>false</default>
+        <label>LinkedIn Message</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn Follow-up</fullName>
+        <default>false</default>
+        <label>LinkedIn Follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn Answer</fullName>
+        <default>false</default>
+        <label>LinkedIn Answer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn Conversation</fullName>
+        <default>false</default>
+        <label>LinkedIn Conversation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Sent</fullName>
+        <default>false</default>
+        <label>Email Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Follow-up</fullName>
+        <default>false</default>
+        <label>Email Follow-up</label>
+    </standardValue>
+    <standardValue>
         <fullName>Call</fullName>
         <default>false</default>
         <label>Call</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Send Letter</fullName>
-        <default>false</default>
-        <label>Send Letter</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Send Quote</fullName>
-        <default>false</default>
-        <label>Send Quote</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Other</label>
     </standardValue>
 </StandardValueSet>

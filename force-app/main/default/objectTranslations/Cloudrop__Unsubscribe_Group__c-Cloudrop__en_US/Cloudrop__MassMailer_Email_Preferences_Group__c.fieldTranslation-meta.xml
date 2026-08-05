@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- MassMailer Email Preferences Group --></label>
+    <name>Cloudrop__MassMailer_Email_Preferences_Group__c</name>
+    <relationshipLabel><!-- MassMailer Unsubscribe Groups --></relationshipLabel>
+</CustomFieldTranslation>

@@ -4,7 +4,7 @@
     <baseObject>FlowInterviewLog</baseObject>
     <category>other</category>
     <deployed>true</deployed>
-    <description>Find out which flows get executed, and how long users take to complete each flow screen.</description>
+    <description>Find out which flows get executed and how long users take to complete each flow screen.</description>
     <join>
         <outerJoin>false</outerJoin>
         <relationship>FlowInterviewLogs</relationship>

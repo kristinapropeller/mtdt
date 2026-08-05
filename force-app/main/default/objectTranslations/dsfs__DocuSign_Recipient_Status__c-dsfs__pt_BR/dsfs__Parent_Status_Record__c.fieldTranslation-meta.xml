@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Registro de status do DocuSign</label>
+    <name>dsfs__Parent_Status_Record__c</name>
+    <relationshipLabel>Status do Destinatário do DocuSign</relationshipLabel>
+</CustomFieldTranslation>

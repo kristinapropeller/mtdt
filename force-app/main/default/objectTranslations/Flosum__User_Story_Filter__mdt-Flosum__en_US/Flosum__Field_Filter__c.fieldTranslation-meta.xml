@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Field Filter --></label>
+    <name>Flosum__Field_Filter__c</name>
+    <picklistValues>
+        <masterLabel>Status__c</masterLabel>
+        <translation><!-- Status__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Story_Name__c</masterLabel>
+        <translation><!-- Story_Name__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Story_Number__c</masterLabel>
+        <translation><!-- Story_Number__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subject__c</masterLabel>
+        <translation><!-- Subject__c --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

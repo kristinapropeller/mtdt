@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Outreach__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>Outreach</label>
+    <referenceTo>Cloudrop__Bulk_Email_Statistic__c</referenceTo>
+    <relationshipLabel>MassMailer Job Statuses</relationshipLabel>
+    <relationshipName>MassMailer_Job_Statusess</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

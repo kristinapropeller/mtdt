@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The name of the module/project/functional area that this functionality belongs to (e.g. Help Portal) --></help>
+    <label><!-- Module Name --></label>
+    <name>CHANNEL_ORDERS__Module_Name__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TVA_CO__Activate_schedule_Delete_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>To Activate delete trigger on scheduled jobs.</description>
+    <label>Activate schedule Delete Trigger</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

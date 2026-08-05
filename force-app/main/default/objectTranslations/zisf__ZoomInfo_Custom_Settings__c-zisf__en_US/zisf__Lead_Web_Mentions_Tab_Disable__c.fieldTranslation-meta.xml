@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Disable Web Mentions Tab on Lead Panel --></help>
+    <label><!-- Lead Web Mentions Tab Disable --></label>
+    <name>zisf__Lead_Web_Mentions_Tab_Disable__c</name>
+</CustomFieldTranslation>

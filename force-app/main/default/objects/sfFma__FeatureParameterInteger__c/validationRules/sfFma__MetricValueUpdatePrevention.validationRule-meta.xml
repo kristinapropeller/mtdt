@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfFma__MetricValueUpdatePrevention</fullName>
+    <active>true</active>
+    <description>&quot;Subscriber To LMO&quot; Feature Parameter Values cannot be manually created or updated.</description>
+    <errorConditionFormula>AND(AND( ISPICKVAL( sfFma__FeatureParameter__r.sfFma__DataFlowDirection__c , &quot;Subscriber To LMO&quot;) ,
+ $User.Id &lt;&gt; sfFma__FeatureParameter__r.CreatedById ),
+ ISCHANGED( sfFma__Value__c ) )</errorConditionFormula>
+    <errorDisplayField>sfFma__Value__c</errorDisplayField>
+    <errorMessage>Subscriber To LMO feature parameter values can only be created or updated by the Feature Management app. Click undo or cancel to continue.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Partner Product Catalog</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Partner Product Catalog</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Fixed Price is required if Pricing Type = FIXED --></errorMessage>
+        <name>CHANNEL_ORDERS__Fixed_Price_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fixed Price must be blank if Pricing Type = PNR --></errorMessage>
+        <name>CHANNEL_ORDERS__Fixed_Price_should_be_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Floor Price is required if Pricing Type = PNR --></errorMessage>
+        <name>CHANNEL_ORDERS__Floor_price_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- PNR % is required if Pricing Type = PNR --></errorMessage>
+        <name>CHANNEL_ORDERS__PNR_percent_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- PNR % must be blank if Pricing Type = FIXED --></errorMessage>
+        <name>CHANNEL_ORDERS__PNR_percent_should_be_blank</name>
+    </validationRules>
+</CustomObjectTranslation>

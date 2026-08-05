@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total number of batches processed successfully. Each batch contains a set of records. --></help>
+    <label><!-- Processed Batches --></label>
+    <name>dca_mass_action__Processed_Batches__c</name>
+</CustomFieldTranslation>

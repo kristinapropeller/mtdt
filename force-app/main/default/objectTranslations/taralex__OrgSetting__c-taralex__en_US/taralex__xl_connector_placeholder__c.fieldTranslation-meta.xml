@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Merge string in Excel document to be replaced with the current record Id --></help>
+    <label><!-- xl-connector-placeholder --></label>
+    <name>taralex__xl_connector_placeholder__c</name>
+</CustomFieldTranslation>

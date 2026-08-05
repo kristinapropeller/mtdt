@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Tax Rate value that is taken from the Project --></help>
+    <label><!-- Project Tax Rate --></label>
+    <name>Project_Tax_Rate__c</name>
+</CustomFieldTranslation>

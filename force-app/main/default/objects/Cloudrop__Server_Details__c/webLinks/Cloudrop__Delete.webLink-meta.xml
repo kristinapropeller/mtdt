@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloudrop__Delete</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Delete</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>var qurystr;
+alert(&apos;ready&apos;);
+qurystr = &quot;select id,name from Cloudrop__Cloud_Storage__c where name =&apos;&quot;+{!Cloudrop__Server_Details__c.Name}+&quot; &apos; ;
+ result=sforce.connection.query(qurystr);
+records = result.getArray(&quot;records&quot;); 
+ alert(&apos;Records is----&gt;&apos; +records);
+ alert(&apos;Record[0] is----&gt;&apos; +records[0]);
+if(records.length&gt;0)
+       {var qurystr1;
+      qurystr1=&quot;select id,name from Cloudrop__Cloud_Storage__c where Cloudrop__Folder__c=&apos;&quot;+records[0]&quot;+&apos;;
+      result1=sforce.connection.query(qurystr);
+     records1 = result1.getArray(&quot;records1&quot;); 
+if(records1.length&gt;0)
+{alert(&apos;You Can Not Delete Server. &apos;);
+return false;
+}  
+else
+  return true;    
+ }
+         
+else
+  return true;</url>
+</WebLink>

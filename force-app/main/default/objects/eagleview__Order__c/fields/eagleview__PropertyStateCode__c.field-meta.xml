@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>eagleview__PropertyStateCode__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>CASE(
+    TEXT(eagleview__PropertyState__c),
+    &quot;Alabama&quot;, &quot;AL&quot;,
+    &quot;Alaska&quot;, &quot;AK&quot;,
+    &quot;Arizona&quot;, &quot;AZ&quot;,
+    &quot;Arkansas&quot;, &quot;AR&quot;,
+    &quot;California&quot;, &quot;CA&quot;,
+    &quot;Colorado&quot;, &quot;CO&quot;,
+    &quot;Connecticut&quot;, &quot;CT&quot;,
+    &quot;Delaware&quot;, &quot;DE&quot;,
+    &quot;Florida&quot;, &quot;FL&quot;,
+    &quot;Georgia&quot;, &quot;GA&quot;,
+    &quot;Hawaii&quot;, &quot;HI&quot;,
+    &quot;Idaho&quot;, &quot;ID&quot;,
+    &quot;Illinois&quot;, &quot;IL&quot;,
+    &quot;Indiana&quot;, &quot;IN&quot;,
+    &quot;Iowa&quot;, &quot;IA&quot;,
+    &quot;Kansas&quot;, &quot;KS&quot;,
+    &quot;Kentucky&quot;, &quot;KY&quot;,
+    &quot;Louisiana&quot;, &quot;LA&quot;,
+    &quot;Maine&quot;, &quot;ME&quot;,
+    &quot;Maryland&quot;, &quot;MD&quot;,
+    &quot;Massachusetts&quot;, &quot;MA&quot;,
+    &quot;Michigan&quot;, &quot;MI&quot;,
+    &quot;Minnesota&quot;, &quot;MN&quot;,
+    &quot;Mississippi&quot;, &quot;MS&quot;,
+    &quot;Missouri&quot;, &quot;MO&quot;,
+    &quot;Montana&quot;, &quot;MT&quot;,
+    &quot;Nebraska&quot;, &quot;NE&quot;,
+    &quot;Nevada&quot;, &quot;NV&quot;,
+    &quot;New Hampshire&quot;, &quot;NH&quot;,
+    &quot;New Jersey&quot;, &quot;NJ&quot;,
+    &quot;New Mexico&quot;, &quot;NM&quot;,
+    &quot;New York&quot;, &quot;NY&quot;,
+    &quot;North Carolina&quot;, &quot;NC&quot;,
+    &quot;North Dakota&quot;, &quot;ND&quot;,
+    &quot;Ohio&quot;, &quot;OH&quot;,
+    &quot;Oklahoma&quot;, &quot;OK&quot;,
+    &quot;Oregon&quot;, &quot;OR&quot;,
+    &quot;Pennsylvania&quot;, &quot;PA&quot;,
+    &quot;Rhode Island&quot;, &quot;RI&quot;,
+    &quot;South Carolina&quot;, &quot;SC&quot;,
+    &quot;South Dakota&quot;, &quot;SD&quot;,
+    &quot;Tennessee&quot;, &quot;TN&quot;,
+    &quot;Texas&quot;, &quot;TX&quot;,
+    &quot;Utah&quot;, &quot;UT&quot;,
+    &quot;Vermont&quot;, &quot;VT&quot;,
+    &quot;Virginia&quot;, &quot;VA&quot;,
+    &quot;Washington&quot;, &quot;WA&quot;,
+    &quot;West Virginia&quot;, &quot;WV&quot;,
+    &quot;Wisconsin&quot;, &quot;WI&quot;,
+    &quot;Wyoming&quot;, &quot;WY&quot;,
+    &quot;Alberta&quot;, &quot;AB&quot;,
+    &quot;British Columbia&quot;, &quot;BC&quot;,
+    &quot;Manitoba&quot;, &quot;MB&quot;,
+    &quot;New Brunswick&quot;, &quot;NB&quot;,
+    &quot;Newfoundland and Labrador&quot;, &quot;NL&quot;,
+    &quot;Nova Scotia&quot;, &quot;NS&quot;,
+    &quot;Ontario&quot;, &quot;ON&quot;,
+    &quot;Prince Edward Island&quot;, &quot;PE&quot;,
+    &quot;Quebec&quot;, &quot;QC&quot;,
+    &quot;Saskatchewan&quot;, &quot;SK&quot;,
+    &quot;Northwest Territories&quot;, &quot;NT&quot;,
+    &quot;Nunavut&quot;, &quot;NU&quot;,
+    &quot;Yukon&quot;, &quot;YT&quot;,
+    &quot;&quot;
+)</formula>
+    <label>State/Province Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

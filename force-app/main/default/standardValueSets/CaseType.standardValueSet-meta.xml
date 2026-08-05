@@ -2,13 +2,68 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Sample Cases</fullName>
+        <fullName>Bug</fullName>
         <default>false</default>
-        <label>Sample Cases</label>
+        <label>Bug</label>
     </standardValue>
     <standardValue>
-        <fullName>Trial</fullName>
+        <fullName>Data Manipulation</fullName>
         <default>false</default>
-        <label>Trial</label>
+        <label>Data Manipulation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>End-User Support</fullName>
+        <default>false</default>
+        <label>End-User Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Enhancement</fullName>
+        <default>false</default>
+        <label>Feature Enhancement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Integrations</fullName>
+        <default>false</default>
+        <label>Integrations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintenance</fullName>
+        <default>false</default>
+        <label>Maintenance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reporting</fullName>
+        <default>false</default>
+        <label>Reporting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Debt</fullName>
+        <default>false</default>
+        <label>Technical Debt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Epic</fullName>
+        <default>false</default>
+        <label>Epic</label>
     </standardValue>
 </StandardValueSet>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Create a task for this item only if the expression is valid (basically where clause) - requires Only For Object
+- example for Account: Rating = &apos;Warm&apos; -->
+    </help>
+    <label><!-- Only If Valid --></label>
+    <name>acheck__OnlyIfValid__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,59 @@
+<!--
+ - Created on 29/12/2022.
+ -->
+
+<!-- Timelogs Edit Modal -->
+<template>
+    <lightning-modal-header label={header}></lightning-modal-header>
+    <lightning-modal-body>
+        <table class="slds-table slds-table_cell-buffer" aria-label="Timecards">
+            <thead>
+            <tr class="slds-line-height_reset">
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Date" style="width:6.25rem">Date</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Work Description">Work Description</div>
+                </th>
+                <th class="" scope="col" style="text-align:center;width:6.25rem">
+                    <div class="slds-truncate" title="Effort">Effort</div>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <template for:each={rows} for:item="row" for:index="index">
+                <tr key={row.id} class="slds-hint-parent">
+                    <td data-label="Date" style="vertical-align:top">
+                        <lightning-input type="date" data-row={index} value={row.dateISO}
+                                         name="date" variant="label-hidden" required
+                                         onchange={handleDateChange}></lightning-input>
+                    </td>
+                    <td data-label="Work Description" style="vertical-align:top">
+                        <lightning-input data-row={index} value={row.description}
+                                         name="description" variant="label-hidden" required={row.duration}
+                                         onchange={handleDescriptionChange}></lightning-input>
+                    </td>
+                    <td data-label="Effort" style="vertical-align:top">
+                        <lightning-input data-row={index} value={row.durationHours}
+                                         name="duration" variant="label-hidden" placeholder="hh:mm"
+                                         onchange={handleDurationChange}
+                                         onblur={handleDurationBlur}></lightning-input>
+                    </td>
+                </tr>
+            </template>
+            </tbody>
+            <tfoot>
+            <tr>
+                <th scope="col" colspan="2" style="text-align:right">Total:</th>
+                <th scope="col" style="text-align:center">
+                    <div class="slds-truncate" title={weekTotalDurationHours}>{weekTotalDurationHours}</div>
+                </th>
+            </tr>
+            </tfoot>
+        </table>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button variant="neutral" label="Cancel" onclick={handleCancel}></lightning-button>
+        <lightning-button variant="brand" label="Save" onclick={handleSave} class="slds-m-left_x-small"></lightning-button>
+    </lightning-modal-footer>
+</template>

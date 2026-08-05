@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporter_Person__c</fullName>
+    <description>Field is used for reports that are sent to Clients in order to replace Interns with Employees</description>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+CONTAINS(Person__r.FirstName, &quot;Kirill&quot;),
+CONTAINS(Person__r.LastName, &quot; PL&quot;)),
+&quot;Sergey&quot;,
+Person__r.FirstName)</formula>
+    <inlineHelpText>Field is used for reports that are sent to Clients in order to replace Interns with Employees</inlineHelpText>
+    <label>Reporter Person</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

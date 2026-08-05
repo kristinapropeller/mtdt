@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- No. of Apex Triggers --></label>
+    <name>Flosum__No_of_Apex_Triggers__c</name>
+</CustomFieldTranslation>

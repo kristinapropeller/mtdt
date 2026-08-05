@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Last_Synch_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date and Time when this was last synchronized with the VCS.</description>
+    <label>Last Synch Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

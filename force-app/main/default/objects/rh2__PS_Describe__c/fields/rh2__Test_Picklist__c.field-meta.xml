@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Test_Picklist__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Test Picklist</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Test 1</fullName>
+                <default>false</default>
+                <label>Test 1</label>
+            </value>
+            <value>
+                <fullName>Test 2</fullName>
+                <default>false</default>
+                <label>Test 2</label>
+            </value>
+            <value>
+                <fullName>Test, Comma</fullName>
+                <default>false</default>
+                <label>Test, Comma</label>
+            </value>
+            <value>
+                <fullName>Test,CommaNoSpace</fullName>
+                <default>false</default>
+                <label>Test,CommaNoSpace</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

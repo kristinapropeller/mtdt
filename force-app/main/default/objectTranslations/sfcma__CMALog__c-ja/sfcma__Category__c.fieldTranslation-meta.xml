@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>sfcma__Category__c</name>
+    <picklistValues>
+        <masterLabel>API Callout Request limits exceeded</masterLabel>
+        <translation>API コールアウト要求制限を超えています</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>App connection with Stripe failure</masterLabel>
+        <translation>アプリケーションの Stripe との接続エラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Batch Failure</masterLabel>
+        <translation>バッチエラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Transaction failure</masterLabel>
+        <translation>トランザクションの作成エラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Get Invoice item failure</masterLabel>
+        <translation>請求書アイテムの取得エラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Get Subscription failure</masterLabel>
+        <translation>サブスクリプションの取得エラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Existing Data failure</masterLabel>
+        <translation>既存のデータのインポートエラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal System Error</masterLabel>
+        <translation>内部システムエラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of sent emails exceeded</masterLabel>
+        <translation>送信メールの最大数を超えました</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rest Callout Queue Failure</masterLabel>
+        <translation>REST コールアウトキューエラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stripe Event Processor failure</masterLabel>
+        <translation>Stripe イベント決済処理会社エラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stripe Invalid event received</masterLabel>
+        <translation>Stripe は無効なイベントを受信しました</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stripe duplicated event</masterLabel>
+        <translation>Stripe の重複イベント</translation>
+    </picklistValues>
+</CustomFieldTranslation>

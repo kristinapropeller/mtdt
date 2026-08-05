@@ -1,0 +1,107 @@
+# compensation_form_bulk.view
+description: "Creates compensation records by triggering an Apex action on submission."
+schema:
+  properties:
+    channel:
+      type: string
+    compensations:
+      type: list
+      required: true
+dataproviders:
+  categoryOptions:
+    definition: 'apex__slackbot_CompensationDataProvider.getCategories'
+components:
+  - definition: modal
+    properties:
+      title: "Add Compensation(s)"
+      submitLabel: "Save"
+    events:
+      onsubmit:
+        definition: "apex__action__slackbot_AddCompensationActionDispatcher"
+        properties:
+          channel: "{!view.properties.channel}"
+          isBulk: true
+    components:
+      - definition: iteration
+        properties:
+          foreach: "{!view.properties.compensations}"
+          foritem: "compensation"
+        components:
+          - definition: section
+            properties:
+              text:
+                type: "mrkdwn"
+                text: "_Compensation {!compensation.num}_"
+          - definition: input
+            properties:
+              label: "Date"
+              required: true
+            components:
+              - definition: datepicker
+                properties:
+                  name: "dateOf_{!compensation.num}"
+                  placeholder: "YYYY-MM-DD"
+                  value: "{!compensation.dateOf}"
+          - definition: input
+            properties:
+              label: "Category"
+            components:
+              - definition: select
+                properties:
+                  name: "category_{!compensation.num}"
+                  placeholder: "Select a category"
+                  value: "{!compensation.category}"
+                  options: "{!categoryOptions}"
+          - definition: input
+            properties:
+              label: "Currency"
+              required: true
+            components:
+              - definition: select
+                properties:
+                  name: "currencyCode_{!compensation.num}"
+                  placeholder: "Select currency"
+                  value: "{!compensation.currencyCode}"
+                  options:
+                    - identifier: "BYN"
+                      label: "BYN"
+                    - identifier: "EUR"
+                      label: "EUR"
+                    - identifier: "PLN"
+                      label: "PLN"
+                    - identifier: "USD"
+                      label: "USD"
+          - definition: input
+            properties:
+              label: "Amount"
+              type: "number"
+              required: true
+            components:
+              - definition: textInput
+                properties:
+                  name: "amount_{!compensation.num}"
+                  placeholder: "Amount you want to compensate"
+                  value: "{!compensation.amount}"
+          - definition: input
+            properties:
+              label: "Description"
+              required: true
+            components:
+              - definition: textInput
+                properties:
+                  name: "description_{!compensation.num}"
+                  value: "{!compensation.description}"
+          - definition: divider
+      - definition: actions
+        name: "apex_actions"
+        components:
+          - definition: button
+            properties:
+              label: "Add another compensation"
+              name: "apex_action"
+            events:
+              onclick:
+                definition: "apex__action__slackbot_CompensationActionDispatcher"
+                properties:
+                  addMore: true
+                  channel: "{!view.properties.channel}"

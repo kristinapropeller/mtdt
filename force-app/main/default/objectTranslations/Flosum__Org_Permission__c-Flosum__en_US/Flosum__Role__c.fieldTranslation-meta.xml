@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>Flosum__Role__c</name>
+    <picklistValues>
+        <masterLabel>Developer</masterLabel>
+        <translation><!-- Developer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Release Manager</masterLabel>
+        <translation><!-- Release Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validate Only</masterLabel>
+        <translation><!-- Validate Only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>View Only</masterLabel>
+        <translation><!-- View Only --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

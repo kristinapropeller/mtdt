@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Usage Remaining --></label>
+    <name>Cloudrop__Usage_Remaining__c</name>
+</CustomFieldTranslation>

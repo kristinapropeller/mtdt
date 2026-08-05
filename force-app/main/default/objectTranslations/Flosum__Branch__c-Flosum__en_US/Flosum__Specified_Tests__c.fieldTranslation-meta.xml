@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please specify one test class on each line. Please do not use commas to separate the test class names. --></help>
+    <label><!-- Specified Tests --></label>
+    <name>Flosum__Specified_Tests__c</name>
+</CustomFieldTranslation>

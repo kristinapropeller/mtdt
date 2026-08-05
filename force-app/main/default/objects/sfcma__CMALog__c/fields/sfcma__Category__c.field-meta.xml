@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sfcma__Category__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>API Callout Request limits exceeded</fullName>
+                <default>false</default>
+                <label>API Callout Request limits exceeded</label>
+            </value>
+            <value>
+                <fullName>App connection with Stripe failure</fullName>
+                <default>false</default>
+                <label>App connection with Stripe failure</label>
+            </value>
+            <value>
+                <fullName>Batch Failure</fullName>
+                <default>false</default>
+                <label>Batch Failure</label>
+            </value>
+            <value>
+                <fullName>Create Transaction failure</fullName>
+                <default>false</default>
+                <label>Create Transaction failure</label>
+            </value>
+            <value>
+                <fullName>Get Invoice item failure</fullName>
+                <default>false</default>
+                <label>Get Invoice item failure</label>
+            </value>
+            <value>
+                <fullName>Get Subscription failure</fullName>
+                <default>false</default>
+                <label>Get Subscription failure</label>
+            </value>
+            <value>
+                <fullName>Import Existing Data failure</fullName>
+                <default>false</default>
+                <label>Import Existing Data failure</label>
+            </value>
+            <value>
+                <fullName>Internal System Error</fullName>
+                <default>false</default>
+                <label>Internal System Error</label>
+            </value>
+            <value>
+                <fullName>Number of sent emails exceeded</fullName>
+                <default>false</default>
+                <label>Number of sent emails exceeded</label>
+            </value>
+            <value>
+                <fullName>Rest Callout Queue Failure</fullName>
+                <default>false</default>
+                <label>Rest Callout Queue Failure</label>
+            </value>
+            <value>
+                <fullName>Stripe duplicated event</fullName>
+                <default>false</default>
+                <label>Stripe duplicated event</label>
+            </value>
+            <value>
+                <fullName>Stripe Event Processor failure</fullName>
+                <default>false</default>
+                <label>Stripe Event Processor failure</label>
+            </value>
+            <value>
+                <fullName>Stripe Invalid event received</fullName>
+                <default>false</default>
+                <label>Stripe Invalid event received</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

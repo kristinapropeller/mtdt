@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The batch size to use when executing the batch via the scheduler. --></help>
+    <label><!-- Batch Size --></label>
+    <name>CHANNEL_ORDERS__Batch_Size__c</name>
+</CustomFieldTranslation>

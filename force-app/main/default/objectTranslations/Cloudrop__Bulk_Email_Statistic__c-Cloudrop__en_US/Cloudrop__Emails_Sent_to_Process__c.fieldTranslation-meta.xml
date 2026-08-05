@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Emails Sent to Process --></label>
+    <name>Cloudrop__Emails_Sent_to_Process__c</name>
+</CustomFieldTranslation>

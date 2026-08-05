@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Process Type --></label>
+    <name>Flosum__Process_Type__c</name>
+    <picklistValues>
+        <masterLabel>Branch to Repository Сommit</masterLabel>
+        <translation><!-- Branch to Repository Сommit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Merge Branches</masterLabel>
+        <translation><!-- Merge Branches --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Snapshot to Repository Сommit</masterLabel>
+        <translation><!-- Snapshot to Repository Сommit --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

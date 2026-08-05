@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>eagleview__PropertyCountryCode__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>CASE(
+    TEXT(eagleview__PropertyCountry__c),
+    &quot;United States&quot;, &quot;US&quot;,
+    &quot;Canada&quot;, &quot;CA&quot;,
+    &quot;&quot;
+)</formula>
+    <label>Country Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

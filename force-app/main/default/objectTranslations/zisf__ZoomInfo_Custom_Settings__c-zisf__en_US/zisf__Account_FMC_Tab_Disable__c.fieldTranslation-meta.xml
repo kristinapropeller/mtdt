@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Disable Find More Contacts Tab on Account Panel --></help>
+    <label><!-- Account FMC Tab Disable --></label>
+    <name>zisf__Account_FMC_Tab_Disable__c</name>
+</CustomFieldTranslation>
